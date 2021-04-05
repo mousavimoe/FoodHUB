@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1.3rem 4rem;
+  display: inline-block;
+  border-radius: 30px; }
+
+.btn-white {
+  background-color: white;
+  color: gray; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: wheat;
+  background-color: #4f372d; }
+
+.header {
+  background-image: url(../img/mainbg.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center; }
+
+.logo {
+  height: 9rem;
+  margin: 2rem 4rem; }
+
+.nav-menu {
+  margin: 2rem 4rem;
+  display: flex;
+  list-style: none;
+  flex: 0 0 37%;
+  justify-content: space-between; }
+  .nav-menu__items {
+    border: 2px solid #eb6841;
+    border-radius: 10rem;
+    transition: all .4s; }
+  .nav-menu__items:hover {
+    background-color: #e85022; }
+  .nav-menu__items--unique {
+    border: 2px solid #e85022;
+    border-radius: 10rem;
+    transition: all .4s;
+    background-color: #edc951;
+    transition: all .9s; }
+  .nav-menu__items--unique:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black; }
+  .nav-menu__links {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.5rem 2rem; }
+  .nav-menu__links--unique {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 0.5rem 2rem; }
+  .nav-menu__links--unique:hover {
+    color: black; }
+
+.header-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.title__main {
+  font-size: 8.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4rem;
+  display: block;
+  text-align: center; }
+
+.title__sub {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2rem;
+  margin-bottom: 26rem;
+  display: block;
+  text-align: center;
+  text-align: center;
+  text-align: center;
+  text-align: center; }

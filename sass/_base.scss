@@ -33,7 +33,7 @@ body{
 font-family: 'Lato', sans-serif;
 font-weight: 400;
 line-height: 1.6;
-color: $gray;
+color: wheat;
 background-color: #4f372d;
 }
 
@@ -93,14 +93,15 @@ align-items: center;
 
 
     &__items:hover{
-        background-color: $brown-dark;
+        background-color: $orange-dark;
+
     }
 
     &__items--unique{
-        border: 2px solid rgb(255, 255, 255);
+        border: 2px solid $orange-dark;
         border-radius: 10rem;
         transition: all .4s;
-        background-color: black;
+        background-color: $yellow;
         transition: all .9s;
 
     }
@@ -187,6 +188,7 @@ text-align: center;
     margin-bottom: 26rem;
     display: block;
     text-align: center;
+
 
 
 }
