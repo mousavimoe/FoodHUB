@@ -151,22 +151,25 @@ text-align: center;
 }
 
 .title__main{
-    font-size: 10rem;
+    font-size: 8.5rem;
     color: white;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 4rem;
+    display: block;
 
 
 
 }
 
 .title__sub{
-    font-size: 5rem;
+    font-size: 4rem;
     color: white;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 2rem;
+    margin-bottom: 12rem;
+    display: block;
 
 }
 
