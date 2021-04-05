@@ -20,7 +20,8 @@ body {
 .header {
   background-image: url(../img/mainbg.jpg);
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
 
 .navigation {
   display: flex;
@@ -41,10 +42,41 @@ body {
   .nav-menu__items {
     border: 2px solid white;
     border-radius: 25px; }
+  .nav-menu__items:hover {
+    background-color: black; }
   .nav-menu__links {
     font-size: 1.5rem;
     font-weight: 300;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 1rem 1rem; }
+    display: block;
+    padding: 0.5rem 2rem; }
+
+.header-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.title__main {
+  font-size: 10rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4rem; }
+
+.title__sub {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2rem; }
+
+.btn--primary {
+  text-decoration: none;
+  font-size: 4rem;
+  display: inline-block;
+  background-color: black;
+  height: 6rem; }
