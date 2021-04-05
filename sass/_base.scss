@@ -1,27 +1,4 @@
-$coloPrimary: #ec0101;
-$colorPrimary-light: #cb0001;
-$colorPrimary-dark: #Fd3b01;
 
-$colorGray-light-1: #faf9f9;
-$colorGray-light-2: #e7e6e6;
-$colorGray-light-3: #d6d6d6;
-$colorGray-light-4: rgb(185, 185, 185);
-
-$colorGray-dark-1: #333;
-$colorGray-dark-2: #777;
-$colorGray-dark-3: #999;
-
-$shadow-dark: 0 2rem 6rem rgba(0 , 0, 0, .3);   //BOX-SHADOW
-
-$test: 3px solid orange;
-
-$bp-largest: 75em;  // =1200px
-$bp-large: 70em;  // =1120px
-$bp-medium: 56.25em; //900px
-$bp-small: 37.50em; //600px
-$bp-smallest: 30.25em; //500px
-
-//************************************************************//
 *{
     margin: 0;
     padding: 0;
@@ -56,7 +33,8 @@ body{
 font-family: 'Lato', sans-serif;
 font-weight: 400;
 line-height: 1.6;
-color: $colorGray-dark-2;
+color: $gray;
+background-color: #4f372d;
 }
 
 
@@ -108,14 +86,14 @@ align-items: center;
     justify-content: space-between;
 
     &__items{
-        border: 2px solid white;
+        border: 2px solid $orange;
         border-radius: 10rem;
         transition: all .4s;
     }
 
 
     &__items:hover{
-        background-color: black;
+        background-color: $brown-dark;
     }
 
     &__items--unique{
