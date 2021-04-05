@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -12,7 +13,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'open sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.6;
   color: #777; }
@@ -26,7 +27,7 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.5);
   align-items: center; }
 
 .logo {
@@ -41,9 +42,11 @@ body {
   justify-content: space-between; }
   .nav-menu__items {
     border: 2px solid white;
-    border-radius: 25px; }
+    border-radius: 25px;
+    transition: all .4s; }
   .nav-menu__items:hover {
-    background-color: black; }
+    background-color: black;
+    color: white; }
   .nav-menu__links {
     font-size: 1.5rem;
     font-weight: 300;
@@ -74,14 +77,16 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 2rem;
-  margin-bottom: 12rem;
+  margin-bottom: 26rem;
   display: block; }
 
 .btn:link,
 .btn:visited {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 1.5rem 4rem; }
+  padding: 1.3rem 4rem;
+  display: inline-block;
+  border-radius: 30px; }
 
 .btn-white {
   background-color: white;

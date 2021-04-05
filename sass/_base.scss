@@ -53,7 +53,7 @@ html{
 
 
 body{
-font-family: 'open sans', sans-serif;
+font-family: 'Lato', sans-serif;
 font-weight: 400;
 line-height: 1.6;
 color: $colorGray-dark-2;
@@ -85,7 +85,7 @@ color: $colorGray-dark-2;
 
 display: flex;
 justify-content: space-between;
-background-color: #333;
+background-color: rgba(0 , 0, 0, .5);
 align-items: center;
 
 
@@ -110,10 +110,12 @@ align-items: center;
     &__items{
         border: 2px solid white;
         border-radius: 25px;
+        transition: all .4s;
     }
 
     &__items:hover{
         background-color: black;
+        color: white;
     }
 
     &__links{
@@ -168,7 +170,7 @@ text-align: center;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 2rem;
-    margin-bottom: 12rem;
+    margin-bottom: 26rem;
     display: block;
 
 }
