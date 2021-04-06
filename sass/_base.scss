@@ -54,7 +54,7 @@ background-color: #4f372d;
 
 //******************************HEADER******************************//
 .header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/mainbg1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/mainbg.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -137,7 +137,7 @@ align-items: center;
 
 
     &__items{
-        border: 2px solid $orange;
+        border: 2px solid $red-dark;
         border-radius: 10rem;
         transition: all .4s;
         display: flex;
@@ -147,15 +147,15 @@ align-items: center;
 
 
     &__items:hover{
-        background-color: $orange-dark;
-        border: 2px solid $yellow-dark;
+        background-color: $red-dark;
+        border: 2px solid $gray-dark;
     }
 
     &__items--unique{
-        border: 2px solid $orange-dark;
+        border: 2px solid $gray-dark;
         border-radius: 10rem;
         transition: all .4s;
-        background-color: $orange;
+        background-color: $red-dark;
         display: flex;
         justify-content: center;
         align-items: center;   
@@ -163,7 +163,7 @@ align-items: center;
     }
 
     &__items--unique:hover{
-        border: 2px solid $orange;
+        border: 2px solid $red-dark;
         background-color: transparent;
     }
 
@@ -200,7 +200,7 @@ align-items: center;
 
     &__links--unique{
         font-size: 1.6rem;
-        color: $white;
+        color: $gray;
         text-decoration: none;
         text-transform: uppercase;
         display: block;
@@ -223,7 +223,7 @@ align-items: center;
 
     &__links--unique:hover{
 
-        color: $white;
+        color: $yellow-light;
 
         
 
