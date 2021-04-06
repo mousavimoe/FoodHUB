@@ -86,9 +86,9 @@ align-items: center;
 // *************************RESPONSIVE************************* //
   
 // ************************LAPTOP************************ //
-@media only screen and (width : 1366px) and (height : 625px) {
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
 
-    height: 5.355rem;
+    height: 7rem;
     margin: 1.334rem 2.845rem;
     }
 // ******************************************************* //
@@ -122,7 +122,7 @@ align-items: center;
     
 // *************************RESPONSIVE************************* //
 // ************************LAPTOP************************ //
-@media only screen and (width : 1366px) and (height : 625px) {
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
 
     margin: 1.334rem 2.845rem;
     }
@@ -179,8 +179,8 @@ align-items: center;
 
 // *************************RESPONSIVE************************* //
 // ************************LAPTOP************************ //
-@media only screen and (width : 1366px) and (height : 625px) {
-    font-size: 1.209rem;
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
+    font-size: 1.4rem;
     padding: 0.333rem 1.422rem;
    
     }
@@ -199,7 +199,7 @@ align-items: center;
 
 
     &__links--unique{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: $gray;
         text-decoration: none;
         text-transform: uppercase;
@@ -208,7 +208,7 @@ align-items: center;
         
 // *************************RESPONSIVE************************* //
 
-@media only screen and (width : 1366px) and (height : 625px) {
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
     font-size: 1.209rem;
     padding: 0.0333rem 1.422rem;
    
@@ -274,7 +274,7 @@ text-align: center;
 
     // *************************RESPONSIVE************************* //
 
-@media only screen and (width : 1366px) and (height : 625px) {
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
 
     font-size: 5.733rem;
     letter-spacing: 2.845rem;
@@ -302,7 +302,7 @@ text-align: center;
 
 
     
-    @media only screen and (width : 1366px) and (height : 625px) {
+    @media only screen and (min-width : 1200px) and (max-width: 1600px) {
 
         font-size: 2.745rem;
         letter-spacing: 1.422rem;
