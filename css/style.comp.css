@@ -1,16 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap");
-.btn:link,
-.btn:visited {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  padding: 1.3rem 4rem;
+.btn-red {
   display: inline-block;
-  border-radius: 30px; }
-
-.btn-white {
-  background-color: white;
-  color: gray; }
+  padding: .9rem 2.2rem;
+  border-radius: 10rem;
+  color: #faf9f9;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 300; }
+  .btn-red:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cc2a36;
+    border-radius: 10rem;
+    z-index: -2; }
+  .btn-red:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #b0242f;
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1; }
+  .btn-red:hover {
+    color: #faf9f9; }
+    .btn-red:hover:before {
+      width: 100%; }
 
 * {
   margin: 0;
@@ -33,61 +59,74 @@ body {
   background-color: #4f372d; }
 
 .header {
-  background-image: url(../img/mainbg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/mainbg1.jpg);
   background-size: cover;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  background-position: center; }
 
 .navigation {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
   align-items: center; }
 
 .logo {
   height: 9rem;
   margin: 2rem 4rem; }
+  @media only screen and (min-width: 120.0625em) {
+    .logo {
+      height: 20rem; } }
 
 .nav-menu {
   margin: 2rem 4rem;
   display: flex;
   list-style: none;
-  flex: 0 0 37%;
+  flex: 0 0 39%;
   justify-content: space-between; }
+  @media only screen and (min-width: 120.0625em) {
+    .nav-menu {
+      flex: 0 0 6.8%; } }
   .nav-menu__items {
     border: 2px solid #eb6841;
     border-radius: 10rem;
-    transition: all .4s; }
+    transition: all .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .nav-menu__items:hover {
-    background-color: #e85022; }
+    background-color: #e85022;
+    border: 2px solid #eabf32; }
   .nav-menu__items--unique {
     border: 2px solid #e85022;
     border-radius: 10rem;
     transition: all .4s;
-    background-color: #edc951;
-    transition: all .9s; }
+    background-color: #eb6841; }
   .nav-menu__items--unique:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid black; }
+    border: 2px solid #eb6841;
+    background-color: transparent; }
   .nav-menu__links {
     font-size: 1.6rem;
     font-weight: 400;
-    color: white;
+    color: #f0d370;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
+    @media only screen and (min-width: 120.0625em) {
+      .nav-menu__links {
+        font-size: 3.55rem; } }
+  .nav-menu__links:hover {
+    color: #fff; }
   .nav-menu__links--unique {
     font-size: 1.5rem;
-    font-weight: 300;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
   .nav-menu__links--unique:hover {
-    color: black; }
+    color: #fff; }
 
 .header-box {
   position: absolute;
@@ -95,6 +134,8 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
+  .header-box__title {
+    margin-top: 5rem; }
 
 .title__main {
   font-size: 8.5rem;
@@ -103,7 +144,8 @@ body {
   font-weight: 400;
   letter-spacing: 4rem;
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin-top: 5rem; }
 
 .title__sub {
   font-size: 4rem;
@@ -113,4 +155,5 @@ body {
   letter-spacing: 2rem;
   margin-bottom: 26rem;
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3rem; }
