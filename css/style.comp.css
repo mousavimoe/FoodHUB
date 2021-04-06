@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+@media only screen and (width: 375px) and (height: 812px) {
+  /* Styles */ }
+
+@media only screen and (width: 768px) and (height: 1024px) {
+  /* Styles */ }
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+  /* Styles */ }
+
+@media only screen and (width: 375px) and (height: 667px) {
+  /* Styles */ }
+
+@media only screen and (width: 414px) and (height: 736px) {
+  /* Styles */ }
+
+@media only screen and (width: 360px) and (height: 640px) {
+  /* Styles */ }
+
+@media only screen and (width: 1366px) and (height: 768px) {
+  /* Styles */ }
+
 .btn-red {
   display: inline-block;
   padding: .9rem 2.2rem;
@@ -12,6 +33,10 @@
   z-index: 1;
   text-decoration: none;
   font-weight: 300; }
+  @media only screen and (width: 1366px) and (height: 768px) {
+    .btn-red {
+      font-size: 1.280rem;
+      padding: 0.64rem 1.565rem; } }
   .btn-red:after {
     content: '';
     position: absolute;
@@ -74,19 +99,20 @@ body {
 .logo {
   height: 9rem;
   margin: 2rem 4rem; }
-  @media only screen and (min-width: 120.0625em) {
+  @media only screen and (width: 1366px) and (height: 768px) {
     .logo {
-      height: 20rem; } }
+      height: 6.403rem;
+      margin: 1.422rem 2.845rem; } }
 
 .nav-menu {
   margin: 2rem 4rem;
   display: flex;
   list-style: none;
-  flex: 0 0 39%;
+  flex: 0 0 35%;
   justify-content: space-between; }
-  @media only screen and (min-width: 120.0625em) {
+  @media only screen and (width: 1366px) and (height: 768px) {
     .nav-menu {
-      flex: 0 0 6.8%; } }
+      margin: 1.422rem 2.845rem; } }
   .nav-menu__items {
     border: 2px solid #eb6841;
     border-radius: 10rem;
@@ -101,30 +127,38 @@ body {
     border: 2px solid #e85022;
     border-radius: 10rem;
     transition: all .4s;
-    background-color: #eb6841; }
+    background-color: #eb6841;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .nav-menu__items--unique:hover {
     border: 2px solid #eb6841;
     background-color: transparent; }
   .nav-menu__links {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 400;
     color: #f0d370;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
-    @media only screen and (min-width: 120.0625em) {
+    @media only screen and (width: 1366px) and (height: 768px) {
       .nav-menu__links {
-        font-size: 3.55rem; } }
+        font-size: 1.209rem;
+        padding: 0.4rem 1.422rem; } }
   .nav-menu__links:hover {
     color: #fff; }
   .nav-menu__links--unique {
-    font-size: 1.5rem;
-    color: white;
+    font-size: 1.6rem;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
+    @media only screen and (width: 1366px) and (height: 768px) {
+      .nav-menu__links--unique {
+        font-size: 1.209rem;
+        padding: 0.0355rem 1.422rem; } }
   .nav-menu__links--unique:hover {
     color: #fff; }
 
@@ -138,14 +172,21 @@ body {
     margin-top: 5rem; }
 
 .title__main {
-  font-size: 8.5rem;
+  font-size: 8.2rem;
   color: white;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 4rem;
   display: block;
   text-align: center;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  margin-bottom: -3rem; }
+  @media only screen and (width: 1366px) and (height: 768px) {
+    .title__main {
+      font-size: 5.833rem;
+      letter-spacing: 2.845rem;
+      margin-top: 3.557rem;
+      margin-bottom: -2.134rem; } }
 
 .title__sub {
   font-size: 4rem;
@@ -154,6 +195,12 @@ body {
   font-weight: 300;
   letter-spacing: 2rem;
   margin-bottom: 26rem;
+  margin-top: 1rem;
   display: block;
-  text-align: center;
-  margin-top: 3rem; }
+  text-align: center; }
+  @media only screen and (width: 1366px) and (height: 768px) {
+    .title__sub {
+      font-size: 2.845rem;
+      letter-spacing: 1.422rem;
+      margin-top: 0.711rem;
+      margin-bottom: 18.497rem; } }

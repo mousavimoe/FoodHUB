@@ -81,10 +81,22 @@ align-items: center;
     margin: 2rem 4rem;
 
 
+
+
 // *************************RESPONSIVE************************* //
-    @media only screen and(min-width: $bp1) {
-        height: 20rem;
+  
+// ************************LAPTOP************************ //
+@media only screen and (width : 1366px) and (height : 768px) {
+
+    height: 6.403rem;
+    margin: 1.422rem 2.845rem;
     }
+// ******************************************************* //
+
+    
+        
+    
+    
 
 
 
@@ -104,16 +116,17 @@ align-items: center;
     margin: 2rem 4rem;
     display: flex;
     list-style: none;
-    flex: 0 0 39%;
+    flex: 0 0 35%;
     justify-content: space-between;
 
     
 // *************************RESPONSIVE************************* //
-@media only screen and(min-width: $bp1) {
-    flex: 0 0 6.8%;
-}
+// ************************LAPTOP************************ //
+@media only screen and (width : 1366px) and (height : 768px) {
 
-
+    margin: 1.422rem 2.845rem;
+    }
+// ******************************************************* //
 
 
 
@@ -129,17 +142,13 @@ align-items: center;
         transition: all .4s;
         display: flex;
         justify-content: center;
-        align-items: center;
-       
-      
+        align-items: center;      
     }
 
 
     &__items:hover{
         background-color: $orange-dark;
         border: 2px solid $yellow-dark;
-
-
     }
 
     &__items--unique{
@@ -147,17 +156,19 @@ align-items: center;
         border-radius: 10rem;
         transition: all .4s;
         background-color: $orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
 
     }
 
     &__items--unique:hover{
         border: 2px solid $orange;
         background-color: transparent;
-
     }
 
     &__links{
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         font-weight: 400;
         color: $yellow-light;
         text-decoration: none;
@@ -166,16 +177,13 @@ align-items: center;
         padding: 0.5rem 2rem;
 
 
-
-        
 // *************************RESPONSIVE************************* //
-    @media only screen and(min-width: $bp1) {
-        font-size: 3.55rem;
+// ************************LAPTOP************************ //
+@media only screen and (width : 1366px) and (height : 768px) {
+    font-size: 1.209rem;
+    padding: 0.4rem 1.422rem;
+   
     }
-
-
-
-
 
 // ************************************************************ //
 
@@ -191,14 +199,25 @@ align-items: center;
 
 
     &__links--unique{
-        font-size: 1.5rem;
-        color: white;
+        font-size: 1.6rem;
+        color: $white;
         text-decoration: none;
         text-transform: uppercase;
         display: block;
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 2rem;   
+        
+// *************************RESPONSIVE************************* //
 
-    
+@media only screen and (width : 1366px) and (height : 768px) {
+    font-size: 1.209rem;
+    padding: 0.0355rem 1.422rem;
+   
+    }
+
+
+// ************************************************************ //
+        
+
     }
 
 
@@ -243,7 +262,7 @@ text-align: center;
 }
 
 .title__main{
-    font-size: 8.5rem;
+    font-size: 8.2rem;
     color: white;
     text-transform: uppercase;
     font-weight: 400;
@@ -251,18 +270,23 @@ text-align: center;
     display: block;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: -3rem;
+
+    // *************************RESPONSIVE************************* //
+
+@media only screen and (width : 1366px) and (height : 768px) {
+
+    font-size: 5.833rem;
+    letter-spacing: 2.845rem;
+    margin-top: 3.557rem;
+    margin-bottom: -2.134rem;
+    }
+
+
+// ************************************************************ //
+        
 
   
-
-
-
-
-
-
-
-
-
-
 }
 
 .title__sub{
@@ -272,9 +296,18 @@ text-align: center;
     font-weight: 300;
     letter-spacing: 2rem;
     margin-bottom: 26rem;
+    margin-top: 1rem;
     display: block;
     text-align: center;
-    margin-top: 3rem;
+
+
+    @media only screen and (width : 1366px) and (height : 768px) {
+
+        font-size: 2.845rem;
+        letter-spacing: 1.422rem;
+        margin-top: 0.711rem;
+        margin-bottom: 18.497rem;
+        }
 
 
 }
