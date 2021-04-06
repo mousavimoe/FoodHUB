@@ -88,8 +88,8 @@ align-items: center;
 // ************************LAPTOP************************ //
 @media only screen and (width : 1366px) and (height : 625px) {
 
-    height: 6.403rem;
-    margin: 1.422rem 2.845rem;
+    height: 5.355rem;
+    margin: 1.334rem 2.845rem;
     }
 // ******************************************************* //
 
@@ -124,7 +124,7 @@ align-items: center;
 // ************************LAPTOP************************ //
 @media only screen and (width : 1366px) and (height : 625px) {
 
-    margin: 1.422rem 2.845rem;
+    margin: 1.334rem 2.845rem;
     }
 // ******************************************************* //
 
@@ -181,7 +181,7 @@ align-items: center;
 // ************************LAPTOP************************ //
 @media only screen and (width : 1366px) and (height : 625px) {
     font-size: 1.209rem;
-    padding: 0.4rem 1.422rem;
+    padding: 0.333rem 1.422rem;
    
     }
 
@@ -210,7 +210,7 @@ align-items: center;
 
 @media only screen and (width : 1366px) and (height : 625px) {
     font-size: 1.209rem;
-    padding: 0.0355rem 1.422rem;
+    padding: 0.0333rem 1.422rem;
    
     }
 
@@ -262,7 +262,7 @@ text-align: center;
 }
 
 .title__main{
-    font-size: 8.2rem;
+    font-size: 6.2rem;
     color: white;
     text-transform: uppercase;
     font-weight: 400;
@@ -270,16 +270,16 @@ text-align: center;
     display: block;
     text-align: center;
     margin-top: 5rem;
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
 
     // *************************RESPONSIVE************************* //
 
-@media only screen and (width : 1366px) and (height : 62px) {
+@media only screen and (width : 1366px) and (height : 625px) {
 
-    font-size: 5.833rem;
+    font-size: 5.733rem;
     letter-spacing: 2.845rem;
-    margin-top: 3.557rem;
-    margin-bottom: -2.134rem;
+    margin-top: 3.333rem;
+    margin-bottom: -2.001rem;
     }
 
 
@@ -304,10 +304,10 @@ text-align: center;
     
     @media only screen and (width : 1366px) and (height : 625px) {
 
-        font-size: 2.845rem;
+        font-size: 2.745rem;
         letter-spacing: 1.422rem;
-        margin-top: 0.711rem;
-        margin-bottom: 18.497rem;
+        margin-top: 0.667rem;
+        margin-bottom: 17.342rem;
         }
 
 

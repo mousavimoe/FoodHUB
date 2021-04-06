@@ -17,7 +17,7 @@
 @media only screen and (width: 360px) and (height: 640px) {
   /* Styles */ }
 
-@media only screen and (width: 1366px) and (height: 768px) {
+@media only screen and (width: 1366px) and (height: 625px) {
   /* Styles */ }
 
 .btn-red {
@@ -33,10 +33,10 @@
   z-index: 1;
   text-decoration: none;
   font-weight: 300; }
-  @media only screen and (width: 1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 625px) {
     .btn-red {
       font-size: 1.280rem;
-      padding: 0.64rem 1.565rem; } }
+      padding: 0.6rem 1.565rem; } }
   .btn-red:after {
     content: '';
     position: absolute;
@@ -101,8 +101,8 @@ body {
   margin: 2rem 4rem; }
   @media only screen and (width: 1366px) and (height: 625px) {
     .logo {
-      height: 6.403rem;
-      margin: 1.422rem 2.845rem; } }
+      height: 5.355rem;
+      margin: 1.334rem 2.845rem; } }
 
 .nav-menu {
   margin: 2rem 4rem;
@@ -112,7 +112,7 @@ body {
   justify-content: space-between; }
   @media only screen and (width: 1366px) and (height: 625px) {
     .nav-menu {
-      margin: 1.422rem 2.845rem; } }
+      margin: 1.334rem 2.845rem; } }
   .nav-menu__items {
     border: 2px solid #a2212b;
     border-radius: 10rem;
@@ -145,7 +145,7 @@ body {
     @media only screen and (width: 1366px) and (height: 625px) {
       .nav-menu__links {
         font-size: 1.209rem;
-        padding: 0.4rem 1.422rem; } }
+        padding: 0.333rem 1.422rem; } }
   .nav-menu__links:hover {
     color: #fff; }
   .nav-menu__links--unique {
@@ -158,7 +158,7 @@ body {
     @media only screen and (width: 1366px) and (height: 625px) {
       .nav-menu__links--unique {
         font-size: 1.209rem;
-        padding: 0.0355rem 1.422rem; } }
+        padding: 0.0333rem 1.422rem; } }
   .nav-menu__links--unique:hover {
     color: #f0d370; }
 
@@ -172,7 +172,7 @@ body {
     margin-top: 5rem; }
 
 .title__main {
-  font-size: 8.2rem;
+  font-size: 6.2rem;
   color: white;
   text-transform: uppercase;
   font-weight: 400;
@@ -180,13 +180,13 @@ body {
   display: block;
   text-align: center;
   margin-top: 5rem;
-  margin-bottom: -3rem; }
-  @media only screen and (width: 1366px) and (height: 62px) {
+  margin-bottom: -1rem; }
+  @media only screen and (width: 1366px) and (height: 625px) {
     .title__main {
-      font-size: 5.833rem;
+      font-size: 5.733rem;
       letter-spacing: 2.845rem;
-      margin-top: 3.557rem;
-      margin-bottom: -2.134rem; } }
+      margin-top: 3.333rem;
+      margin-bottom: -2.001rem; } }
 
 .title__sub {
   font-size: 4rem;
@@ -200,7 +200,7 @@ body {
   text-align: center; }
   @media only screen and (width: 1366px) and (height: 625px) {
     .title__sub {
-      font-size: 2.845rem;
+      font-size: 2.745rem;
       letter-spacing: 1.422rem;
-      margin-top: 0.711rem;
-      margin-bottom: 18.497rem; } }
+      margin-top: 0.667rem;
+      margin-bottom: 17.342rem; } }
