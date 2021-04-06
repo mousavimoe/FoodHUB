@@ -99,7 +99,7 @@ body {
 .logo {
   height: 9rem;
   margin: 2rem 4rem; }
-  @media only screen and (width: 1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 625px) {
     .logo {
       height: 6.403rem;
       margin: 1.422rem 2.845rem; } }
@@ -110,7 +110,7 @@ body {
   list-style: none;
   flex: 0 0 35%;
   justify-content: space-between; }
-  @media only screen and (width: 1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 625px) {
     .nav-menu {
       margin: 1.422rem 2.845rem; } }
   .nav-menu__items {
@@ -142,7 +142,7 @@ body {
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
-    @media only screen and (width: 1366px) and (height: 768px) {
+    @media only screen and (width: 1366px) and (height: 625px) {
       .nav-menu__links {
         font-size: 1.209rem;
         padding: 0.4rem 1.422rem; } }
@@ -155,7 +155,7 @@ body {
     text-transform: uppercase;
     display: block;
     padding: 0.5rem 2rem; }
-    @media only screen and (width: 1366px) and (height: 768px) {
+    @media only screen and (width: 1366px) and (height: 625px) {
       .nav-menu__links--unique {
         font-size: 1.209rem;
         padding: 0.0355rem 1.422rem; } }
@@ -181,7 +181,7 @@ body {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: -3rem; }
-  @media only screen and (width: 1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 62px) {
     .title__main {
       font-size: 5.833rem;
       letter-spacing: 2.845rem;
@@ -198,7 +198,7 @@ body {
   margin-top: 1rem;
   display: block;
   text-align: center; }
-  @media only screen and (width: 1366px) and (height: 768px) {
+  @media only screen and (width: 1366px) and (height: 625px) {
     .title__sub {
       font-size: 2.845rem;
       letter-spacing: 1.422rem;
