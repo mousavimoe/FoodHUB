@@ -1,0 +1,43 @@
+.mobile-nav{
+
+
+    display: none;
+
+
+
+
+
+    &__checkbox{
+        display: none;
+
+
+
+    }
+
+
+
+    &__button{
+
+        background-color:black;
+        height: 7rem;
+        width: 7rem;
+        position: fixed;
+        top: 6rem;
+        left: 12rem;
+        display: flex;
+        border-radius: 30%;
+        justify-content: center;
+        align-items: center;
+        
+
+
+        &-line{
+
+            height: 15%;
+            width: 40%;
+            border-radius: 20%;
+            background-color: wheat;
+        }
+
+    }
+}

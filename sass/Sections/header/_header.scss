@@ -1,0 +1,131 @@
+
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/mainbg.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+
+}
+
+
+
+.header-box{
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+
+// *************************RESPONSIVE************************* //
+
+// ************************MOBILE************************ //
+
+@media only screen and (min-width : $mobile-min) and (max-width: $mobile-max) {
+    
+    display: none;
+
+    
+    }
+
+// ************************************************************ //
+
+
+&__title{
+
+    margin-top: 5rem;
+
+   
+
+
+
+
+}
+
+
+&__btn{
+
+
+}
+
+}
+
+.title__main{
+    font-size: 6.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4rem;
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+// *************************RESPONSIVE************************* //
+
+// ************************LAPTOP************************ //
+@media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+
+    font-size: 5.733rem;
+    letter-spacing: 2.845rem;
+    margin-top: 3.333rem;
+    margin-bottom: -2.001rem;
+    }
+// ************************************************************ //
+
+
+// ************************PHABLET************************ //
+@media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+
+    font-size: 4.533rem;
+    letter-spacing: 2.545rem;
+    margin-top: 3.333rem;
+    margin-bottom: -2.001rem;
+
+    }
+// ******************************************************* //
+        
+
+  
+}
+
+.title__sub{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2rem;
+    margin-bottom: 26rem;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+
+
+// *************************RESPONSIVE************************* //
+
+// ************************LAPTOP************************ //
+    @media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+
+        font-size: 2.745rem;
+        letter-spacing: 1.422rem;
+        margin-top: 0.667rem;
+        margin-bottom: 17.342rem;
+        }
+// ******************************************************* //
+
+
+// ************************PHABLET************************ //
+
+        @media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+
+            font-size: 2.345rem;
+            letter-spacing: 1.122rem;
+            margin-top: 2.967rem;
+            margin-bottom: 22.342rem;
+        
+            }
+// ******************************************************* //
+
+
+}

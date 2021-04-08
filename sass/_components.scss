@@ -15,7 +15,7 @@
 
     // *************************RESPONSIVE************************* //
 // ************************LAPTOP************************ //
-@media only screen and (min-width : 1200px) and (max-width : 1600px) {
+@media only screen and (min-width : $laptop2-min) and (max-width : $laptop2-max) {
   font-size: 1.7rem;
   padding: 0.6rem 1.565rem;
  

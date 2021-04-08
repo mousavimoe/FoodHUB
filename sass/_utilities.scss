@@ -60,6 +60,29 @@ $bp17: 22.5em;      //  (max)=360px
 
 
 
+
+$mobile-min: 20em; //320px — 480px
+$mobile-max: 30em;
+
+$phablet-min: 30.0625em; //481px — 768px
+$phablet-max: 48em;
+
+$tablet-min: 48.0625em; //769px — 1024px
+$tablet-max: 64em;
+
+$laptop1-min: 64.0625em; //1025px — 1200px
+$laptop1-max: 75em;
+
+$laptop2-min: 75.0625em; //1201px — 1366px
+$laptop2-max: 85.375em;
+
+                         //1367px — 1920px
+
+
+
+
+
+
 // ************************IPHONEX************************ //
 @media only screen and (width : 375px) and (height : 812px) {
     /* Styles */

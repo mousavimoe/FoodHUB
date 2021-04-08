@@ -1,0 +1,229 @@
+
+
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0 , 0, 0, .35);
+    align-items: center;
+    
+    // *************************RESPONSIVE************************* //
+
+    // ************************MOBILE************************ //
+    @media only screen and (min-width : $mobile-min) and (max-width: $mobile-max) {
+    
+        display: none;
+
+
+        }
+    // ******************************************************* //
+
+
+    
+    }
+    
+    
+    .logo{
+    
+        height: 9rem;
+        margin: 2rem 4rem;
+    
+    
+    
+    
+    // *************************RESPONSIVE************************* //
+      
+    // ************************LAPTOP************************ //
+    @media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+    
+        height: 7.9rem;
+        margin: 1.334rem 2.845rem;
+        }
+    // ******************************************************* //
+    
+    
+    // ************************PHABLET************************ //
+    @media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+    
+        height: 6.9rem;
+        margin: 1.134rem 2.645rem;
+        }
+    // ******************************************************* //
+
+
+    // ************************MOBILE************************ //
+    @media only screen and (min-width : $mobile-min) and (max-width: $mobile-max) {
+    
+        display: none;
+
+        
+        }
+    // ******************************************************* //
+
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    .nav-menu{
+    
+        margin: 2rem 4rem;
+        display: flex;
+        list-style: none;
+        flex: 0 0 35%;
+        justify-content: space-between;
+    
+        
+    // *************************RESPONSIVE************************* //
+    
+    
+    // ************************LAPTOP************************ //
+    @media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+    
+        margin: 1.334rem 2.845rem;
+        flex: 0 0 39%;
+    
+    
+        }
+    // ******************************************************* //
+    
+    
+    // ************************PHABLET************************ //
+    @media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+    
+        margin: 1.134rem 2.645rem;
+        flex: 0 0 54%;
+    
+    
+        }
+    // ******************************************************* //
+    
+    
+    
+    
+    
+    
+    
+    
+        &__items{
+            border: 2px solid $red-dark;
+            border-radius: 10rem;
+            transition: all .4s;
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+        }
+    
+    
+        &__items:hover{
+            background-color: $red-dark;
+            border: 2px solid $gray-dark;
+        }
+    
+        &__items--unique{
+            border: 2px solid $gray-dark;
+            border-radius: 10rem;
+            transition: all .4s;
+            background-color: $red-dark;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+    
+        }
+    
+        &__items--unique:hover{
+            border: 2px solid $red-dark;
+            background-color: transparent;
+        }
+    
+        &__links{
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: $yellow-light;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: block;
+            padding: 0.5rem 2rem;
+    
+    
+    // *************************RESPONSIVE************************* //
+    
+    // ************************LAPTOP************************ //
+    @media only screen and (min-width : $laptop2-min) and (max-width: 100px) {
+        font-size: 1.4rem;
+        padding: 0.333rem 1.422rem;
+       
+        }
+    
+    // ************************************************************ //
+    
+    
+    // ************************PHABLET************************ //
+    @media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+    
+        font-size: 1.29rem;
+        padding: 0.5rem 1.1rem;
+    
+    
+        }
+    // ******************************************************* //
+    
+           
+        }
+    
+    
+        &__links:hover{
+            color: $white;
+    
+        }
+    
+    
+        &__links--unique{
+            font-size: 1.7rem;
+            color: $gray;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: block;
+            padding: 0.5rem 2rem;   
+            
+    // *************************RESPONSIVE************************* //
+    
+    // ************************LAPTOP************************ //
+    
+    @media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+        font-size: 1.4rem;
+        padding: 0.0333rem 1.422rem;
+        }
+    // ************************************************************ //
+    
+    
+    // ************************PHABLET************************ //
+    
+    @media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+    
+        font-size: 1.29rem;
+        padding: 0.5rem 1.1rem;
+    
+    
+        }
+    // ******************************************************* //       
+    
+        }
+    
+    
+        &__links--unique:hover{
+    
+            color: $yellow-light;
+    
+            
+    
+    
+        }
+    }
+    
+    
