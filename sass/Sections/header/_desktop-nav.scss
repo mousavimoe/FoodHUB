@@ -1,5 +1,13 @@
 
+.pin{
 
+    height: 20rem;
+    width: 20rem;
+
+    z-index: 2000000;
+    color: wheat;
+    outline: 2px solid red;
+}
 .navigation{
 
     display: flex;
@@ -13,7 +21,6 @@
     @media only screen and (min-width : $mobile-min) and (max-width: $mobile-max) {
     
         display: none;
-
 
         }
     // ******************************************************* //

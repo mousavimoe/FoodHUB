@@ -32,28 +32,53 @@ $white: #fff;
 
 
 
+$margin-top-1:8rem;
+$margin-top-2:6rem;
+$margin-top-3:4rem;
+$margin-top-4:2rem;
+$margin-top-5:1rem;
+
+$margin-bottom-1:8rem;
+$margin-bottom-2:6rem;
+$margin-bottom-3:4rem;
+$margin-bottom-4:2rem;
+$margin-bottom-5:1rem;
+
+$margin-left-1: 2rem;
+$margin-left-2: 1rem;
+
+$margin-right-1: 2rem;
+$margin-tight-2: 1rem;
 
 
 
 
-$bp0: 215em;        // (min)=3440px x 1440px
-$bp1: 160em;        // (max)=2560px x 1080px
-$bp2: 120em;        // (max)=1920px x 1080px
-$bp3: 102.6875em;   // (max)=1643px
-$bp4: 90rem;        // (max)=1440px
-$bp5: 85.375em;     // (max)=1366px
-$bp6: 67.5em;       // (max)=1080px
-$bp7: 64em;         // (max)=1024px
-$bp8: 57.375em;     //  (max)=918px
-$bp9: 50.75em;      //  (max)=812px
-$bp10: 48em;        //  (max)=768px
-$bp11: 45.6875em;   //  (max)=731px
-$bp12: 45em;        //  (max)=720px
-$bp13: 41.6875em;   //  (max)=667px
-$bp14: 40em;        //  (max)=640px
-$bp15: 25.6875em;   //  (max)=411px
-$bp16: 23.4375em;   //  (max)=375px
-$bp17: 22.5em;      //  (max)=360px
+
+.heading-2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: $margin-bottom-3;
+    margin-top: $margin-top-4;
+    text-align: center;
+}
+.heading-3{
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: $margin-bottom-5;
+    margin-top: $margin-top-5;
+    text-align: center;
+
+    
+}
+
+.normal-text{
+    font-size: 1.65rem;
+    margin-right: $margin-right-1;
+    margin-left: $margin-left-1;
+}
 
 
 
@@ -76,10 +101,47 @@ $laptop1-max: 75em;
 $laptop2-min: 75.0625em; //1201px — 1366px
 $laptop2-max: 85.375em;
 
-                         //1367px — 1920px
+$desktop1-min: 85.4375;  //1367px — 1919px
+$desktop1-max: 119.9375; 
+
+
+$desktop2: 120rem; //1920px<
 
 
 
+
+
+// ************************IPHONE6/7/8************************ //
+@media only screen and (width : 375px) and (height : 667px) {
+    /* Styles */
+
+
+    }
+
+    
+// ******************************************************* //
+
+
+// ************************IPHONE6/7/8 Plus************************ //
+@media only screen and (width : 414px) and (height : 736px) {
+    /* Styles */
+
+
+    }
+
+    
+// ******************************************************* //
+
+
+// ************************IPHONE5/SE************************ //
+@media only screen and (width : 320px) and (height : 568px) {
+    /* Styles */
+
+
+    }
+
+    
+// ******************************************************* //
 
 
 

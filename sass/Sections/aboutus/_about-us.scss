@@ -1,0 +1,52 @@
+.sec-about-us{
+
+}
+
+
+.maincont{
+    display: flex;
+}
+
+
+.cont-left{
+    flex: 0 0 60%;
+}
+
+.cont-right{
+    position: relative;
+}
+
+
+.composition{
+box-shadow: 0 1.5rem 4rem rgba($black, .3);
+border-radius: 2px;
+}
+
+.img1{
+    width: 55%;
+    right: 15%;
+    top: 2%;
+    position: absolute;
+    z-index: 2;
+}
+
+.img2{
+    width: 55%;
+    left: 0;
+    top: -7%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.img3{
+    width: 38%;
+    left: 10%;
+    top: 14%;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+

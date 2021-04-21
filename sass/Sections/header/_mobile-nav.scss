@@ -1,43 +1,213 @@
+.mobile-logo{
+
+    margin-top: 3.5%;
+    margin-left: 2%;
+    height: 7rem;
+    width: 7rem;
+
+
+    // ************************IPHONEX************************ //
+@media only screen and (width : 375px) and (height : 812px) {
+    height: 6rem;
+    width: 6rem;
+
+}
+// ******************************************************* //
+
+
+
+// ************************LAPTOP************************ //
+@media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+    
+    display: none;
+    }
+// ******************************************************* //
+
+
+// ************************PHABLET************************ //
+@media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+
+  display: none;
+    }
+// ******************************************************* //
+
+// ************************DESKTOP1************************ //
+@media only screen and (min-width : $desktop1-min) and (max-width: $desktop1-max) {
+    
+    display: none;
+    }
+// ******************************************************* //
+
+
+// ************************DESKTOP2************************ //
+@media only screen and (min-width : $desktop2){
+
+  display: none;
+    }
+// ******************************************************* //
+
+
+}
+
+
+
+
+
+
 .mobile-nav{
 
 
+// ************************LAPTOP************************ //
+@media only screen and (min-width : $laptop2-min) and (max-width: $laptop2-max) {
+    
     display: none;
+    }
+// ******************************************************* //
+
+
+// ************************PHABLET************************ //
+@media only screen and (min-width : $phablet-min) and (max-width: $phablet-max) {
+
+  display: none;
+    }
+// ******************************************************* //
+
+
+// ************************DESKTOP1************************ //
+@media only screen and (min-width : $desktop1-min) and (max-width: $desktop1-max) {
+    
+    display: none;
+    }
+// ******************************************************* //
+
+
+// ************************DESKTOP2************************ //
+@media only screen and (min-width : $desktop2){
+
+  display: none;
+    }
+// ******************************************************* //
 
 
 
 
+    &__list{
+
+        position: absolute;
+        top: 45%;
+        left: -50%;
+        transform: translate(-50%,-50%);
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        opacity: 1;
+        z-index: 2;
+        transition: all .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+
+
+
+        
+
+    }
+
+    &__items{
+        margin: 2rem;
+
+    }
+
+    &__link{
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: $cyan-light;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        background-color: black;
+
+// ************************IPHONEX************************ //
+@media only screen and (width : 375px) and (height : 812px) {
+    font-size: 2rem;
+}
+// ******************************************************* //
+
+
+    }
 
     &__checkbox{
         display: none;
+    }
 
+    &__checkbox:checked ~ &__background{
 
+        transform: scale(50);
 
+    }
+
+    &__checkbox:checked ~ &__list{
+        left: 50%;
+        
     }
 
 
 
     &__button{
 
-        background-color:black;
-        height: 7rem;
-        width: 7rem;
+        background-color: $red-light;
+        height: 5.5rem;
+        width: 5.5rem;
         position: fixed;
-        top: 6rem;
-        left: 12rem;
+        top: 2.5%;
+        left: 81%;
         display: flex;
-        border-radius: 30%;
+        border-radius: 50%;
         justify-content: center;
         align-items: center;
-        
+        z-index: 3;
+// ************************IPHONEX************************ //
+@media only screen and (width : 375px) and (height : 812px) {
+    height: 5rem;
+    width: 5rem;
+}
+// ******************************************************* //
 
 
-        &-line{
 
-            height: 15%;
-            width: 40%;
-            border-radius: 20%;
-            background-color: wheat;
-        }
+
 
     }
+
+    &__background{
+        background-color: $red-dark;
+        height: 5.5rem;
+        width: 5.5rem;
+        position: fixed;
+        top: 2.5%;
+        left: 81%;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+        // ************************IPHONEX************************ //
+@media only screen and (width : 375px) and (height : 812px) {
+    height: 5rem;
+    width: 5rem;
 }
+// ******************************************************* //
+    
+    
+    }
+}
+
+
+
+.toggle-icon{
+
+    height: 4rem;
+    fill: $gray-light;
+}
+
+
