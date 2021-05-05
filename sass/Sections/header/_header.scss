@@ -1,0 +1,178 @@
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg4.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+
+}
+
+.herotext-cont{
+    position: relative;
+    top: 10rem;
+
+    @include respond (br1){
+
+        top:14.6822916666667rem;
+    }
+    @include respond (br2){
+
+        top:18.6822916666667rem;
+    
+    }
+
+
+    @include respond (desktop){
+
+        top:12.6822916666667rem;
+    
+    }
+
+    @include respond (myphone){
+        top: 20rem;
+    }
+    
+
+
+
+
+
+}
+.header-box1{
+
+text-align: center;
+font-size: 4rem;  
+
+@include respond (myphone){
+    font-size: 2.8rem;  
+}
+
+
+
+
+
+
+&__title{
+
+    color: $gray-light;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5rem;
+    text-align: center;
+    color: $gray-light;
+
+    @include respond (br1){
+        letter-spacing: 4.6588541666667rem;
+    }
+
+    @include respond (myphone){
+        letter-spacing: 3.6588541666667rem;
+    }
+    
+
+
+}}
+
+
+.header-box2{
+
+    text-align: center;
+    font-size: 3rem; 
+
+    @include respond (myphone){
+        font-size: 2.4rem;  
+    }
+    
+
+
+    
+    
+    &__sub1{
+    
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 4.5rem;
+        text-align: center;
+
+        @include respond (br1){
+
+            letter-spacing: 4.19296875rem;
+        }
+
+        @include respond (myphone){
+            letter-spacing: 3.1rem;
+        }
+        
+
+    
+    }}
+
+
+    .header-box3{
+
+        text-align: center;
+        font-size: 2rem; 
+
+        @include respond (myphone){
+            font-size: 1.7rem;  
+        }
+
+ 
+
+        
+        
+        &__sub2{
+        
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 300;
+            letter-spacing: .75rem;
+            text-align: center;
+
+            @include respond (br1){
+
+                letter-spacing: 0.698828125rem;
+            }
+        
+        }}
+        
+
+
+
+.herotext-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn-box{
+
+    padding-top: 29rem;
+    z-index: 0;
+
+
+
+    @include respond (br1){
+
+        padding-top: 25.6375rem;
+    }
+
+
+    @include respond (br2){
+
+        padding-top: 22.6375rem;
+    }
+
+    @include respond (myphone){
+        padding-top: 31.637rem;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+.sec-about-us{
+
+    height: 100vh;       
+        background-image:linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.63));
+        background-size: cover;
+        position: relative;
+        background-position: center;
+    }
+
+    .bg-video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    
+        &__content{
+    
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    
+    }
+
+
+    .heading__about-us{
+        margin-left: $margin-left-1;
+        @include respond (myphone){
+            margin-left: 3rem;
+        }
+     
+        
+        }
+        
+        
+        .normal__text-about-us{
+            font-size: 1.6rem;    
+            margin-right: $margin-right-1;
+            margin-left: $margin-left-1;
+
+            @include respond (myphone){
+                margin-left: 3rem;
+                margin-right: 3rem;
+                font-size: 1.9rem;
+            }
+        }
+
+.maincont{
+    display: flex;
+    height: 90%;
+
+    @include respond (myphone){
+        flex-direction: column;
+        height: 90%;
+     }
+ 
+
+
+
+&__cont-left{
+    flex: 0 0 50%;
+    height: 90%;
+    @include respond (myphone){
+        flex: 0 0 46%;
+     }
+}
+
+&__cont-right{
+    flex: 0 0 50%;
+    height: 100%;
+}
+}
+
+
+.composition{
+    height: 90%;
+    position: relative;
+    margin-left: 6rem;
+    margin-top: 4rem;
+        
+        @include respond (myphone){
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-top: 0rem;
+         }
+
+
+
+
+
+
+&__photo{
+box-shadow: 0 1.5rem 4rem rgba($black, .8);
+border: 2px solid $yellow;
+
+@include respond (myphone){
+    box-shadow: 0 1rem 4rem rgba($black, .8);
+    border: 1.9px solid $yellow;
+ }
+
+
+
+
+&-img1{
+    z-index: 2;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 32rem;
+    position: absolute;
+    top: 4%;
+    left: 0%;
+
+
+    @include respond (myphone){
+        top: 0%;
+        left: 0%;
+     }
+
+
+}
+
+&-img1:hover{
+    transform: scale(1.1);
+    z-index: 5;
+
+}
+
+&-img2{
+    z-index: 2;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 32rem; 
+    left: 44%;
+    top: 0%;
+    position: absolute;
+
+    
+    @include respond (myphone){
+        display: none;
+         }
+
+
+
+}
+&-img2:hover{
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+
+&-img3{
+    z-index: 4;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 30rem; 
+    position: absolute;
+    left: 8%;
+    top: 32%;
+
+    @include respond (br1){
+        top: 29.816666666667%;
+    }
+
+    @include respond (br2){
+        top: 26.816666666667%;
+    }
+
+    @include respond (br3){
+        top: 25.433333333333%;
+    }
+
+    @include respond (myphone){
+        display: none;
+         }
+
+
+
+
+}
+
+
+&-img3:hover{
+    transform: scale(1.1);
+    z-index: 5;
+    
+
+
+}
+
+&-img4{
+    z-index: 4;
+    padding: 1rem;
+    width: 30rem; 
+    transition: all 0.2s;
+    top: 43%;
+    left: 47%;
+    position: absolute;
+
+
+    @include respond (br3){
+        left: 49.886458333333%;
+        top: 33%;
+
+    }
+    
+    @include respond (myphone){
+        top: 57%;
+        left: 8%;
+        width: 32rem;
+        z-index: 2;
+
+         }
+
+
+
+
+}
+
+
+&-img4:hover{
+    transform: scale(1.1);
+    z-index: 5;
+
+
+}
+
+
+&-img5{
+    z-index: 3;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 32rem; 
+    position: absolute;
+    left: 27%;
+    top: 21%;
+
+    @include respond (br3){
+        top: 18.433333333333%;
+    }
+    
+    @include respond (myphone){
+        left: 45%;
+        top: 19%;
+         }
+
+
+
+}
+
+
+
+
+&-img5:hover{
+    transform: scale(1.1);
+    z-index: 5;
+
+
+}
+}
+}
+

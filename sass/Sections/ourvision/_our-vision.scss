@@ -1,0 +1,128 @@
+.sec-our-vision{
+   
+        background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision.jpg);
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        background-position: center;
+}
+
+
+.maincont2{
+
+    padding-top: 8rem;
+
+    @include respond (br1){
+        padding-top:8.5458333333333rem;        
+    }
+
+    @include respond (br2){
+        padding-top:9.2958333333333rem;
+    }
+
+    @include respond (myphone){
+      display: flex;
+      flex-direction: column;  
+      padding-top: 16rem;
+
+     }
+ 
+
+   
+}
+.box1{
+
+background-color: rgba(255, 255, 255, 0.85);
+margin-bottom: 4rem;
+margin-left: 45rem;
+margin-right: 45rem;
+transform: skewX(165deg);
+@include respond (myphone){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+   }
+
+}
+
+
+
+.box2{
+
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-left: 45rem;
+    margin-right: 45rem;
+    transform: skewX(165deg);
+
+    @include respond (myphone){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+       }
+
+    
+    }
+
+
+    .sub-box{
+        padding-bottom: 7rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+        transform: skewX(-165deg);
+
+        @include respond (myphone){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+
+            text-align: left;
+
+           }
+
+
+
+    }
+
+
+    .normal__text--our-vision{
+
+        color: $gray-darker;
+        font-size: 1.6rem;
+
+        @include respond (myphone){
+            font-size: 1.9rem;
+        }
+    }
+
+.logowhite-cont{
+
+text-align: center;
+padding-top: 4rem;
+
+@include respond (br2){
+    padding-top: 4.64791666666667%;
+}
+
+@include respond (myphone){
+    padding-top: 10rem;
+   
+}
+
+}
+
+    .logo-white{
+        width: clamp(5rem,(8vmax),200rem);
+        z-index: 5;
+
+        @include respond (myphone){
+            width: 13rem;
+           
+        }
+
+    }

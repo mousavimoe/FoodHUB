@@ -1,0 +1,125 @@
+.sec-contact-us{
+
+height: 60rem;
+@include respond (myphone){
+height: 91vh;
+}
+
+}
+.maincont3{
+    display: flex;
+
+    @include respond (myphone){
+        flex-direction: column;
+
+     }
+ 
+
+
+    &__address{
+        flex: 0 0 39.8%;
+        padding-left: 18%;
+
+        @include respond (myphone){
+            padding-left: 2rem;
+            
+    
+         }
+
+
+    }
+
+
+    &__map{
+
+        flex: 0 0 59.8%;
+        height: 45rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include respond (myphone){
+            margin-top: 3rem;
+         }
+     
+
+
+    }
+
+    &__line{
+    
+        flex: 0 0 0.1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+.googlemap{
+    height: 95%;
+    width: 90%;
+}
+
+.sep{
+    background-color: $red;
+    height: 88%;
+    @include respond (myphone){
+        height: 0.5rem;
+        width: 88%;
+    }
+ 
+}
+
+.addressbox{
+    display: flex;
+}
+
+
+.icon{
+
+    width: 4rem;
+    height: 4rem;
+    fill: $red-light;
+    margin-left: 3%;
+}
+
+
+.addressbox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.phonebox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+}
+
+.mailbox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.normal__text-address{
+    margin-left: 1%;
+
+    @include respond (myphone){
+    font-size: 1.9rem;
+    }
+}
+
+
+.signature{
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: #1a1a1a;
+}

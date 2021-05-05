@@ -1,0 +1,128 @@
+.sec-our-activity{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/mainbg3.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    
+}
+
+.marg-fix{
+
+    padding-top: 1%;
+}
+
+.maincont1{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 75%;
+    @include respond (myphone){
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 94%;
+     }
+ 
+
+}
+
+
+
+.col1{
+    border: 3px solid $yellow-light;
+    flex: 0 0 25%;
+    margin-right: 5%;
+
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+
+
+     }
+
+}
+
+
+.col2{
+    border: 3px solid $yellow-dark;
+    flex: 0 0 25%;
+    margin-right: 5%;
+
+    
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+
+
+     }
+
+
+
+
+}
+
+
+.col3{
+    border: 3px solid $yellow-light;
+    flex: 0 0 25%;
+    margin-right: 5%;
+
+    
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+
+
+
+     }
+
+
+}
+
+
+.col4{
+    border: 3px solid $yellow-dark;
+    flex: 0 0 25%;
+
+    
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+
+
+
+     }
+
+}
+
+
+.normal__text-our-activity{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.6rem;
+
+        
+    @include respond (myphone){
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+
+
+}
+
+

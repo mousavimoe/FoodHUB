@@ -1,0 +1,182 @@
+
+
+// Dedault design: 1920x937
+
+
+@mixin respond ($breakpoint){
+
+    @if $breakpoint == br1 {             //=1789PX
+
+        @media (max-width: 111.8125em) { @content};
+    }
+
+    @if $breakpoint == br2 {            //=1609PX
+
+        @media (max-width: 100.5625em) { @content};
+    }
+
+    @if $breakpoint == desktop {            //=1600PX
+
+        @media (width: 100em) { @content};
+    }
+
+    @if $breakpoint == br3 {         //=1494PX
+
+        @media (max-width: 93.375em) { @content};
+    }
+
+    @if $breakpoint == laptop-l {         //=1440PX
+
+        @media (max-width: 90em) { @content};
+    }
+
+    @if $breakpoint == br4 {       //=1386px
+
+        @media (max-width: 86.625em) { @content};
+    }
+
+
+    @if $breakpoint == mylaptop {       //=1366x627px
+
+        @media (width: 85.375em) and (height:39.1875em) { @content};
+    }
+
+    @if $breakpoint == br6 {       //=1164px
+
+        @media (max-width: 72.75em) { @content};
+    }
+
+    @if $breakpoint == br7 {       //=1084px
+
+        @media (max-width: 67.75em) { @content};
+    }
+
+    @if $breakpoint == tablet {       //=768px
+
+        @media (max-width: 48em) { @content};
+    }
+
+
+    @if $breakpoint == phone {       //=600px
+
+        @media (min-width: 37.5em) { @content};
+    }
+
+
+    @if $breakpoint == myphone {       //=360x640px
+
+        @media (width: 22.5em) and (height: 40em){ @content};
+    }
+
+
+
+
+
+
+
+
+
+
+    @if $breakpoint == ipad {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == iphonex {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == iphone6-7-8-plus {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == iphone6-7-8 {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == iphone6-7-8-plus {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    
+    @if $breakpoint == iphone5-se {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == pixel2 {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+    @if $breakpoint == pixel2-xl {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+    @if $breakpoint == surface-duo {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+    @if $breakpoint == galaxy-fold {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == galaxy-s5 {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+    @if $breakpoint == moto-g4 {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == android-tablet {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+    @if $breakpoint == microsoft-surface {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == microsoft-surface-pro {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == my-phone {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == my-laptop {
+
+        @media (max-width: 600px) { @content};
+    }
+
+    @if $breakpoint == my-pc {
+
+        @media (max-width: 600px) { @content};
+    }
+
+
+
+
+
+
+
+}

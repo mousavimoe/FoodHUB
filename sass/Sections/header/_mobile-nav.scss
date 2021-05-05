@@ -1,0 +1,126 @@
+
+.mobile-nav{
+
+    @include respond (phone){
+        display: none;
+     }
+
+
+    &__logo{
+
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+        height: 9rem;
+        width: 9rem;
+    }
+
+    &__list{
+
+        position: fixed;
+        top: 45%;
+        left: -50%;
+        transform: translate(-50%,-50%);
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        opacity: 1;
+        z-index: 12;
+        transition: all .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+
+
+
+        
+
+    }
+
+    &__items{
+        margin: 2.2rem;
+
+
+    }
+
+    &__link{
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: $red-light;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        border-radius: 5%;
+        background-color: $gray-light;
+        
+
+
+
+
+    }
+
+    &__checkbox{
+        display: none;
+    }
+
+    &__checkbox:checked ~ &__background{
+
+        transform: scale(50);
+        
+
+    }
+
+    &__checkbox:checked ~ &__list{
+        left: 50%;
+        
+    }
+
+
+
+    &__button{
+
+        background-color: $red-light;
+        height: 6.5rem;
+        width: 6.5rem;
+        position: fixed;
+        top: 2.5rem;
+        left: 54rem;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        z-index: 11;
+
+
+        
+
+    }
+
+    &__background{
+        background-color: $gray-dark;
+        height: 6.5rem;
+        width: 6.5rem;
+        position: fixed;
+        top: 2.5rem;
+        left: 54rem;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+
+        
+
+
+    
+    
+    }
+}
+
+
+
+.toggle-icon{
+
+    height: 4.5rem;
+    fill: $gray-light;
+}
+
+
