@@ -65,7 +65,7 @@
 
     @if $breakpoint == myphone {       //=360x640px
 
-        @media (width: 22.5em) and (height: 40em){ @content};
+        @media (max-width: 24.5em) and (max-height: 42em){ @content};
     }
 
 

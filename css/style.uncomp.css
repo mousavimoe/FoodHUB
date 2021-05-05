@@ -13,7 +13,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .heading-2 {
       font-size: 3.1rem;
       padding-bottom: .5rem;
@@ -27,7 +27,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Original Surfer', cursive; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .heading-3 {
       font-size: 2.6rem;
       padding-bottom: .5rem;
@@ -174,26 +174,26 @@ body {
 .footer__text {
   text-align: center;
   padding-top: 2%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .footer__text {
       padding-top: 2rem;
       font-size: 2rem; } }
 
 .sec-contact-us {
   height: 60rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .sec-contact-us {
       height: 91vh; } }
 
 .maincont3 {
   display: flex; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .maincont3 {
       flex-direction: column; } }
   .maincont3__address {
     flex: 0 0 39.8%;
     padding-left: 18%; }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .maincont3__address {
         padding-left: 2rem; } }
   .maincont3__map {
@@ -202,7 +202,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .maincont3__map {
         margin-top: 3rem; } }
   .maincont3__line {
@@ -218,7 +218,7 @@ body {
 .sep {
   background-color: #cc2a36;
   height: 88%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .sep {
       height: 0.5rem;
       width: 88%; } }
@@ -249,7 +249,7 @@ body {
 
 .normal__text-address {
   margin-left: 1%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .normal__text-address {
       font-size: 1.9rem; } }
 
@@ -273,7 +273,7 @@ body {
   @media (max-width: 100.5625em) {
     .maincont2 {
       padding-top: 9.2958333333333rem; } }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .maincont2 {
       display: flex;
       flex-direction: column;
@@ -285,7 +285,7 @@ body {
   margin-left: 45rem;
   margin-right: 45rem;
   transform: skewX(165deg); }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .box1 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -298,7 +298,7 @@ body {
   margin-left: 45rem;
   margin-right: 45rem;
   transform: skewX(165deg); }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .box2 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -312,7 +312,7 @@ body {
   padding-right: 3rem;
   text-align: center;
   transform: skewX(-165deg); }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .sub-box {
       transform: skewY(0);
       padding-left: 2rem;
@@ -323,7 +323,7 @@ body {
 .normal__text--our-vision {
   color: #1a1a1a;
   font-size: 1.6rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .normal__text--our-vision {
       font-size: 1.9rem; } }
 
@@ -333,14 +333,14 @@ body {
   @media (max-width: 100.5625em) {
     .logowhite-cont {
       padding-top: 4.64791666666667%; } }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .logowhite-cont {
       padding-top: 10rem; } }
 
 .logo-white {
   width: clamp(5rem, 8vmax, 200rem);
   z-index: 5; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .logo-white {
       width: 13rem; } }
 
@@ -360,7 +360,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   height: 75%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .maincont1 {
       flex-direction: column;
       margin-left: 3rem;
@@ -371,7 +371,7 @@ body {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
   margin-right: 5%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .col1 {
       border: none;
       margin-bottom: 1.1rem;
@@ -383,7 +383,7 @@ body {
   border: 3px solid #eabf32;
   flex: 0 0 25%;
   margin-right: 5%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .col2 {
       border: none;
       margin-bottom: 1.1rem;
@@ -395,7 +395,7 @@ body {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
   margin-right: 5%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .col3 {
       border: none;
       margin-bottom: 1.1rem;
@@ -406,7 +406,7 @@ body {
 .col4 {
   border: 3px solid #eabf32;
   flex: 0 0 25%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .col4 {
       border: none;
       margin-bottom: 1.1rem;
@@ -418,7 +418,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   font-size: 1.6rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .normal__text-our-activity {
       font-size: 1.9rem;
       margin-left: 1rem;
@@ -445,7 +445,7 @@ body {
 
 .heading__about-us {
   margin-left: 25%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .heading__about-us {
       margin-left: 3rem; } }
 
@@ -453,7 +453,7 @@ body {
   font-size: 1.6rem;
   margin-right: 6rem;
   margin-left: 25%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .normal__text-about-us {
       margin-left: 3rem;
       margin-right: 3rem;
@@ -462,14 +462,14 @@ body {
 .maincont {
   display: flex;
   height: 90%; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .maincont {
       flex-direction: column;
       height: 90%; } }
   .maincont__cont-left {
     flex: 0 0 50%;
     height: 90%; }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .maincont__cont-left {
         flex: 0 0 46%; } }
   .maincont__cont-right {
@@ -481,7 +481,7 @@ body {
   position: relative;
   margin-left: 6rem;
   margin-top: 4rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .composition {
       margin-left: 3rem;
       margin-right: 3rem;
@@ -489,7 +489,7 @@ body {
   .composition__photo {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.8);
     border: 2px solid #edc951; }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .composition__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
@@ -501,7 +501,7 @@ body {
       position: absolute;
       top: 4%;
       left: 0%; }
-      @media (width: 22.5em) and (height: 40em) {
+      @media (max-width: 24.5em) and (max-height: 42em) {
         .composition__photo-img1 {
           top: 0%;
           left: 0%; } }
@@ -516,7 +516,7 @@ body {
       left: 44%;
       top: 0%;
       position: absolute; }
-      @media (width: 22.5em) and (height: 40em) {
+      @media (max-width: 24.5em) and (max-height: 42em) {
         .composition__photo-img2 {
           display: none; } }
     .composition__photo-img2:hover {
@@ -539,7 +539,7 @@ body {
       @media (max-width: 93.375em) {
         .composition__photo-img3 {
           top: 25.433333333333%; } }
-      @media (width: 22.5em) and (height: 40em) {
+      @media (max-width: 24.5em) and (max-height: 42em) {
         .composition__photo-img3 {
           display: none; } }
     .composition__photo-img3:hover {
@@ -557,7 +557,7 @@ body {
         .composition__photo-img4 {
           left: 49.886458333333%;
           top: 33%; } }
-      @media (width: 22.5em) and (height: 40em) {
+      @media (max-width: 24.5em) and (max-height: 42em) {
         .composition__photo-img4 {
           top: 57%;
           left: 8%;
@@ -577,7 +577,7 @@ body {
       @media (max-width: 93.375em) {
         .composition__photo-img5 {
           top: 18.433333333333%; } }
-      @media (width: 22.5em) and (height: 40em) {
+      @media (max-width: 24.5em) and (max-height: 42em) {
         .composition__photo-img5 {
           left: 45%;
           top: 19%; } }
@@ -740,14 +740,14 @@ header {
   @media (width: 100em) {
     .herotext-cont {
       top: 12.6822916666667rem; } }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .herotext-cont {
       top: 20rem; } }
 
 .header-box1 {
   text-align: center;
   font-size: 4rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .header-box1 {
       font-size: 2.8rem; } }
   .header-box1__title {
@@ -760,14 +760,14 @@ header {
     @media (max-width: 111.8125em) {
       .header-box1__title {
         letter-spacing: 4.6588541666667rem; } }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
 
 .header-box2 {
   text-align: center;
   font-size: 3rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .header-box2 {
       font-size: 2.4rem; } }
   .header-box2__sub1 {
@@ -779,14 +779,14 @@ header {
     @media (max-width: 111.8125em) {
       .header-box2__sub1 {
         letter-spacing: 4.19296875rem; } }
-    @media (width: 22.5em) and (height: 40em) {
+    @media (max-width: 24.5em) and (max-height: 42em) {
       .header-box2__sub1 {
         letter-spacing: 3.1rem; } }
 
 .header-box3 {
   text-align: center;
   font-size: 2rem; }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .header-box3 {
       font-size: 1.7rem; } }
   .header-box3__sub2 {
@@ -814,6 +814,6 @@ header {
   @media (max-width: 100.5625em) {
     .btn-box {
       padding-top: 22.6375rem; } }
-  @media (width: 22.5em) and (height: 40em) {
+  @media (max-width: 24.5em) and (max-height: 42em) {
     .btn-box {
       padding-top: 31.637rem; } }
