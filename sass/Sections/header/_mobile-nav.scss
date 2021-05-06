@@ -90,8 +90,16 @@
         z-index: 11;
 
         @include respond (myphone){
-            left:62rem;
+            left:60rem;
+            top: 2.7rem;
+
             }
+            @include respond (farnazphone){
+                left:50rem;
+                top: 2.7rem;
+    
+                }
+
 
 
         
@@ -114,8 +122,16 @@
 
         
         @include respond (myphone){
-            left:62rem;
+            left:60rem;
+            top: 2.7rem;
+
             }
+
+            @include respond (farnazphone){
+                left:50rem;
+                top: 2.7rem;
+    
+                }
 
 
     

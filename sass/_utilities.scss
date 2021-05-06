@@ -85,6 +85,13 @@ $margin-tight-4: 1rem;
 
          }
 
+         @include respond (farnazphone){
+            font-size: 3.1rem;    
+            padding-bottom: .5rem;
+            padding-top: 2rem;
+    
+             }
+
 
 
 
@@ -104,6 +111,13 @@ $margin-tight-4: 1rem;
         padding-top: .5rem;
         margin-left: 1rem;
    }
+
+   @include respond (farnazphone){
+    font-size: 2.6rem;  
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    margin-left: 1rem;
+}
 
 }
 

@@ -30,6 +30,9 @@
         @include respond (myphone){
             margin-left: 3rem;
         }
+        @include respond (farnazphone){
+            margin-left: 3rem;
+        }
      
         
         }
@@ -45,6 +48,11 @@
                 margin-right: 3rem;
                 font-size: 1.9rem;
             }
+            @include respond (farnazphone){
+                margin-left: 3rem;
+                margin-right: 3rem;
+                font-size: 1.9rem;
+            }
         }
 
 .maincont{
@@ -52,6 +60,10 @@
     height: 90%;
 
     @include respond (myphone){
+        flex-direction: column;
+        height: 90%;
+     }
+     @include respond (farnazphone){
         flex-direction: column;
         height: 90%;
      }
@@ -63,6 +75,9 @@
     flex: 0 0 50%;
     height: 90%;
     @include respond (myphone){
+        flex: 0 0 46%;
+     }
+     @include respond (farnazphone){
         flex: 0 0 46%;
      }
 }
@@ -85,7 +100,11 @@
             margin-right: 3rem;
             margin-top: 0rem;
          }
-
+         @include respond (farnazphone){
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-top: 0rem;
+         }
 
 
 
@@ -96,6 +115,11 @@ box-shadow: 0 1.5rem 4rem rgba($black, .8);
 border: 2px solid $yellow;
 
 @include respond (myphone){
+    box-shadow: 0 1rem 4rem rgba($black, .8);
+    border: 1.9px solid $yellow;
+ }
+
+ @include respond (farnazphone){
     box-shadow: 0 1rem 4rem rgba($black, .8);
     border: 1.9px solid $yellow;
  }
@@ -118,6 +142,12 @@ border: 2px solid $yellow;
         left: 0%;
      }
 
+     @include respond (farnazphone){
+        top: 0%;
+        left: 0%;
+     }
+
+
 
 }
 
@@ -138,6 +168,11 @@ border: 2px solid $yellow;
 
     
     @include respond (myphone){
+        display: none;
+         }
+
+          
+    @include respond (farnazphone){
         display: none;
          }
 
@@ -174,6 +209,10 @@ border: 2px solid $yellow;
     @include respond (myphone){
         display: none;
          }
+
+         @include respond (farnazphone){
+            display: none;
+             }
 
 
 
@@ -213,6 +252,14 @@ border: 2px solid $yellow;
 
          }
 
+         @include respond (farnazphone){
+            top: 57%;
+            left: 8%;
+            width: 32rem;
+            z-index: 2;
+    
+             }
+
 
 
 
@@ -244,6 +291,10 @@ border: 2px solid $yellow;
         left: 45%;
         top: 19%;
          }
+         @include respond (farnazphone){
+            left: 45%;
+            top: 19%;
+             }
 
 
 
