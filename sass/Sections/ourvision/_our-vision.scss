@@ -5,6 +5,17 @@
         height: 100vh;
         position: relative;
         background-position: center;
+
+        @include respond (myphone){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
+
+           }
+           @include respond (upto360){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
+           }
+      
 }
 
 
@@ -24,8 +35,15 @@
       display: flex;
       flex-direction: column;  
       padding-top: 16rem;
-
      }
+
+
+     @include respond (upto360){
+        display: flex;
+        flex-direction: column;  
+        padding-top: 16rem;
+  
+       }
  
 
    
@@ -45,6 +63,14 @@ transform: skewX(165deg);
     border-radius: 2px;
    }
 
+   @include respond (upto360){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+   }
+
 }
 
 
@@ -57,6 +83,14 @@ transform: skewX(165deg);
     transform: skewX(165deg);
 
     @include respond (myphone){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+       }
+
+       @include respond (upto360){
         margin-bottom: 4rem;
         margin-left: 5rem;
         margin-right: 5rem;
@@ -85,43 +119,50 @@ transform: skewX(165deg);
 
            }
 
+           @include respond (upto360){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+
+            text-align: left;
+
+           }
+
 
 
     }
 
 
-    .normal__text--our-vision{
+    .txt-our-vision{
 
         color: $gray-darker;
-        font-size: 1.6rem;
 
         @include respond (myphone){
+            font-size: 1.9rem;
+        }
+
+        @include respond (upto360){
             font-size: 1.9rem;
         }
     }
 
 .logowhite-cont{
-
 text-align: center;
-padding-top: 4rem;
-
-@include respond (br2){
-    padding-top: 4.64791666666667%;
-}
-
-@include respond (myphone){
-    padding-top: 10rem;
-   
-}
+margin-top: 4%;
 
 }
 
     .logo-white{
-        width: clamp(5rem,(8vmax),200rem);
+        width: 16rem;
         z-index: 5;
 
         @include respond (myphone){
             width: 13rem;
+           
+        }
+        @include respond (upto360){
+            width: 11rem;
            
         }
 

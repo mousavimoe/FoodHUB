@@ -1,8 +1,12 @@
 .sec-contact-us{
 
-height: 60rem;
+height: auto;
 @include respond (myphone){
-height: 91vh;
+height: auto;
+}
+height: 60rem;
+@include respond (upto360){
+height: auto;
 }
 
 }
@@ -10,6 +14,10 @@ height: 91vh;
     display: flex;
 
     @include respond (myphone){
+        flex-direction: column;
+     }
+
+     @include respond (upto360){
         flex-direction: column;
 
      }
@@ -21,6 +29,12 @@ height: 91vh;
         padding-left: 18%;
 
         @include respond (myphone){
+            padding-left: 2rem;
+            
+    
+         }
+
+         @include respond (upto360){
             padding-left: 2rem;
             
     
@@ -38,6 +52,9 @@ height: 91vh;
         align-items: center;
         justify-content: center;
         @include respond (myphone){
+            margin-top: 3rem;
+         }
+         @include respond (upto360){
             margin-top: 3rem;
          }
      
@@ -67,6 +84,11 @@ height: 91vh;
     background-color: $red;
     height: 88%;
     @include respond (myphone){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (upto360){
         height: 0.5rem;
         width: 88%;
     }
@@ -109,12 +131,17 @@ height: 91vh;
 }
 
 
-.normal__text-address{
-    margin-left: 1%;
+.txt-address{
+    margin-left: 1.2rem;
+    margin-bottom: 1.2rem;
 
     @include respond (myphone){
     font-size: 1.9rem;
     }
+
+    @include respond (upto360){
+        font-size: 1.9rem;
+        }
 }
 
 

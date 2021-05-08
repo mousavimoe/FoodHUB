@@ -1,10 +1,16 @@
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg4.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
     background-position: center;
 
+    @include respond (myphone){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+         }
+         @include respond (upto360){
+            background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
+             }
 }
 
 .herotext-cont{
