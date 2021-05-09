@@ -53,6 +53,8 @@ header{
 
 text-align: center;
 font-size: 4rem;  
+animation-delay: 1.1s;
+--animate-duration: 1.5s;
 
 @include respond (myphone){
     font-size: 2.8rem;  
@@ -76,6 +78,7 @@ font-size: 4rem;
     text-align: center;
     color: $gray-light;
 
+
     @include respond (br1){
         letter-spacing: 4.6588541666667rem;
     }
@@ -97,6 +100,9 @@ font-size: 4rem;
 
     text-align: center;
     font-size: 3rem; 
+    animation-delay: 1.5s;
+    --animate-duration: 1.8s;
+
 
     @include respond (myphone){
         font-size: 2.4rem;  
@@ -130,10 +136,7 @@ font-size: 4rem;
 
         @include respond (farnazphone){
             letter-spacing: 3.1rem;
-        }
-        
-
-    
+        }    
     }}
 
 
@@ -141,6 +144,10 @@ font-size: 4rem;
 
         text-align: center;
         font-size: 2rem; 
+        animation-delay: 1.7s;
+        --animate-duration: 1.8s;
+
+
 
         @include respond (myphone){
             font-size: 1.7rem;  
@@ -180,14 +187,11 @@ font-size: 4rem;
 }
 
 .btn-box{
-
+    display: inline-block;
     padding-top: 29rem;
     z-index: 0;
 
-
-
     @include respond (br1){
-
         padding-top: 25.6375rem;
     }
 
@@ -206,6 +210,21 @@ font-size: 4rem;
     }
 }
 
+.btn-hide{
+    animation: fadein 1.8s;
+
+    }
+    
+    @keyframes fadein {
+        0%,50%,70% {opacity:0;}
+        90%,100% {opacity:1;}
+    }
+    
+.anmt-cnfg{
+
+    animation-delay: 1s;
+    --animate-duration: .8s;
+}
 
 
 

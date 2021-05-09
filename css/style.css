@@ -12,7 +12,8 @@
   font-family: 'Original Surfer', cursive;
   padding-top: 2rem;
   padding-bottom: 3rem;
-  text-align: center; }
+  text-align: center;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .heading-2 {
       font-size: 3.1rem;
@@ -25,7 +26,8 @@
   text-transform: uppercase;
   display: block;
   padding-top: 2rem;
-  font-family: 'Original Surfer', cursive; }
+  font-family: 'Original Surfer', cursive;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .heading-3 {
       font-size: 2.6rem;
@@ -85,7 +87,8 @@
   z-index: 1;
   text-decoration: none;
   font-weight: 300;
-  font-family: 'Original Surfer', cursive; }
+  font-family: 'Original Surfer', cursive;
+  opacity: 1; }
   .btn-red:after {
     content: '';
     position: absolute;
@@ -442,7 +445,8 @@ body {
 .col1 {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
-  margin-right: 5%; }
+  margin-right: 5%;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .col1 {
       border: none;
@@ -461,7 +465,8 @@ body {
 .col2 {
   border: 3px solid #eabf32;
   flex: 0 0 25%;
-  margin-right: 5%; }
+  margin-right: 5%;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .col2 {
       border: none;
@@ -480,7 +485,8 @@ body {
 .col3 {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
-  margin-right: 5%; }
+  margin-right: 5%;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .col3 {
       border: none;
@@ -498,7 +504,8 @@ body {
 
 .col4 {
   border: 3px solid #eabf32;
-  flex: 0 0 25%; }
+  flex: 0 0 25%;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .col4 {
       border: none;
@@ -561,6 +568,12 @@ body {
       margin-left: 3rem;
       margin-right: 3rem; } }
 
+.js--txt-history {
+  opacity: 0; }
+
+.js--txt-history.animate__slideInLeft {
+  opacity: 1; }
+
 .maincont {
   display: flex;
   height: 90%; }
@@ -582,7 +595,8 @@ body {
   .maincont .composition-1 {
     display: flex;
     padding-top: 2rem;
-    justify-content: center; }
+    justify-content: center;
+    opacity: 0; }
     @media (max-width: 25.75em) {
       .maincont .composition-1 {
         padding-top: 3rem; } }
@@ -618,7 +632,8 @@ body {
   position: relative;
   margin-left: 6rem;
   margin-top: 4rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  opacity: 0; }
   @media (max-width: 25.75em) {
     .composition-2 {
       display: flex;
@@ -779,7 +794,9 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.35);
-  align-items: center; }
+  align-items: center;
+  animation-delay: 1.1s;
+  --animate-duration: .8s; }
   @media only screen and (min-width: 20em) and (max-width: 30em) {
     .navigation {
       display: none; } }
@@ -958,7 +975,9 @@ header {
 
 .header-box1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 4rem;
+  animation-delay: 1.1s;
+  --animate-duration: 1.5s; }
   @media (max-width: 25.75em) {
     .header-box1 {
       font-size: 2.8rem; } }
@@ -978,7 +997,9 @@ header {
 
 .header-box2 {
   text-align: center;
-  font-size: 3rem; }
+  font-size: 3rem;
+  animation-delay: 1.5s;
+  --animate-duration: 1.8s; }
   @media (max-width: 25.75em) {
     .header-box2 {
       font-size: 2.4rem; } }
@@ -997,7 +1018,9 @@ header {
 
 .header-box3 {
   text-align: center;
-  font-size: 2rem; }
+  font-size: 2rem;
+  animation-delay: 1.7s;
+  --animate-duration: 1.8s; }
   @media (max-width: 25.75em) {
     .header-box3 {
       font-size: 1.7rem; } }
@@ -1018,6 +1041,7 @@ header {
   align-items: center; }
 
 .btn-box {
+  display: inline-block;
   padding-top: 29rem;
   z-index: 0; }
   @media (max-width: 111.8125em) {
@@ -1029,3 +1053,16 @@ header {
   @media (max-width: 25.75em) {
     .btn-box {
       padding-top: 31.637rem; } }
+
+.btn-hide {
+  animation: fadein 1.8s; }
+
+@keyframes fadein {
+  0%, 50%, 70% {
+    opacity: 0; }
+  90%, 100% {
+    opacity: 1; } }
+
+.anmt-cnfg {
+  animation-delay: 1s;
+  --animate-duration: .8s; }

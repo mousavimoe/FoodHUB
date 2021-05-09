@@ -70,6 +70,7 @@
     border: 3px solid $yellow-light;
     flex: 0 0 25%;
     margin-right: 5%;
+    opacity: 0;
 
     @include respond (myphone){
         border: none;
@@ -94,6 +95,8 @@
     border: 3px solid $yellow-dark;
     flex: 0 0 25%;
     margin-right: 5%;
+    opacity: 0;
+
 
     
     @include respond (myphone){
@@ -122,6 +125,8 @@
     border: 3px solid $yellow-light;
     flex: 0 0 25%;
     margin-right: 5%;
+    opacity: 0;
+
 
     
     @include respond (myphone){
@@ -149,6 +154,8 @@
 .col4{
     border: 3px solid $yellow-dark;
     flex: 0 0 25%;
+    opacity: 0;
+
 
     
     @include respond (myphone){
