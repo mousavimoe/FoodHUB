@@ -11,13 +11,13 @@
         margin-top: 2.5rem;
         margin-left: 2rem;
         height: 10rem;
-        width: 10rem;
+        width: auto;
 
-        
+
         @include respond (myphone){
-            height: 5rem;
-            width: 5rem;
-            }
+            height: 9rem;
+            width: auto;
+        }
     }
 
     &__list{
@@ -95,8 +95,8 @@
         
 
             @include respond (myphone){
-            left:60rem;
-            top: 2.7rem;
+            left: 46rem;
+            top: 2.8rem;
             }
 
             @include respond (iphonex){
@@ -131,8 +131,8 @@
 
             
         @include respond (myphone){
-            left:60rem;
-            top: 2.7rem;
+            left: 46rem;
+            top: 2.8rem;
 
             }
 

@@ -19,6 +19,10 @@ html{
     scroll-behavior: smooth;
 
 
+    @include respond (myphone){
+        font-size: 46%;
+    }
+
 }
 
 
