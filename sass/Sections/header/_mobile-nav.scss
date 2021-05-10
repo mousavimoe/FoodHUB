@@ -9,7 +9,7 @@
         margin-left: 2rem;
         height: 10rem;
         width: auto;
-        @include respond (myphone){
+        @include respond (iphone678){
             height: 2rem;
             width: auto;
         }
