@@ -35,6 +35,7 @@ animation-delay: 1.1s;
 
 
 
+
 @include respond (iphone678){
     font-size: 2.6rem;  
 }
@@ -49,10 +50,11 @@ animation-delay: 1.1s;
     font-weight: 400;
     letter-spacing: 5rem;
     text-align: center;
-    color: $gray-light;
+
 
     @include respond (iphone678){
         letter-spacing: 3.5rem;
+ 
     }
 
 
@@ -144,7 +146,7 @@ animation-delay: 1.1s;
     z-index: 0;
 
     @include respond (iphone678){
-        padding-top: 31.637rem;
+        padding-top: 21.637rem;
     }
 
    

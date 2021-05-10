@@ -125,8 +125,8 @@ opacity: 0;
         width: 30rem;
         transition: all 0.2s;
         @include respond (iphone678){
-            width: 15rem;
-            height: auto;
+            width: 18rem;
+            height: 13rem;
          }
 
 
@@ -139,8 +139,8 @@ opacity: 0;
 
         @include respond (iphone678){
             margin-left: 1rem;
-            width: 15rem;
-            height: auto;
+            width: 18rem;
+            height: 13rem;
 
          }
 
@@ -343,12 +343,6 @@ border: 2px solid $yellow;
         margin-left: 1rem;
         margin-bottom: .5rem;
          }
-
-    
-  
-
-
-
 
 
 }

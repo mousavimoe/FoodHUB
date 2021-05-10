@@ -93,9 +93,9 @@
         z-index: 11;
 
         @include respond (iphone678){
-            height: 5rem;
-            width: 5rem;
-            left: 38rem;
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 32rem;
             top: 2.6rem;
           
         }
@@ -122,9 +122,9 @@
         z-index: 10;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
         @include respond (iphone678){
-            height: 5rem;
-            width: 5rem;
-            left: 38rem;
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 32rem;
             top: 2.6rem;
         }
 
