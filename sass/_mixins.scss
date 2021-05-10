@@ -76,10 +76,10 @@
     }
 
 
-//     @if $breakpoint == upto360 {       //=366x555px
+    @if $breakpoint == upto360 {       //=366x555px
 
-//         @media (min-width: 22.5em) and (max-width: 22.59em) { @content};
-//     }
+        @media (max-width: 22.73em) { @content};
+    }
 
 
 
