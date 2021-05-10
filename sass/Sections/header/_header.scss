@@ -19,7 +19,7 @@ header{
     top: 10rem;
 
     @include respond (iphone678){
-        top: 14rem;
+        top: 10rem;
         padding-left: 3rem;
     }
    
@@ -38,7 +38,7 @@ animation-delay: 1.1s;
 
 
 @include respond (iphone678){
-    font-size: 2.6rem;  
+    font-size: 2.4rem;  
 }
 
 
@@ -54,7 +54,7 @@ animation-delay: 1.1s;
 
 
     @include respond (iphone678){
-        letter-spacing: 3.5rem;
+        letter-spacing: 3.2rem;
  
     }
 
@@ -73,7 +73,7 @@ animation-delay: 1.1s;
 
 
     @include respond (iphone678){
-        font-size: 2.4rem;  
+        font-size: 2rem;  
     }
 
 
@@ -95,7 +95,7 @@ animation-delay: 1.1s;
         text-align: center;
 
         @include respond (iphone678){
-            letter-spacing: 3.1rem;
+            letter-spacing: 2.9rem;
         }
      
 
@@ -111,7 +111,7 @@ animation-delay: 1.1s;
         --animate-duration: 1.8s;
 
         @include respond (iphone678){
-            font-size: 1.7rem;  
+            font-size: 1.4rem;  
         }
        
 
