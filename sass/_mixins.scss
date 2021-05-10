@@ -72,13 +72,13 @@
 
 
     @if $breakpoint == IphoneX {       //=375x812px Iphone X/XS
-       @media (max-width: 25.74em) { @content};
+        @media (max-width: 25.74em) { @content};
     }
 
 
     @if $breakpoint == upto360 {       //=366x555px
 
-        @media (max-width: 22.73em) { @content};
+        @media (min-width: 2.5em) and (max-width: 22.875em) { @content};
     }
 
 

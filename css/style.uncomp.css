@@ -20,13 +20,13 @@
       padding-bottom: .5rem;
       padding-top: 2rem;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .heading-2 {
       font-size: 3.1rem;
       padding-bottom: .5rem;
       padding-top: 2rem;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .heading-2 {
       font-size: 3.1rem;
       padding-bottom: .5rem;
@@ -48,7 +48,7 @@
       padding-top: .5rem;
       margin-left: 1rem;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .heading-3 {
       font-size: 2.6rem;
       padding-bottom: .5rem;
@@ -197,10 +197,10 @@ body {
   @media (width: 25.75em) {
     .sec-contact-us {
       height: auto; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sec-contact-us {
       height: auto; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sec-contact-us {
       height: auto; } }
 
@@ -209,10 +209,10 @@ body {
   @media (width: 25.75em) {
     .maincont3 {
       flex-direction: column; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .maincont3 {
       flex-direction: column; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .maincont3 {
       flex-direction: column; } }
   .maincont3__address {
@@ -221,10 +221,10 @@ body {
     @media (width: 25.75em) {
       .maincont3__address {
         padding-left: 2rem; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .maincont3__address {
         padding-left: 2rem; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .maincont3__address {
         padding-left: 2rem; } }
   .maincont3__map {
@@ -236,10 +236,10 @@ body {
     @media (width: 25.75em) {
       .maincont3__map {
         margin-top: 3rem; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .maincont3__map {
         margin-top: 3rem; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .maincont3__map {
         margin-top: 3rem; } }
   .maincont3__line {
@@ -255,10 +255,10 @@ body {
   @media (width: 25.75em) {
     .googlemap {
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .googlemap {
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .googlemap {
       opacity: 1; } }
 
@@ -269,11 +269,11 @@ body {
     .sep {
       height: 0.5rem;
       width: 88%; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sep {
       height: 0.5rem;
       width: 88%; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sep {
       height: 0.5rem;
       width: 88%; } }
@@ -290,10 +290,10 @@ body {
   @media (width: 25.75em) {
     .icon {
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .icon {
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .icon {
       opacity: 1; } }
 
@@ -318,10 +318,10 @@ body {
   @media (width: 25.75em) {
     .txt-address {
       font-size: 1.9rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .txt-address {
       font-size: 1.9rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .txt-address {
       font-size: 1.9rem; } }
 
@@ -340,11 +340,11 @@ body {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-M.jpg); } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-L.jpg); } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-M.jpg); } }
@@ -362,12 +362,12 @@ body {
       display: flex;
       flex-direction: column;
       padding-top: 8rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .maincont2 {
       display: flex;
       flex-direction: column;
       padding-top: 8rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .maincont2 {
       display: flex;
       flex-direction: column;
@@ -388,7 +388,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .box1 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -396,7 +396,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .box1 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -419,7 +419,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .box2 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -427,7 +427,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .box2 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -449,14 +449,14 @@ body {
       padding-right: 2rem;
       padding-bottom: 3rem;
       text-align: left; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sub-box {
       transform: skewY(0);
       padding-left: 2rem;
       padding-right: 2rem;
       padding-bottom: 3rem;
       text-align: left; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sub-box {
       transform: skewY(0);
       padding-left: 2rem;
@@ -469,10 +469,10 @@ body {
   @media (width: 25.75em) {
     .txt-our-vision {
       font-size: 1.9rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .txt-our-vision {
       font-size: 1.9rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .txt-our-vision {
       font-size: 1.9rem; } }
 
@@ -483,11 +483,11 @@ body {
     .logowhite-cont {
       margin-top: 0;
       margin-bottom: 1%; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .logowhite-cont {
       margin-top: 0;
       margin-bottom: 1%; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .logowhite-cont {
       margin-top: 0;
       margin-bottom: 1%; } }
@@ -500,11 +500,11 @@ body {
     .logo-white {
       width: 10rem;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .logo-white {
       width: 10rem;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .logo-white {
       width: 9rem;
       opacity: 1; } }
@@ -519,11 +519,11 @@ body {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-M.jpg); } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-L.jpg); } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-M.jpg); } }
@@ -540,12 +540,12 @@ body {
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .txt-our-activity {
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .txt-our-activity {
       font-size: 1.9rem;
       margin-left: 1rem;
@@ -563,13 +563,13 @@ body {
       margin-left: 3rem;
       margin-right: 3rem;
       height: 85%; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .maincont1 {
       flex-direction: column;
       margin-left: 3rem;
       margin-right: 3rem;
       height: 85%; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .maincont1 {
       flex-direction: column;
       margin-left: 3rem;
@@ -589,7 +589,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .col1 {
       border: none;
       margin-bottom: 1.1rem;
@@ -597,7 +597,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .col1 {
       border: none;
       margin-bottom: 1.1rem;
@@ -619,7 +619,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .col2 {
       border: none;
       margin-bottom: 1.1rem;
@@ -627,7 +627,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .col2 {
       border: none;
       margin-bottom: 1.1rem;
@@ -649,7 +649,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .col3 {
       border: none;
       margin-bottom: 1.1rem;
@@ -657,7 +657,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .col3 {
       border: none;
       margin-bottom: 1.1rem;
@@ -678,7 +678,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .col4 {
       border: none;
       margin-bottom: 1.1rem;
@@ -686,7 +686,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .col4 {
       border: none;
       margin-bottom: 1.1rem;
@@ -706,10 +706,10 @@ body {
   @media (width: 25.75em) {
     .sec-about-us {
       height: auto; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .sec-about-us {
       height: auto; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .sec-about-us {
       height: auto; } }
 
@@ -741,12 +741,12 @@ body {
       margin-left: 3rem;
       margin-right: 3rem;
       font-size: 1.9rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .txt-about-us {
       margin-left: 3rem;
       margin-right: 3rem;
       font-size: 1.9rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .txt-about-us {
       margin-left: 3rem;
       margin-right: 3rem;
@@ -757,10 +757,10 @@ body {
   @media (width: 25.75em) {
     .js--txt-history {
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .js--txt-history {
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .js--txt-history {
       opacity: 1; } }
 
@@ -773,10 +773,10 @@ body {
   @media (width: 25.75em) {
     .maincont {
       flex-direction: column; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .maincont {
       flex-direction: column; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .maincont {
       flex-direction: column; } }
   .maincont__cont-left {
@@ -785,10 +785,10 @@ body {
     @media (width: 25.75em) {
       .maincont__cont-left {
         flex: 0 0 36%; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .maincont__cont-left {
         flex: 0 0 36%; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .maincont__cont-left {
         flex: 0 0 46%; } }
   .maincont .composition-1 {
@@ -800,11 +800,11 @@ body {
       .maincont .composition-1 {
         padding-top: 3rem;
         opacity: 1; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .maincont .composition-1 {
         padding-top: 3rem;
         opacity: 1; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .maincont .composition-1 {
         padding-top: 3rem;
         opacity: 1; } }
@@ -847,7 +847,7 @@ body {
       margin-left: 2rem;
       margin-right: 2rem;
       opacity: 1; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .composition-2 {
       display: flex;
       flex-wrap: wrap;
@@ -855,7 +855,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
       opacity: 1; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .composition-2 {
       display: flex;
       flex-wrap: wrap;
@@ -871,11 +871,11 @@ body {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
@@ -893,14 +893,14 @@ body {
           align-self: center;
           width: 30rem;
           height: 21rem; } }
-      @media (max-width: 23.4375em) {
+      @media (max-width: 25.74em) {
         .composition-2__photo-img1 {
           position: static;
           align-self: center;
           width: 30rem;
           height: 21rem;
           margin-bottom: .5rem; } }
-      @media (min-width: 22.5em) and (max-width: 22.875em) {
+      @media (min-width: 2.5em) and (max-width: 22.875em) {
         .composition-2__photo-img1 {
           position: static;
           align-self: center;
@@ -924,7 +924,7 @@ body {
           width: 30rem;
           height: 21rem;
           margin-left: 3rem; } }
-      @media (max-width: 23.4375em) {
+      @media (max-width: 25.74em) {
         .composition-2__photo-img2 {
           position: static;
           align-self: center;
@@ -932,7 +932,7 @@ body {
           height: 21rem;
           margin-left: 3rem;
           margin-bottom: .5rem; } }
-      @media (min-width: 22.5em) and (max-width: 22.875em) {
+      @media (min-width: 2.5em) and (max-width: 22.875em) {
         .composition-2__photo-img2 {
           position: static;
           align-self: center;
@@ -962,10 +962,10 @@ body {
       @media (width: 25.75em) {
         .composition-2__photo-img3 {
           display: none; } }
-      @media (max-width: 23.4375em) {
+      @media (max-width: 25.74em) {
         .composition-2__photo-img3 {
           display: none; } }
-      @media (min-width: 22.5em) and (max-width: 22.875em) {
+      @media (min-width: 2.5em) and (max-width: 22.875em) {
         .composition-2__photo-img3 {
           display: none; } }
     .composition-2__photo-img3:hover {
@@ -989,13 +989,13 @@ body {
           align-self: center;
           width: 30rem;
           height: 21rem; } }
-      @media (max-width: 23.4375em) {
+      @media (max-width: 25.74em) {
         .composition-2__photo-img4 {
           position: static;
           align-self: center;
           width: 30rem;
           height: 21rem; } }
-      @media (min-width: 22.5em) and (max-width: 22.875em) {
+      @media (min-width: 2.5em) and (max-width: 22.875em) {
         .composition-2__photo-img4 {
           position: static;
           align-self: center;
@@ -1022,14 +1022,14 @@ body {
           width: 30rem;
           height: 21rem;
           margin-left: 3rem; } }
-      @media (max-width: 23.4375em) {
+      @media (max-width: 25.74em) {
         .composition-2__photo-img5 {
           position: static;
           align-self: center;
           width: 30rem;
           height: 21rem;
           margin-left: 3rem; } }
-      @media (min-width: 22.5em) and (max-width: 22.875em) {
+      @media (min-width: 2.5em) and (max-width: 22.875em) {
         .composition-2__photo-img5 {
           position: static;
           align-self: center;
@@ -1159,7 +1159,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 11; }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .mobile-nav__button {
       left: 55rem;
       top: 2.6rem; } }
@@ -1167,7 +1167,7 @@ body {
     .mobile-nav__button {
       left: 60rem;
       top: 2.7rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .mobile-nav__button {
       left: 54rem;
       top: 2.7rem; } }
@@ -1185,7 +1185,7 @@ body {
   align-items: center;
   z-index: 10;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .mobile-nav__background {
       left: 55rem;
       top: 2.6rem; } }
@@ -1193,7 +1193,7 @@ body {
     .mobile-nav__background {
       left: 60rem;
       top: 2.7rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .mobile-nav__background {
       left: 54rem;
       top: 2.7rem; } }
@@ -1211,7 +1211,7 @@ header {
   @media (width: 25.75em) {
     header {
       background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-M.jpg); } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     header {
       background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-M.jpg); } }
 
@@ -1239,10 +1239,10 @@ header {
   @media (width: 25.75em) {
     .header-box1 {
       font-size: 2.8rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 25.74em) {
     .header-box1 {
       font-size: 2.7rem; } }
-  @media (min-width: 22.5em) and (max-width: 22.875em) {
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .header-box1 {
       font-size: 2.75rem; } }
   .header-box1__title {
@@ -1258,10 +1258,10 @@ header {
     @media (width: 25.75em) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
-    @media (max-width: 23.4375em) {
+    @media (max-width: 25.74em) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
-    @media (min-width: 22.5em) and (max-width: 22.875em) {
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
 
