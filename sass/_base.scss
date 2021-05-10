@@ -23,6 +23,10 @@ html{
         font-size: 46%;
     }
 
+    @include respond (iphone678){
+        font-size: 37%;
+    }
+
 }
 
 

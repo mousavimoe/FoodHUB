@@ -39,7 +39,12 @@ $padding-bottom-3:3rem;
 
 .normal__text{
     font-size: 1.6rem;
-    padding-top: $padding-top-2;    
+    padding-top: $padding-top-2;   
+    
+    @include respond (iphone678){
+        padding-top: $padding-top-1;   
+
+        }
 }
 
 
