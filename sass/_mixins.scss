@@ -70,7 +70,7 @@
 
 
     @if $breakpoint == iphonex {       //=375xmin635px Iphone X/XS = 375x812   [- ~176px nav+add height=min635px]
-        @media (width:412px) and (min-height:710px ) { @content};
+        @media (width:25.75em) and (min-height:48.375em) { @content};
     }
     @if $breakpoint == iphone678 {       //=375xmin556px Iphone 6/7/8 = 375x667   [- ~111px nav+add height=min556px]
         @media (width:23.4375em) and (min-height:34.75em ) { @content};
