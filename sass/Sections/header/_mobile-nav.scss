@@ -90,7 +90,7 @@
         z-index: 11;
 
         @include respond (iphone678){
-            left: 55rem;
+            left: 15rem;
             top: 2.6rem;
         }
 
@@ -118,7 +118,7 @@
 
     }
     @include respond (iphone678){
-                left: 55rem;
+                left: 15rem;
                 top: 2.6rem;
             }
 

@@ -722,7 +722,7 @@ body {
   z-index: 11; }
   @media (width: 375px) and (max-height: 667px) {
     .mobile-nav__button {
-      left: 55rem;
+      left: 15rem;
       top: 2.6rem; } }
 
 .mobile-nav__background {
@@ -741,7 +741,7 @@ body {
 
 @media (width: 375px) and (max-height: 667px) {
   .mobile-nav {
-    left: 55rem;
+    left: 15rem;
     top: 2.6rem; } }
 
 .toggle-icon {
