@@ -13,7 +13,7 @@
         height: 10rem;
         width: auto;
         @include respond (iphone678){
-            height: 5rem;
+            height: 8rem;
             width: auto;
         }
 
@@ -93,9 +93,9 @@
         z-index: 11;
 
         @include respond (iphone678){
-            height: 6rem;
-            width: 6rem;
-            left: 28rem;
+            height: 5rem;
+            width: 5rem;
+            left: 38rem;
             top: 2.6rem;
           
         }
@@ -121,14 +121,16 @@
         align-items: center;
         z-index: 10;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+        @include respond (iphone678){
+            height: 5rem;
+            width: 5rem;
+            left: 38rem;
+            top: 2.6rem;
+        }
 
     }
-    @include respond (iphone678){
-                height: 6rem;
-                width: 6rem;
-                left: 28rem;
-                top: 2.6rem;
-            }
+
+    
 
             
     
