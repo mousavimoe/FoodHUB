@@ -3,7 +3,7 @@
 .normal__text {
   font-size: 1.6rem;
   padding-top: 2rem; }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .normal__text {
       padding-top: 1rem; } }
 
@@ -29,7 +29,7 @@
       padding-bottom: .5rem;
       padding-top: 2rem;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .heading-2 {
       font-size: 3.1rem;
       padding-bottom: .5rem;
@@ -58,7 +58,7 @@
       padding-top: .5rem;
       margin-left: 1rem;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .heading-3 {
       font-size: 2.6rem;
       padding-bottom: .5rem;
@@ -131,7 +131,7 @@ html {
   @media (width: 412px) and (max-height: 846px) {
     html {
       font-size: 46%; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     html {
       font-size: 37%; } }
 
@@ -162,7 +162,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .sec-contact-us {
       height: auto; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sec-contact-us {
       height: auto; } }
 
@@ -174,7 +174,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .maincont3 {
       flex-direction: column; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .maincont3 {
       flex-direction: column; } }
   .maincont3__address {
@@ -186,7 +186,7 @@ body {
     @media (width: 375px) and (max-height: 812px) {
       .maincont3__address {
         padding-left: 2rem; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .maincont3__address {
         padding-left: 2rem; } }
   .maincont3__map {
@@ -201,7 +201,7 @@ body {
     @media (width: 375px) and (max-height: 812px) {
       .maincont3__map {
         margin-top: 3rem; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .maincont3__map {
         margin-top: 3rem; } }
   .maincont3__line {
@@ -220,7 +220,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .googlemap {
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .googlemap {
       opacity: 1; } }
 
@@ -235,7 +235,7 @@ body {
     .sep {
       height: 0.5rem;
       width: 88%; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sep {
       height: 0.5rem;
       width: 88%; } }
@@ -255,7 +255,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .icon {
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .icon {
       opacity: 1; } }
 
@@ -283,7 +283,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .txt-address {
       font-size: 1.9rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .txt-address {
       font-size: 1.9rem; } }
 
@@ -306,7 +306,7 @@ body {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-L.jpg); } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-L.jpg); } }
@@ -323,7 +323,7 @@ body {
       display: flex;
       flex-direction: column;
       padding-top: 8rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .maincont2 {
       display: flex;
       flex-direction: column;
@@ -352,7 +352,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .box1 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -383,7 +383,7 @@ body {
       transform: skewY(0);
       border-radius: 2px;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .box2 {
       margin-bottom: 4rem;
       margin-left: 5rem;
@@ -412,7 +412,7 @@ body {
       padding-right: 2rem;
       padding-bottom: 3rem;
       text-align: left; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sub-box {
       transform: skewY(0);
       padding-left: 2rem;
@@ -428,7 +428,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .txt-our-vision {
       font-size: 1.9rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .txt-our-vision {
       font-size: 1.9rem; } }
 
@@ -443,7 +443,7 @@ body {
     .logowhite-cont {
       margin-top: 0;
       margin-bottom: 1%; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .logowhite-cont {
       margin-top: 0;
       margin-bottom: 1%; } }
@@ -460,7 +460,7 @@ body {
     .logo-white {
       width: 10rem;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .logo-white {
       width: 10rem;
       opacity: 1; } }
@@ -479,7 +479,7 @@ body {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-L.jpg); } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-L.jpg); } }
@@ -501,7 +501,7 @@ body {
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .txt-our-activity {
       font-size: 1.9rem;
       margin-left: 1rem;
@@ -525,7 +525,7 @@ body {
       margin-left: 3rem;
       margin-right: 3rem;
       height: 85%; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .maincont1 {
       flex-direction: column;
       margin-left: 3rem;
@@ -553,7 +553,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col1 {
       border: none;
       margin-bottom: 1.1rem;
@@ -583,7 +583,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col2 {
       border: none;
       margin-bottom: 1.1rem;
@@ -613,7 +613,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col3 {
       border: none;
       margin-bottom: 1.1rem;
@@ -642,7 +642,7 @@ body {
       margin-left: 0;
       flex: 0 0 auto;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .col4 {
       border: none;
       margin-bottom: 1.1rem;
@@ -662,7 +662,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .sec-about-us {
       height: auto; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .sec-about-us {
       height: auto; } }
 
@@ -699,7 +699,7 @@ body {
       margin-left: 3rem;
       margin-right: 3rem;
       font-size: 1.9rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .txt-about-us {
       margin-left: 3rem;
       margin-right: 3rem;
@@ -713,7 +713,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .js--txt-history {
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .js--txt-history {
       opacity: 1; } }
 
@@ -729,7 +729,7 @@ body {
   @media (width: 375px) and (max-height: 812px) {
     .maincont {
       flex-direction: column; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .maincont {
       flex-direction: column; } }
   .maincont__cont-left {
@@ -741,7 +741,7 @@ body {
     @media (width: 375px) and (max-height: 812px) {
       .maincont__cont-left {
         flex: 0 0 36%; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .maincont__cont-left {
         flex: 0 0 36%; } }
   .maincont .composition-1 {
@@ -757,7 +757,7 @@ body {
       .maincont .composition-1 {
         padding-top: 3rem;
         opacity: 1; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .maincont .composition-1 {
         padding-top: 3rem;
         opacity: 1; } }
@@ -775,7 +775,7 @@ body {
         width: 30rem;
         margin-left: 3rem;
         transition: all 0.2s; }
-        @media (width: 375px) and (max-height: 667px) {
+        @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
           .maincont .composition-1__photo-img7 {
             margin-left: 1rem; } }
       .maincont .composition-1__photo-img6:hover {
@@ -811,7 +811,7 @@ body {
       margin-left: 1rem;
       margin-right: 1rem;
       opacity: 1; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .composition-2 {
       display: flex;
       flex-wrap: wrap;
@@ -830,7 +830,7 @@ body {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
@@ -855,7 +855,7 @@ body {
           width: 30rem;
           height: 21rem;
           margin-bottom: .5rem; } }
-      @media (width: 375px) and (max-height: 667px) {
+      @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
         .composition-2__photo-img1 {
           position: static;
           align-self: center;
@@ -888,7 +888,7 @@ body {
           height: 21rem;
           margin-left: 3rem;
           margin-bottom: .5rem; } }
-      @media (width: 375px) and (max-height: 667px) {
+      @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
         .composition-2__photo-img2 {
           position: static;
           align-self: center;
@@ -913,7 +913,7 @@ body {
       @media (width: 375px) and (max-height: 812px) {
         .composition-2__photo-img3 {
           display: none; } }
-      @media (width: 375px) and (max-height: 667px) {
+      @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
         .composition-2__photo-img3 {
           display: none; } }
     .composition-2__photo-img3:hover {
@@ -939,7 +939,7 @@ body {
           align-self: center;
           width: 30rem;
           height: 21rem; } }
-      @media (width: 375px) and (max-height: 667px) {
+      @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
         .composition-2__photo-img4 {
           position: static;
           align-self: center;
@@ -970,7 +970,7 @@ body {
           width: 30rem;
           height: 21rem;
           margin-left: 3rem; } }
-      @media (width: 375px) and (max-height: 667px) {
+      @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
         .composition-2__photo-img5 {
           position: static;
           align-self: center;
@@ -1113,7 +1113,7 @@ body {
     .mobile-nav__button {
       left: 55rem;
       top: 2.6rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .mobile-nav__button {
       left: 55rem;
       top: 2.6rem; } }
@@ -1139,7 +1139,7 @@ body {
     .mobile-nav__background {
       left: 55rem;
       top: 2.6rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .mobile-nav__background {
       left: 55rem;
       top: 2.6rem; } }
@@ -1160,7 +1160,7 @@ header {
   @media (width: 375px) and (max-height: 812px) {
     header {
       background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-L.jpg); } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     header {
       background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-L.jpg); } }
 
@@ -1185,7 +1185,7 @@ header {
   @media (width: 375px) and (max-height: 812px) {
     .header-box1 {
       font-size: 2.7rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .header-box1 {
       font-size: 2.7rem; } }
   .header-box1__title {
@@ -1201,7 +1201,7 @@ header {
     @media (width: 375px) and (max-height: 812px) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .header-box1__title {
         letter-spacing: 3.6588541666667rem; } }
 
@@ -1216,7 +1216,7 @@ header {
   @media (width: 375px) and (max-height: 812px) {
     .header-box2 {
       font-size: 2.4rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .header-box2 {
       font-size: 2.4rem; } }
   .header-box2__sub1 {
@@ -1231,7 +1231,7 @@ header {
     @media (width: 375px) and (max-height: 812px) {
       .header-box2__sub1 {
         letter-spacing: 3.1rem; } }
-    @media (width: 375px) and (max-height: 667px) {
+    @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
       .header-box2__sub1 {
         letter-spacing: 3.1rem; } }
 
@@ -1246,7 +1246,7 @@ header {
   @media (width: 375px) and (max-height: 812px) {
     .header-box3 {
       font-size: 1.7rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .header-box3 {
       font-size: 1.7rem; } }
   .header-box3__sub2 {
@@ -1272,7 +1272,7 @@ header {
   @media (width: 375px) and (max-height: 812px) {
     .btn-box {
       padding-top: 31.637rem; } }
-  @media (width: 375px) and (max-height: 667px) {
+  @media (width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     .btn-box {
       padding-top: 31.637rem; } }
 
