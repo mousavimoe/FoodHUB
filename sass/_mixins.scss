@@ -78,7 +78,7 @@
 
     @if $breakpoint == upto360 {       //=366x555px
 
-        @media (min-width: 22.5em) and (max-width: 22.875em) { @content};
+        @media (min-width: 22.5em) and (max-width: 22.59em) { @content};
     }
 
 
