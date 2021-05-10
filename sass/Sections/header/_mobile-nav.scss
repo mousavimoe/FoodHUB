@@ -1,7 +1,10 @@
 
 .mobile-nav{
 
-    
+    @include respond (phone){
+       
+        display: none;
+    }
 
     &__logo{
 
@@ -10,7 +13,7 @@
         height: 10rem;
         width: auto;
         @include respond (iphone678){
-            height: 2rem;
+            height: 5rem;
             width: auto;
         }
 
@@ -90,8 +93,11 @@
         z-index: 11;
 
         @include respond (iphone678){
-            left: 15rem;
+            height: 6rem;
+            width: 6rem;
+            left: 28rem;
             top: 2.6rem;
+          
         }
 
 
@@ -118,7 +124,9 @@
 
     }
     @include respond (iphone678){
-                left: 15rem;
+                height: 6rem;
+                width: 6rem;
+                left: 28rem;
                 top: 2.6rem;
             }
 
