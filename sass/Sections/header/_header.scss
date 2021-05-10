@@ -19,7 +19,8 @@ header{
     top: 10rem;
 
     @include respond (iphone678){
-        top: 20rem;
+        top: 14rem;
+        padding-left: 3rem;
     }
    
     
@@ -146,7 +147,7 @@ animation-delay: 1.1s;
     z-index: 0;
 
     @include respond (iphone678){
-        padding-top: 21.637rem;
+        padding-top: 15rem;
     }
 
    

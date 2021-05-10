@@ -145,4 +145,10 @@ height: auto;
     margin-top: 5rem;
     font-size: 2rem;
     color: #1a1a1a;
+
+    @include respond (iphone678){
+        margin-top: 2rem;
+
+        }
+
 }

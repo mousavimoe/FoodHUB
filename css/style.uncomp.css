@@ -104,7 +104,7 @@ html {
   scroll-behavior: smooth; }
   @media (width: 375px) and (max-height: 667px) {
     html {
-      font-size: 40%; } }
+      font-size: 42%; } }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -212,6 +212,9 @@ body {
   margin-top: 5rem;
   font-size: 2rem;
   color: #1a1a1a; }
+  @media (width: 375px) and (max-height: 667px) {
+    .signature {
+      margin-top: 2rem; } }
 
 .sec-our-vision {
   background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision.jpg);
@@ -297,7 +300,7 @@ body {
   opacity: 0; }
   @media (width: 375px) and (max-height: 667px) {
     .logo-white {
-      width: 10rem;
+      width: 7rem;
       opacity: 1; } }
 
 .sec-our-activity {
@@ -677,7 +680,7 @@ body {
   width: auto; }
   @media (width: 375px) and (max-height: 667px) {
     .mobile-nav__logo {
-      height: 8rem;
+      height: 7.5rem;
       width: auto; } }
 
 .mobile-nav__list {
@@ -772,7 +775,8 @@ header {
   top: 10rem; }
   @media (width: 375px) and (max-height: 667px) {
     .herotext-cont {
-      top: 20rem; } }
+      top: 14rem;
+      padding-left: 3rem; } }
 
 .header-box1 {
   text-align: center;
@@ -837,7 +841,7 @@ header {
   z-index: 0; }
   @media (width: 375px) and (max-height: 667px) {
     .btn-box {
-      padding-top: 21.637rem; } }
+      padding-top: 15rem; } }
 
 .btn-hide {
   animation: fadein 1.8s; }
