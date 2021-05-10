@@ -11,21 +11,15 @@
         @media (min-width: 26.5625em) { @content};
     }
 
-    @if $breakpoint == myphone {       //=412x780px
-        @media (width: 412px) and (min-height: 720px) { @content};
+    @if $breakpoint == myphone {       //=412x780px               412px 718px
+        @media (width: 412px) and (max-height: 846px) { @content};
     }
 
     @if $breakpoint == iphonex {       //=375xmin635px Iphone X/XS = 375x812   [- ~176px nav+add height=min635px]
-        @media (width:23.4375em) and (min-height:39.6875em ) { @content};
+        @media (width:375px) and (max-height:812px ) { @content};
     }
     @if $breakpoint == iphone678 {       //=375xmin556px Iphone 6/7/8 = 375x667   [- ~111px nav+add height=min556px]
-        @media (width:23.4375em) and (min-height:34.75em ) { @content};
-    }
-
-
-    @if $breakpoint == upto360 {       //=366x555px
-
-        @media (min-width: 2.5em) and (max-width: 22.875em) { @content};
+        @media (width:375px) and (max-height:667px ) { @content};
     }
 
 
