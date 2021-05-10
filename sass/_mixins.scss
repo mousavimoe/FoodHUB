@@ -72,7 +72,7 @@
 
 
     @if $breakpoint == IphoneX {       //=375x812px Iphone X/XS
-        @media (max-width: 23.4375em) { @content};
+        @media (max-width: 22.6em) { @content};
     }
 
 
