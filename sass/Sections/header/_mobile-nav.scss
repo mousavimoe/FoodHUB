@@ -85,15 +85,30 @@
         align-items: center;
         z-index: 11;
 
-        @include respond (myphone){
+
+        
+
+            @include respond (myphone){
             left:60rem;
             top: 2.7rem;
-
             }
+
+            @include respond (iphonex){
+                left: 55rem;
+                top: 2.6rem;
+                }
+
+            @include respond (iphone678){
+                    left: 55rem;
+                    top: 2.6rem;
+                }
+    
+            
+
             @include respond (upto360){
                 left:54rem;
                 top: 2.7rem;
-                }
+            }
 
 
 
@@ -116,13 +131,24 @@
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
         
+
+            
         @include respond (myphone){
             left:60rem;
             top: 2.7rem;
 
             }
 
-            @include respond (upto360){
+          @include respond (iphonex){
+                left: 55rem;
+                top: 2.6rem;
+                }
+        @include respond (iphone678){
+                    left: 55rem;
+                    top: 2.6rem;
+                }
+
+        @include respond (upto360){
                 left:54rem;
                 top: 2.7rem;
     

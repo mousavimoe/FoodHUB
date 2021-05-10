@@ -5,43 +5,31 @@ $brown: #4f372d;
 $brown-dark: #201713;
 $brown-darker: #0e0a08;
 $brown-darkest: #0e0a08;
-
 $red-light: #d8404b;
 $red: #cc2a36;
 $red-dark: #a2212b;
 $red-darker: #861b24;
 $red-darkest: #6a161c;
-
-
 $yellow-light:#f0d370;
 $yellow:#edc951;
 $yellow-dark:#eabf32;
-
 $cyan-light: #3feafd;
 $cyan: #09b9cc;
 $cyan-dark: #02828f;
-
 $orange-light:#ee8060;
 $orange:#eb6841;
 $orange-dark:#66200b;
-
-
-
 $gray-light: #eeeeee;
 $gray: #e9e9e9;
 $gray-dark: rgb(51, 51, 51);
 $gray-darker: #1a1a1a;
 $gray-darkest: #161616;
-
 $black: #000;
 $white: #fff;
-
-
 
 $padding-top-1:1rem;
 $padding-top-2:2rem;
 $padding-top-3:3rem;
-
 $padding-bottom-1:1rem;
 $padding-bottom-2:2rem;
 $padding-bottom-3:3rem;
@@ -70,19 +58,29 @@ $padding-bottom-3:3rem;
         font-size: 3.1rem;    
         padding-bottom: .5rem;
         padding-top: 2rem;
-
+        opacity: 1;
         }
 
-    @include respond (farnazphone){
+        @include respond (iphonex){
             font-size: 3.1rem;    
             padding-bottom: .5rem;
             padding-top: 2rem;
-    
+            opacity: 1;
+            }
+
+            @include respond (iphone678){
+                font-size: 3.1rem;    
+                padding-bottom: .5rem;
+                padding-top: 2rem;
+                opacity: 1;
+                }
+
+    @include respond (upto360){
+            font-size: 3.1rem;    
+            padding-bottom: .5rem;
+            padding-top: 2rem;
+            opacity: 1;
         }
-
-
-
-
 }
 .heading-3{
     font-weight: 400;
@@ -99,14 +97,26 @@ $padding-bottom-3:3rem;
         padding-bottom: .5rem;
         padding-top: .5rem;
         margin-left: 1rem;
+        opacity: 1;
 }
 
-   @include respond (farnazphone){
+@include respond (iphonex){
     font-size: 2.6rem;  
     padding-bottom: .5rem;
     padding-top: .5rem;
     margin-left: 1rem;
+    opacity: 1;
 }
+
+@include respond (iphone678){
+    font-size: 2.6rem;  
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    margin-left: 1rem;
+    opacity: 1;
+}
+
+
 
 }
 
@@ -119,7 +129,7 @@ $padding-bottom-3:3rem;
 }
 
 .c-red{
-    color: $red;  
+    color: $red; 
 }
 
 
@@ -151,109 +161,5 @@ $desktop1-max: 119.9375;
 
 
 $desktop2: 120rem; //1920px<
-
-
-
-
-
-// ************************IPHONE6/7/8************************ //
-@media only screen and (width : 375px) and (height : 667px) {
-    /* Styles */
-
-
-    }
-
-    
-// ******************************************************* //
-
-
-// ************************IPHONE6/7/8 Plus************************ //
-@media only screen and (width : 414px) and (height : 736px) {
-    /* Styles */
-
-
-    }
-
-    
-// ******************************************************* //
-
-
-// ************************IPHONE5/SE************************ //
-@media only screen and (width : 320px) and (height : 568px) {
-    /* Styles */
-
-
-    }
-
-    
-// ******************************************************* //
-
-
-
-// ************************IPHONEX************************ //
-@media only screen and (width : 375px) and (height : 812px) {
-    /* Styles */
-
-
-    }
-
-    
-// ******************************************************* //
-
-
-// ************************IPAD************************ //
-@media only screen and (width : 768px) and (height : 1024px) {
-    /* Styles */
-
-
-    }
-    
-// ******************************************************* //
-
-
-// ************************IPAD PRO************************ //
-@media only screen and (width : 1024px) and (height : 1366px) {
-    /* Styles */
-
-
-    }
-// ******************************************************* //
-
-
-// ************************IPHONE 6/7/8************************ //
-@media only screen and (width : 375px) and (height : 667px) {
-    /* Styles */
-
-
-    }
-// ******************************************************* //
-
-
-// ************************IPHONE 6/7/8 PLUS************************ //
-@media only screen and (width : 414px) and (height : 736px) {
-    /* Styles */
-
-
-    }
-// ******************************************************* //
-
-
-// ************************SAMSUNG GALAXY J6+************************ //
-@media only screen and (width : 360px) and (height : 640px) {
-    /* Styles */
-
-
-    }
-// ******************************************************* //
-
-
-// ************************LAPTOP-CHROME************************ //
-@media only screen and (width : 1366px) and (height : 625px) {
-    /* Styles */
-
-
-    }
-// ******************************************************* //
-
 
 

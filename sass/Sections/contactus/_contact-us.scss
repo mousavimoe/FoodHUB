@@ -2,9 +2,12 @@
 
 height: auto;
 @include respond (myphone){
-height: auto;
-}
-height: 60rem;
+height: auto;}
+
+@include respond (iphonex){
+    height: auto;}
+    @include respond (iphone678){
+        height: auto;}
 @include respond (upto360){
 height: auto;
 }
@@ -14,6 +17,14 @@ height: auto;
     display: flex;
 
     @include respond (myphone){
+        flex-direction: column;
+     }
+
+     @include respond (iphonex){
+        flex-direction: column;
+     }
+
+     @include respond (iphone678){
         flex-direction: column;
      }
 
@@ -30,14 +41,18 @@ height: auto;
 
         @include respond (myphone){
             padding-left: 2rem;
-            
-    
+         }
+
+         @include respond (iphonex){
+            padding-left: 2rem;
+         }
+
+         @include respond (iphone678){
+            padding-left: 2rem;
          }
 
          @include respond (upto360){
             padding-left: 2rem;
-            
-    
          }
 
 
@@ -54,6 +69,14 @@ height: auto;
         @include respond (myphone){
             margin-top: 3rem;
          }
+
+         @include respond (iphonex){
+            margin-top: 3rem;
+         }
+         @include respond (iphone678){
+            margin-top: 3rem;
+         }
+
          @include respond (upto360){
             margin-top: 3rem;
          }
@@ -78,12 +101,39 @@ height: auto;
 .googlemap{
     height: 95%;
     width: 90%;
+    opacity: 0;
+
+    @include respond (myphone){
+        opacity: 1;
+    }
+
+    @include respond (iphonex){
+        opacity: 1;
+    }
+
+    @include respond (iphone678){
+        opacity: 1;
+    }
+    
+    @include respond (upto360){
+        opacity: 1;
+    }
+
 }
 
 .sep{
     background-color: $red;
     height: 88%;
     @include respond (myphone){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (iphonex){
+        height: 0.5rem;
+        width: 88%;
+    }
+    @include respond (iphone678){
         height: 0.5rem;
         width: 88%;
     }
@@ -106,6 +156,24 @@ height: auto;
     height: 4rem;
     fill: $red-light;
     margin-left: 3%;
+    opacity: 0;
+
+    @include respond (myphone){
+        opacity: 1;
+    }
+
+    @include respond (iphonex){
+        opacity: 1;
+    }
+
+    @include respond (iphone678){
+        opacity: 1;
+    }
+
+    @include respond (upto360){
+        opacity: 1;
+    }
+ 
 }
 
 
@@ -113,7 +181,6 @@ height: auto;
     display: flex;
     justify-content: left;
     align-items: center;
-
 }
 
 .phonebox{
@@ -138,6 +205,14 @@ height: auto;
     @include respond (myphone){
     font-size: 1.9rem;
     }
+
+    @include respond (iphonex){
+        font-size: 1.9rem;
+        }
+
+        @include respond (iphone678){
+            font-size: 1.9rem;
+            }
 
     @include respond (upto360){
         font-size: 1.9rem;
