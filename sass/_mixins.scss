@@ -56,7 +56,6 @@
         @media (max-width: 48em) { @content};
     }
 
- 
 
 
     @if $breakpoint == phone {       //=600px
@@ -71,7 +70,7 @@
     }
 
 
-    @if $breakpoint == IphoneX {       //=375x812px Iphone X/XS
+    @if $breakpoint == iphonex {       //=375x812px Iphone X/XS
         @media (max-width: 25.74em) { @content};
     }
 
@@ -80,115 +79,6 @@
 
         @media (min-width: 2.5em) and (max-width: 22.875em) { @content};
     }
-
-
-
-
-
-
-
-
-
-
-    @if $breakpoint == ipad {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == iphonex {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == iphone6-7-8-plus {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == iphone6-7-8 {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == iphone6-7-8-plus {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    
-    @if $breakpoint == iphone5-se {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == pixel2 {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-    @if $breakpoint == pixel2-xl {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-    @if $breakpoint == surface-duo {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-    @if $breakpoint == galaxy-fold {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == galaxy-s5 {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-    @if $breakpoint == moto-g4 {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == android-tablet {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-    @if $breakpoint == microsoft-surface {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == microsoft-surface-pro {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == my-phone {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == my-laptop {
-
-        @media (max-width: 600px) { @content};
-    }
-
-    @if $breakpoint == my-pc {
-
-        @media (max-width: 600px) { @content};
-    }
-
-
-
-
 
 
 

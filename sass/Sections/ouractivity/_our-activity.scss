@@ -9,7 +9,7 @@
         background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
       height: auto;
       background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
    }
@@ -38,7 +38,7 @@
         margin-right: 1rem;
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -68,7 +68,7 @@
         height: 85%;
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
       flex-direction: column;
       margin-left: 3rem;
       margin-right: 3rem;
@@ -100,7 +100,7 @@
         opacity: 1;
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -139,7 +139,7 @@
         opacity: 1;
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -178,7 +178,7 @@
 
 
        
-    @include respond (IphoneX){
+    @include respond (iphonex){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -222,7 +222,7 @@
 
 
        
-    @include respond (IphoneX){
+    @include respond (iphonex){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;

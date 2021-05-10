@@ -5,6 +5,11 @@ header{
     position: relative;
     background-position: center;
 
+
+    @include respond (iphonex){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+         }
+
     @include respond (myphone){
         background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-M.jpg);
          }
@@ -34,7 +39,18 @@ header{
     
     }
 
+
+
+    
+  
+
+
+
     @include respond (myphone){
+        top: 20rem;
+    }
+
+    @include respond (iphonex){
         top: 20rem;
     }
 
@@ -60,7 +76,7 @@ animation-delay: 1.1s;
     font-size: 2.8rem;  
 }
 
-@include respond (IphoneX){
+@include respond (iphonex){
     font-size: 2.7rem;  
 }
 
@@ -91,7 +107,7 @@ animation-delay: 1.1s;
         letter-spacing: 3.6588541666667rem;
     }
 
-    @include respond (IphoneX){
+    @include respond (iphonex){
         letter-spacing: 3.6588541666667rem;
     }
 
@@ -112,11 +128,19 @@ animation-delay: 1.1s;
     --animate-duration: 1.8s;
 
 
+
+
+
+
     @include respond (myphone){
         font-size: 2.4rem;  
     }
 
-    @include respond (farnazphone){
+    @include respond (iphonex){
+        font-size: 2.4rem;  
+    }
+
+    @include respond (upto360){
         font-size: 2.4rem;  
     }
     
@@ -138,11 +162,17 @@ animation-delay: 1.1s;
             letter-spacing: 4.19296875rem;
         }
 
+     
+
         @include respond (myphone){
             letter-spacing: 3.1rem;
         }
 
-        @include respond (farnazphone){
+        @include respond (iphonex){
+            letter-spacing: 3.1rem;
+        }
+
+        @include respond (upto360){
             letter-spacing: 3.1rem;
         }    
     }}
@@ -157,11 +187,20 @@ animation-delay: 1.1s;
 
 
 
+
+
+       
+
         @include respond (myphone){
             font-size: 1.7rem;  
         }
 
-        @include respond (farnazphone){
+        @include respond (iphonex){
+            font-size: 1.7rem;  
+        }
+
+
+        @include respond (upto360){
             font-size: 1.7rem;  
         }
 
@@ -213,7 +252,12 @@ animation-delay: 1.1s;
         padding-top: 31.637rem;
     }
 
-    @include respond (farnazphone){
+
+    @include respond (iphonex){
+        padding-top: 31.637rem;
+    }
+
+    @include respond (upto360){
         padding-top: 31.637rem;
     }
 }

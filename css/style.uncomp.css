@@ -20,12 +20,6 @@
       padding-bottom: .5rem;
       padding-top: 2rem;
       opacity: 1; } }
-  @media (max-width: 25.74em) {
-    .heading-2 {
-      font-size: 3.1rem;
-      padding-bottom: .5rem;
-      padding-top: 2rem;
-      opacity: 1; } }
   @media (min-width: 2.5em) and (max-width: 22.875em) {
     .heading-2 {
       font-size: 3.1rem;
@@ -42,13 +36,6 @@
   font-family: 'Original Surfer', cursive;
   opacity: 0; }
   @media (width: 25.75em) {
-    .heading-3 {
-      font-size: 2.6rem;
-      padding-bottom: .5rem;
-      padding-top: .5rem;
-      margin-left: 1rem;
-      opacity: 1; } }
-  @media (max-width: 25.74em) {
     .heading-3 {
       font-size: 2.6rem;
       padding-bottom: .5rem;
@@ -871,10 +858,6 @@ body {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
         border: 1.9px solid #edc951; } }
-    @media (max-width: 25.74em) {
-      .composition-2__photo {
-        box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
-        border: 1.9px solid #edc951; } }
     @media (min-width: 2.5em) and (max-width: 22.875em) {
       .composition-2__photo {
         box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.8);
@@ -1159,14 +1142,14 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 11; }
-  @media (max-width: 25.74em) {
-    .mobile-nav__button {
-      left: 55rem;
-      top: 2.6rem; } }
   @media (width: 25.75em) {
     .mobile-nav__button {
       left: 60rem;
       top: 2.7rem; } }
+  @media (max-width: 25.74em) {
+    .mobile-nav__button {
+      left: 55rem;
+      top: 2.6rem; } }
   @media (min-width: 2.5em) and (max-width: 22.875em) {
     .mobile-nav__button {
       left: 54rem;
@@ -1185,14 +1168,14 @@ body {
   align-items: center;
   z-index: 10;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
-  @media (max-width: 25.74em) {
-    .mobile-nav__background {
-      left: 55rem;
-      top: 2.6rem; } }
   @media (width: 25.75em) {
     .mobile-nav__background {
       left: 60rem;
       top: 2.7rem; } }
+  @media (max-width: 25.74em) {
+    .mobile-nav__background {
+      left: 55rem;
+      top: 2.6rem; } }
   @media (min-width: 2.5em) and (max-width: 22.875em) {
     .mobile-nav__background {
       left: 54rem;
@@ -1208,6 +1191,9 @@ header {
   height: 100vh;
   position: relative;
   background-position: center; }
+  @media (max-width: 25.74em) {
+    header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-L.jpg); } }
   @media (width: 25.75em) {
     header {
       background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/mainbg-M.jpg); } }
@@ -1228,6 +1214,9 @@ header {
     .herotext-cont {
       top: 12.6822916666667rem; } }
   @media (width: 25.75em) {
+    .herotext-cont {
+      top: 20rem; } }
+  @media (max-width: 25.74em) {
     .herotext-cont {
       top: 20rem; } }
 
@@ -1273,6 +1262,12 @@ header {
   @media (width: 25.75em) {
     .header-box2 {
       font-size: 2.4rem; } }
+  @media (max-width: 25.74em) {
+    .header-box2 {
+      font-size: 2.4rem; } }
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
+    .header-box2 {
+      font-size: 2.4rem; } }
   .header-box2__sub1 {
     color: #fff;
     text-transform: uppercase;
@@ -1285,6 +1280,12 @@ header {
     @media (width: 25.75em) {
       .header-box2__sub1 {
         letter-spacing: 3.1rem; } }
+    @media (max-width: 25.74em) {
+      .header-box2__sub1 {
+        letter-spacing: 3.1rem; } }
+    @media (min-width: 2.5em) and (max-width: 22.875em) {
+      .header-box2__sub1 {
+        letter-spacing: 3.1rem; } }
 
 .header-box3 {
   text-align: center;
@@ -1292,6 +1293,12 @@ header {
   animation-delay: 1.7s;
   --animate-duration: 1.8s; }
   @media (width: 25.75em) {
+    .header-box3 {
+      font-size: 1.7rem; } }
+  @media (max-width: 25.74em) {
+    .header-box3 {
+      font-size: 1.7rem; } }
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .header-box3 {
       font-size: 1.7rem; } }
   .header-box3__sub2 {
@@ -1321,6 +1328,12 @@ header {
     .btn-box {
       padding-top: 22.6375rem; } }
   @media (width: 25.75em) {
+    .btn-box {
+      padding-top: 31.637rem; } }
+  @media (max-width: 25.74em) {
+    .btn-box {
+      padding-top: 31.637rem; } }
+  @media (min-width: 2.5em) and (max-width: 22.875em) {
     .btn-box {
       padding-top: 31.637rem; } }
 

@@ -4,7 +4,7 @@ height: auto;
 @include respond (myphone){
 height: auto;}
 
-@include respond (IphoneX){
+@include respond (iphonex){
     height: auto;}
 
 @include respond (upto360){
@@ -19,7 +19,7 @@ height: auto;
         flex-direction: column;
      }
 
-     @include respond (IphoneX){
+     @include respond (iphonex){
         flex-direction: column;
      }
 
@@ -38,7 +38,7 @@ height: auto;
             padding-left: 2rem;
          }
 
-         @include respond (IphoneX){
+         @include respond (iphonex){
             padding-left: 2rem;
          }
 
@@ -61,7 +61,7 @@ height: auto;
             margin-top: 3rem;
          }
 
-         @include respond (IphoneX){
+         @include respond (iphonex){
             margin-top: 3rem;
          }
 
@@ -95,7 +95,7 @@ height: auto;
         opacity: 1;
     }
 
-    @include respond (IphoneX){
+    @include respond (iphonex){
         opacity: 1;
     }
     
@@ -113,7 +113,7 @@ height: auto;
         width: 88%;
     }
 
-    @include respond (IphoneX){
+    @include respond (iphonex){
         height: 0.5rem;
         width: 88%;
     }
@@ -142,7 +142,7 @@ height: auto;
         opacity: 1;
     }
 
-    @include respond (IphoneX){
+    @include respond (iphonex){
         opacity: 1;
     }
 
@@ -182,7 +182,7 @@ height: auto;
     font-size: 1.9rem;
     }
 
-    @include respond (IphoneX){
+    @include respond (iphonex){
         font-size: 1.9rem;
         }
 

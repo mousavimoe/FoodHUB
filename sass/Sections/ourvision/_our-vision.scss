@@ -11,7 +11,7 @@
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
            }
 
-           @include respond (IphoneX){
+           @include respond (iphonex){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
@@ -44,7 +44,7 @@
     }
 
     
-    @include respond (IphoneX){
+    @include respond (iphonex){
         display: flex;
         flex-direction: column;  
         padding-top: 8rem;
@@ -79,7 +79,7 @@ opacity: 0;
 
 }
 
-@include respond (IphoneX){
+@include respond (iphonex){
     margin-bottom: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -122,7 +122,7 @@ opacity: 0;
 
        }
 
-       @include respond (IphoneX){
+       @include respond (iphonex){
         margin-bottom: 4rem;
         margin-left: 5rem;
         margin-right: 5rem;
@@ -162,7 +162,7 @@ opacity: 0;
 
            }
 
-           @include respond (IphoneX){
+           @include respond (iphonex){
             transform: skewY(0);
             padding-left: 2rem;
             padding-right: 2rem;
@@ -193,7 +193,7 @@ opacity: 0;
             font-size: 1.9rem;
         }
 
-        @include respond (IphoneX){
+        @include respond (iphonex){
             font-size: 1.9rem;
         }
 
@@ -212,7 +212,7 @@ margin-top: 4%;
     margin-bottom: 1%;
 }
 
-@include respond (IphoneX){
+@include respond (iphonex){
     margin-top: 0;
     margin-bottom: 1%;
 }
@@ -235,7 +235,7 @@ margin-top: 4%;
             opacity: 1;
         }
 
-        @include respond (IphoneX){
+        @include respond (iphonex){
             width: 10rem;
             opacity: 1;
         }
