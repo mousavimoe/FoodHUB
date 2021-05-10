@@ -75,12 +75,7 @@ $padding-bottom-3:3rem;
                 opacity: 1;
                 }
 
-    @include respond (upto360){
-            font-size: 3.1rem;    
-            padding-bottom: .5rem;
-            padding-top: 2rem;
-            opacity: 1;
-        }
+   
 }
 .heading-3{
     font-weight: 400;

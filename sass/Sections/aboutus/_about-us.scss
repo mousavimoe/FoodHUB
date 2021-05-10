@@ -4,9 +4,7 @@
         background-size: cover;
         position: relative;
         background-position: center;
-        @include respond (tablet){
-            height: auto;           
-    }
+       
         @include respond (myphone){
             height: auto;           
     }
@@ -17,9 +15,7 @@
 @include respond (iphone678){
     height: auto;           
 }
-        @include respond (upto360){
-            height: auto;           
-    }
+
     }
 
     .bg-video{
@@ -75,12 +71,7 @@
         margin-right: 3rem;
         font-size: 1.9rem;
 }
-        @include respond (upto360){
-                margin-left: 3rem;
-                margin-right: 3rem;
-                font-size: 1.9rem;
-
-        }
+       
         }
 
 .js--txt-history{opacity: 0;
@@ -96,9 +87,6 @@
     opacity: 1;
 }
 
-@include respond (upto360){
-    opacity: 1;
-}
 
 
 }
@@ -122,9 +110,6 @@
      }
 
 
-     @include respond (upto360){
-        flex-direction: column;
-     }
  
 
 
@@ -146,9 +131,6 @@
      }
 
 
-     @include respond (upto360){
-        flex: 0 0 46%;
-     }
 }
 
 .composition-1{
@@ -172,11 +154,6 @@ opacity: 0;
     opacity: 1;
  }
 
- @include respond (upto360){
-    padding-top:3rem;
-    opacity: 1;
-
- }
 
 
 &__photo{
@@ -261,16 +238,7 @@ opacity: 0;
          } 
 
               
-        @include respond (upto360){
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-left: 2rem;
-            margin-right: 2rem;
-            height: 10%;
-            opacity: 1;
-         }
-  
+ 
   
 
 
@@ -298,10 +266,6 @@ border: 2px solid $yellow;
 
 
 
- @include respond (upto360){
-    box-shadow: 0 1rem 4rem rgba($black, .8);
-    border: 1.9px solid $yellow;
- }
 
 
 
@@ -341,12 +305,7 @@ border: 2px solid $yellow;
 
      }
 
-     @include respond (upto360){
-        position: static;
-        align-self: center;
-        width: 26rem;
-        height: 18rem;
-     }
+ 
 
 }
 
@@ -393,13 +352,7 @@ border: 2px solid $yellow;
                 margin-bottom: .5rem;
                      } 
              
-    @include respond (upto360){
-        position: static;
-        align-self: center;
-        width: 26rem;
-        height: 18rem;
-        margin-left: 3rem;
-                     }  
+
 
         
 
@@ -443,9 +396,6 @@ border: 2px solid $yellow;
                 display: none;
                  }
 
-         @include respond (upto360){
-            display: none;
-             }
 
 }
 
@@ -498,12 +448,7 @@ border: 2px solid $yellow;
 
 
              
-    @include respond (upto360){
-        position: static;
-        align-self: center;
-        width: 26rem;
-        height: 18rem;
-         }
+
 }
 
 
@@ -524,9 +469,7 @@ border: 2px solid $yellow;
     left: 27%;
     top: 21%;
 
-    @include respond (br3){
-        top: 18.433333333333%;
-    }
+
     
     @include respond (myphone){
         position: static;
@@ -553,13 +496,6 @@ border: 2px solid $yellow;
                 margin-left: 3rem;
                  }
 
-         @include respond (upto360){
-            position: static;
-            align-self: center;
-            width: 26rem;
-            height: 18rem;
-            margin-left: 3rem;
-             }
 
 
 

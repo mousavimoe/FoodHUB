@@ -23,11 +23,7 @@
            }
 
 
-           @include respond (upto360){
-            height: auto;
-            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
-           }
-      
+          
 }
 
 
@@ -35,13 +31,7 @@
 
     padding-top: 8rem;
 
-    @include respond (br1){
-        padding-top:8.5458333333333rem;        
-    }
-
-    @include respond (br2){
-        padding-top:9.2958333333333rem;
-    }
+   
 
     @include respond (myphone){
     display: flex;
@@ -62,15 +52,6 @@
             padding-top: 8rem;
             }
     
-
-
-    @include respond (upto360){
-        display: flex;
-        flex-direction: column;  
-        padding-top: 16rem;
-
-    }
-
 
 }
 .box1{
@@ -112,15 +93,6 @@ opacity: 0;
 
 }
 
-@include respond (upto360){
-    margin-bottom: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    transform: skewY(0);
-    border-radius: 2px;
-    opacity: 1;
-
-   }
 
 }
 
@@ -165,17 +137,7 @@ opacity: 0;
 
        }
 
-       @include respond (upto360){
-        margin-bottom: 4rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        transform: skewY(0);
-        border-radius: 2px;
-        opacity: 1;
-
-       }
-
-    
+           
     }
 
 
@@ -213,17 +175,7 @@ opacity: 0;
 
            }
 
-           @include respond (upto360){
-            transform: skewY(0);
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-bottom: 3rem;
-            text-align: left;
-
-           }
-
-
-
+          
     }
 
 
@@ -243,9 +195,7 @@ opacity: 0;
             font-size: 1.9rem;
         }
 
-        @include respond (upto360){
-            font-size: 1.9rem;
-        }
+       
     }
 
 .logowhite-cont{
@@ -264,10 +214,6 @@ margin-top: 4%;
 }
 
 @include respond (iphone678){
-    margin-top: 0;
-    margin-bottom: 1%;
-}
-@include respond (upto360){
     margin-top: 0;
     margin-bottom: 1%;
 }
@@ -294,9 +240,5 @@ margin-top: 4%;
             width: 10rem;
             opacity: 1;
         }
-        @include respond (upto360){
-            width: 9rem;
-            opacity: 1;
-        }
-
+      
     }

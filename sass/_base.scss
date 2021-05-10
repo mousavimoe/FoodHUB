@@ -18,42 +18,6 @@ html{
     font-size: 62.5%; //1rem=10px
     scroll-behavior: smooth;
 
-    @include respond (br1){
-        font-size:  58.235677083333%;  
-    }
-
-    @include respond (br2){
-        font-size:  52.376302083333%;  
-    }
-
-    @include respond (desktop){
-        font-size:  49.376302083333%;  
-    }
-
-    @include respond (br3){
-        font-size:  48.6328125%;  
-    }
-    @include respond (br4){
-        font-size:  43.815104166667%;  
-    }
-    @include respond (br5){
-        font-size:  40.690104166667%;  
-    }
-    @include respond (br6){
-        font-size:  37.890625%;  
-    }
-    @include respond (br7){
-        font-size:  35.286458333333%;  
-    }
-
-    @include respond (laptop){
-        font-size:  38.9286458333333%;  
-    }
-
-    @include respond (mylaptop){
-        font-size:  38.9286458333333%;   
-    }
-
 
 }
 

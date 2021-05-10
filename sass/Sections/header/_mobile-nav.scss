@@ -12,6 +12,12 @@
         margin-left: 2rem;
         height: 10rem;
         width: 10rem;
+
+        
+        @include respond (myphone){
+            height: 5rem;
+            width: 5rem;
+            }
     }
 
     &__list{
@@ -103,16 +109,7 @@
                     top: 2.6rem;
                 }
     
-            
-
-            @include respond (upto360){
-                left:54rem;
-                top: 2.7rem;
-            }
-
-
-
-        
+                    
 
     }
 
@@ -148,14 +145,7 @@
                     top: 2.6rem;
                 }
 
-        @include respond (upto360){
-                left:54rem;
-                top: 2.7rem;
-    
-                }
-
-
-    
+          
     
     }
 }

@@ -8,9 +8,6 @@ height: auto;}
     height: auto;}
     @include respond (iphone678){
         height: auto;}
-@include respond (upto360){
-height: auto;
-}
 
 }
 .maincont3{
@@ -28,11 +25,7 @@ height: auto;
         flex-direction: column;
      }
 
-     @include respond (upto360){
-        flex-direction: column;
-
-     }
- 
+    
 
 
     &__address{
@@ -51,9 +44,7 @@ height: auto;
             padding-left: 2rem;
          }
 
-         @include respond (upto360){
-            padding-left: 2rem;
-         }
+         
 
 
     }
@@ -77,10 +68,7 @@ height: auto;
             margin-top: 3rem;
          }
 
-         @include respond (upto360){
-            margin-top: 3rem;
-         }
-     
+           
 
 
     }
@@ -115,9 +103,7 @@ height: auto;
         opacity: 1;
     }
     
-    @include respond (upto360){
-        opacity: 1;
-    }
+   
 
 }
 
@@ -138,10 +124,7 @@ height: auto;
         width: 88%;
     }
 
-    @include respond (upto360){
-        height: 0.5rem;
-        width: 88%;
-    }
+    
  
 }
 
@@ -170,9 +153,7 @@ height: auto;
         opacity: 1;
     }
 
-    @include respond (upto360){
-        opacity: 1;
-    }
+  
  
 }
 
@@ -214,9 +195,7 @@ height: auto;
             font-size: 1.9rem;
             }
 
-    @include respond (upto360){
-        font-size: 1.9rem;
-        }
+    
 }
 
 
