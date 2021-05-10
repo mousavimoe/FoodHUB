@@ -8,10 +8,5 @@ background-color: $gray-darkest;
     text-align: center;
     padding-top: 2%;
 
-            
-    @include respond (myphone){
-        padding-top: 2rem;
-        font-size: 2rem;
-
-     }
+   
 }

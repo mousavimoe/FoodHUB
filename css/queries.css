@@ -1,0 +1,29 @@
+/* Big tablet to 1280px (width smaller than the 1140px row)*/
+
+
+/* Small phones: from 0 to 480px */
+
+
+@media only screen and (max-width:568px){
+   
+.header-box1{
+
+text-align: center;
+font-size: 0.1rem; 
+    
+}
+    
+    
+    
+    
+@media only screen and (max-width:360px){
+    .header-box1{
+
+        text-align: center;
+        font-size: 0.1rem; 
+    }        
+   
+    
+    
+  
+    

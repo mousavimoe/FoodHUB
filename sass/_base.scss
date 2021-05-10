@@ -19,13 +19,6 @@ html{
     scroll-behavior: smooth;
 
 
-    @include respond (myphone){
-        font-size: 46%;
-    }
-
-    @include respond (iphone678){
-        font-size: 37%;
-    }
 
 }
 

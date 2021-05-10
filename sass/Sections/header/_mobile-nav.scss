@@ -1,10 +1,7 @@
 
 .mobile-nav{
 
-    @include respond (phone){
-        display: none;
-     }
-
+    
 
     &__logo{
 
@@ -14,10 +11,7 @@
         width: auto;
 
 
-        @include respond (myphone){
-            height: 9rem;
-            width: auto;
-        }
+       
     }
 
     &__list{
@@ -94,20 +88,6 @@
 
         
 
-            @include respond (myphone){
-            left: 46rem;
-            top: 2.8rem;
-            }
-
-            @include respond (iphonex){
-                left: 55rem;
-                top: 2.6rem;
-                }
-
-            @include respond (iphone678){
-                    left: 55rem;
-                    top: 2.6rem;
-                }
     
                     
 
@@ -130,22 +110,7 @@
         
 
             
-        @include respond (myphone){
-            left: 46rem;
-            top: 2.8rem;
-
-            }
-          
-
-          @include respond (iphonex){
-                left: 55rem;
-                top: 2.6rem;
-                }
-        @include respond (iphone678){
-                    left: 55rem;
-                    top: 2.6rem;
-                }
-
+    
           
     
     }
