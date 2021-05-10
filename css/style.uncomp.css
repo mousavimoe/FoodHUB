@@ -733,7 +733,7 @@ body {
     .mobile-nav__button {
       height: 5.3rem;
       width: 5.3rem;
-      left: 81vw;
+      left: 82vw;
       top: 2.75rem; } }
 
 .mobile-nav__background {
@@ -753,7 +753,7 @@ body {
     .mobile-nav__background {
       height: 5.3rem;
       width: 5.3rem;
-      left: 81vw;
+      left: 82vw;
       top: 2.75rem; } }
 
 .toggle-icon {
@@ -775,8 +775,8 @@ header {
   top: 10rem; }
   @media (max-height: 667px) {
     .herotext-cont {
-      top: 10rem;
-      padding-left: 3rem; } }
+      top: 12vh;
+      padding-left: 3vw; } }
 
 .header-box1 {
   text-align: center;
@@ -841,7 +841,7 @@ header {
   z-index: 0; }
   @media (max-height: 667px) {
     .btn-box {
-      padding-top: 15rem; } }
+      padding-top: 35vh; } }
 
 .btn-hide {
   animation: fadein 1.8s; }
