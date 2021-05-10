@@ -841,7 +841,7 @@ header {
   z-index: 0; }
   @media (max-height: 667px) {
     .btn-box {
-      padding-top: 35vh; } }
+      padding-top: 30vh; } }
 
 .btn-hide {
   animation: fadein 1.8s; }
