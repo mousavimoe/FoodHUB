@@ -1,18 +1,23 @@
 .sec-contact-us{
 
 height: auto;
-
+@include respond (iphone678){
+    height: auto;}
 }
 .maincont3{
     display: flex;
-
+    @include respond (iphone678){
+        flex-direction: column;
+     }
    
 
 
     &__address{
         flex: 0 0 39.8%;
         padding-left: 18%;
-
+        @include respond (iphone678){
+            padding-left: 2rem;
+         }
       
 
 
@@ -26,6 +31,9 @@ height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        @include respond (iphone678){
+            margin-top: 3rem;
+         }
       
 
 
@@ -49,6 +57,11 @@ height: auto;
     width: 90%;
     opacity: 0;
 
+    @include respond (iphone678){
+        opacity: 1;
+    }
+    
+
    
     
    
@@ -58,6 +71,11 @@ height: auto;
 .sep{
     background-color: $red;
     height: 88%;
+
+    @include respond (iphone678){
+        height: 0.5rem;
+        width: 88%;
+    }
    
 
     
@@ -76,6 +94,10 @@ height: auto;
     fill: $red-light;
     margin-left: 3%;
     opacity: 0;
+
+    @include respond (iphone678){
+        opacity: 1;
+    }
 
    
 
@@ -108,6 +130,10 @@ height: auto;
 .txt-address{
     margin-left: 1.2rem;
     margin-bottom: 1.2rem;
+
+    @include respond (iphone678){
+        font-size: 1.9rem;
+        }
 
    
 

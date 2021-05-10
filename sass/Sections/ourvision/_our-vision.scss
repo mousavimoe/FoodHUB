@@ -5,7 +5,10 @@
         height: 100vh;
         position: relative;
         background-position: center;
-
+        @include respond (iphone678){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
     
           
 }
@@ -15,7 +18,11 @@
 
     padding-top: 8rem;
 
-   
+    @include respond (iphone678){
+        display: flex;
+        flex-direction: column;  
+        padding-top: 8rem;
+        }
 
     
 
@@ -29,6 +36,15 @@ margin-right: 45rem;
 transform: skewX(165deg);
 opacity: 0;
 
+@include respond (iphone678){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
 
 
 }
@@ -42,7 +58,15 @@ opacity: 0;
     margin-right: 45rem;
     transform: skewX(165deg);
     opacity: 0;
+    @include respond (iphone678){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
 
+       }
 
 
            
@@ -56,6 +80,14 @@ opacity: 0;
         text-align: center;
         transform: skewX(-165deg);
 
+        @include respond (iphone678){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
       
 
           
@@ -66,6 +98,10 @@ opacity: 0;
 
         color: $gray-darker;
 
+        @include respond (iphone678){
+            font-size: 1.9rem;
+        }
+
 
        
     }
@@ -74,6 +110,11 @@ opacity: 0;
 text-align: center;
 margin-top: 4%;
 
+@include respond (iphone678){
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
 
 }
 
@@ -81,6 +122,11 @@ margin-top: 4%;
         width: 12rem;
         z-index: 5;
         opacity: 0;
+
+        @include respond (iphone678){
+            width: 10rem;
+            opacity: 1;
+        }
 
 
       

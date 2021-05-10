@@ -4,6 +4,11 @@
     height: 100vh;
     position: relative;
     background-position: center;
+
+    @include respond (iphone678){
+        height: auto;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+     }
     
 
 }
@@ -18,6 +23,12 @@
     margin-right: 2rem;
     font-size: 1.6rem;
 
+    @include respond (iphone678){
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+
        
 
             
@@ -30,6 +41,13 @@
     margin-left: 20%;
     margin-right: 20%;
     height: 75%;
+
+    @include respond (iphone678){
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 85%;
+     }
     
 
      
@@ -42,6 +60,15 @@
     flex: 0 0 25%;
     margin-right: 5%;
     opacity: 0;
+
+    @include respond (iphone678){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
 
    
 
@@ -56,6 +83,16 @@
     margin-right: 5%;
     opacity: 0;
 
+    @include respond (iphone678){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+  
+
 
 
      
@@ -67,6 +104,15 @@
     flex: 0 0 25%;
     margin-right: 5%;
     opacity: 0;
+
+    @include respond (iphone678){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
 
 
 
@@ -80,6 +126,16 @@
     border: 3px solid $yellow-dark;
     flex: 0 0 25%;
     opacity: 0;
+
+    @include respond (iphone678){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+  
+     }
 
 
 

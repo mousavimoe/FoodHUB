@@ -120,21 +120,37 @@ body {
 .footer__text {
   text-align: center;
   padding-top: 2%; }
+  @media (width: 375px) and (max-height: 667px) {
+    .footer__text {
+      padding-top: 2rem;
+      font-size: 2rem; } }
 
 .sec-contact-us {
   height: auto; }
+  @media (width: 375px) and (max-height: 667px) {
+    .sec-contact-us {
+      height: auto; } }
 
 .maincont3 {
   display: flex; }
+  @media (width: 375px) and (max-height: 667px) {
+    .maincont3 {
+      flex-direction: column; } }
   .maincont3__address {
     flex: 0 0 39.8%;
     padding-left: 18%; }
+    @media (width: 375px) and (max-height: 667px) {
+      .maincont3__address {
+        padding-left: 2rem; } }
   .maincont3__map {
     flex: 0 0 59.8%;
     height: 45rem;
     display: flex;
     align-items: center;
     justify-content: center; }
+    @media (width: 375px) and (max-height: 667px) {
+      .maincont3__map {
+        margin-top: 3rem; } }
   .maincont3__line {
     flex: 0 0 0.1%;
     display: flex;
@@ -145,10 +161,17 @@ body {
   height: 95%;
   width: 90%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .googlemap {
+      opacity: 1; } }
 
 .sep {
   background-color: #cc2a36;
   height: 88%; }
+  @media (width: 375px) and (max-height: 667px) {
+    .sep {
+      height: 0.5rem;
+      width: 88%; } }
 
 .addressbox {
   display: flex; }
@@ -159,6 +182,9 @@ body {
   fill: #d8404b;
   margin-left: 3%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .icon {
+      opacity: 1; } }
 
 .addressbox {
   display: flex;
@@ -178,6 +204,9 @@ body {
 .txt-address {
   margin-left: 1.2rem;
   margin-bottom: 1.2rem; }
+  @media (width: 375px) and (max-height: 667px) {
+    .txt-address {
+      font-size: 1.9rem; } }
 
 .signature {
   margin-top: 5rem;
@@ -190,9 +219,18 @@ body {
   height: 100vh;
   position: relative;
   background-position: center; }
+  @media (width: 375px) and (max-height: 667px) {
+    .sec-our-vision {
+      height: auto;
+      background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-L.jpg); } }
 
 .maincont2 {
   padding-top: 8rem; }
+  @media (width: 375px) and (max-height: 667px) {
+    .maincont2 {
+      display: flex;
+      flex-direction: column;
+      padding-top: 8rem; } }
 
 .box1 {
   background-color: rgba(255, 255, 255, 0.85);
@@ -201,6 +239,14 @@ body {
   margin-right: 45rem;
   transform: skewX(165deg);
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .box1 {
+      margin-bottom: 4rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      transform: skewY(0);
+      border-radius: 2px;
+      opacity: 1; } }
 
 .box2 {
   background-color: rgba(255, 255, 255, 0.85);
@@ -208,6 +254,14 @@ body {
   margin-right: 45rem;
   transform: skewX(165deg);
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .box2 {
+      margin-bottom: 4rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      transform: skewY(0);
+      border-radius: 2px;
+      opacity: 1; } }
 
 .sub-box {
   padding-bottom: 7rem;
@@ -215,18 +269,36 @@ body {
   padding-right: 3rem;
   text-align: center;
   transform: skewX(-165deg); }
+  @media (width: 375px) and (max-height: 667px) {
+    .sub-box {
+      transform: skewY(0);
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-bottom: 3rem;
+      text-align: left; } }
 
 .txt-our-vision {
   color: #1a1a1a; }
+  @media (width: 375px) and (max-height: 667px) {
+    .txt-our-vision {
+      font-size: 1.9rem; } }
 
 .logowhite-cont {
   text-align: center;
   margin-top: 4%; }
+  @media (width: 375px) and (max-height: 667px) {
+    .logowhite-cont {
+      margin-top: 0;
+      margin-bottom: 1%; } }
 
 .logo-white {
   width: 12rem;
   z-index: 5;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .logo-white {
+      width: 10rem;
+      opacity: 1; } }
 
 .sec-our-activity {
   background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities.jpg);
@@ -234,6 +306,10 @@ body {
   height: 100vh;
   position: relative;
   background-position: center; }
+  @media (width: 375px) and (max-height: 667px) {
+    .sec-our-activity {
+      height: auto;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-L.jpg); } }
 
 .h3-our-activity {
   text-align: center; }
@@ -242,6 +318,11 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 1.6rem; }
+  @media (width: 375px) and (max-height: 667px) {
+    .txt-our-activity {
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem; } }
 
 .maincont1 {
   display: flex;
@@ -249,29 +330,67 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   height: 75%; }
+  @media (width: 375px) and (max-height: 667px) {
+    .maincont1 {
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%; } }
 
 .col1 {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
   margin-right: 5%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .col1 {
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1; } }
 
 .col2 {
   border: 3px solid #eabf32;
   flex: 0 0 25%;
   margin-right: 5%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .col2 {
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1; } }
 
 .col3 {
   border: 3px solid #f0d370;
   flex: 0 0 25%;
   margin-right: 5%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .col3 {
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1; } }
 
 .col4 {
   border: 3px solid #eabf32;
   flex: 0 0 25%;
   opacity: 0; }
+  @media (width: 375px) and (max-height: 667px) {
+    .col4 {
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1; } }
 
 .sec-about-us {
   height: 100vh;
@@ -593,6 +712,10 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 11; }
+  @media (width: 375px) and (max-height: 667px) {
+    .mobile-nav__button {
+      left: 55rem;
+      top: 2.6rem; } }
 
 .mobile-nav__background {
   background-color: rgba(51, 51, 51, 0.97);
@@ -607,6 +730,11 @@ body {
   align-items: center;
   z-index: 10;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+
+@media (width: 375px) and (max-height: 667px) {
+  .mobile-nav {
+    left: 55rem;
+    top: 2.6rem; } }
 
 .toggle-icon {
   height: 4.5rem;
