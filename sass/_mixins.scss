@@ -56,6 +56,8 @@
         @media (max-width: 48em) { @content};
     }
 
+ 
+
 
     @if $breakpoint == phone {       //=600px
 
@@ -65,7 +67,12 @@
 
     @if $breakpoint == myphone {       //=412x780px
 
-        @media (max-width: 25.75em) { @content};
+        @media (width: 25.75em) { @content};
+    }
+
+
+    @if $breakpoint == IphoneX {       //=375x812px Iphone X/XS
+        @media (max-width: 23.4375em) { @content};
     }
 
 
