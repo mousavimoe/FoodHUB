@@ -548,6 +548,9 @@ header {
     letter-spacing: 5rem;
     text-align: center;
     color: #eeeeee; }
+    @media (width: 375px) and (max-height: 667px) {
+      .header-box1__title {
+        color: #cc2a36; } }
 
 .header-box2 {
   text-align: center;

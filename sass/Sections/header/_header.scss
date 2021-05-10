@@ -41,7 +41,11 @@ animation-delay: 1.1s;
     text-align: center;
     color: $gray-light;
 
+    @include respond (iphone678){
 
+        color: $red;
+
+    }
    
 
 
