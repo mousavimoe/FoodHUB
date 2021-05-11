@@ -26,4 +26,8 @@ background-color: $gray-darkest;
     @include respond (iphone678){
         padding-top: 2rem;
     }
+
+    @include respond (sonya1ultra){
+        padding-top: 2rem;
+    }
 }

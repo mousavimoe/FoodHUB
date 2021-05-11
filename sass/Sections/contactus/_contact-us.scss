@@ -10,6 +10,8 @@ height: auto;
     height: auto;}
 @include respond (iphone678){
     height: auto;}
+    @include respond (sonya1ultra){
+        height: auto;}
 }
 .maincont3{
 
@@ -31,6 +33,12 @@ height: auto;
     @include respond (iphone678){
         flex-direction: column;
      }
+
+     display: flex;
+     @include respond (sonya1ultra){
+         flex-direction: column;
+      }
+    
    
 
 
@@ -50,6 +58,9 @@ height: auto;
             padding-left: 2rem;
          }
         @include respond (iphone678){
+            padding-left: 2rem;
+         }
+         @include respond (sonya1ultra){
             padding-left: 2rem;
          }
       
@@ -79,6 +90,10 @@ height: auto;
             margin-top: 3rem;
          }
         @include respond (iphone678){
+            margin-top: 3rem;
+         }
+
+         @include respond (sonya1ultra){
             margin-top: 3rem;
          }
       
@@ -119,6 +134,11 @@ height: auto;
     @include respond (iphone678){
         opacity: 1;
     }
+
+    @include respond (sonya1ultra){
+        opacity: 1;
+    }
+    
     
 
 }
@@ -143,6 +163,11 @@ height: auto;
     }
 
     @include respond (iphone678){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (sonya1ultra){
         height: 0.5rem;
         width: 88%;
     }
@@ -177,6 +202,10 @@ height: auto;
         opacity: 1;
     }
     @include respond (iphone678){
+        opacity: 1;
+    }
+
+    @include respond (sonya1ultra){
         opacity: 1;
     }
 
@@ -224,6 +253,10 @@ height: auto;
     @include respond (iphone678){
         font-size: 1.9rem;
         }
+
+        @include respond (sonya1ultra){
+            font-size: 1.9rem;
+            }
     
 }
 
@@ -249,5 +282,10 @@ height: auto;
     @include respond (iphone678){
         margin-top: 2rem;
         }
+
+        @include respond (sonya1ultra){
+            margin-top: 2rem;
+            }
+    
 
 }

@@ -33,6 +33,10 @@ html{
         font-size: 42%;
     }
 
+    @include respond (sonya1ultra){
+        font-size: 40%;
+    }
+
 
 
 

@@ -25,6 +25,11 @@
         height: auto;
         background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
      }
+
+     @include respond (sonya1ultra){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
     
 
 }
@@ -64,6 +69,13 @@
         margin-left: 1rem;
         margin-right: 1rem;
      }
+
+     @include respond (sonya1ultra){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
 
        
 
@@ -106,6 +118,13 @@
         margin-right: 3rem;
         height: 85%;
      }
+
+     @include respond (sonya1ultra){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
     
 
      
@@ -156,6 +175,14 @@
         opacity: 1;
      }
 
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
    
 
     
@@ -206,6 +233,15 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
   
 
 
@@ -256,6 +292,16 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
 
 
 
@@ -311,6 +357,17 @@
         opacity: 1;
   
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
 
 
 

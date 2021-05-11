@@ -34,6 +34,11 @@
             width: auto;
         }
 
+        @include respond (sonya1ultra){
+            height: 7.4rem;
+            width: auto;
+        }
+
 
        
     }
@@ -138,6 +143,13 @@
             top: 2.75rem;
         }
 
+        @include respond (sonya1ultra){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
 
         
 
@@ -189,6 +201,13 @@
             top: 2.75rem;
         }
 
+        @include respond (sonya1ultra){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
     }
 
 
@@ -218,6 +237,10 @@
 
     
     @include respond (iphone678){
+        height: 3.88rem;
+    }
+
+    @include respond (sonya1ultra){
         height: 3.88rem;
     }
 }
