@@ -11,17 +11,18 @@
     }
 
 
-    @if $breakpoint == myphone {       //=412x846px Samsung Galaxy J6+
+    @if $breakpoint == myphone {       //=412x846px Samsung Galaxy J6+  & S8
         @media (width:412px) and (max-height:846px ) { @content};
     }
-    
 
+    @if $breakpoint == a7 {       //=412x732px Samsung A7
+        @media (width:412px) and (max-height:732px ) { @content};
+    }
+    
     @if $breakpoint == iphonex {       //=375xmin556px Iphone 6/7/8 = 375x667   [- ~111px nav+add height=min556px]
         @media (width:375px) and (max-height:812px ) { @content};
     }
     
-
-
     @if $breakpoint == iphone678 {       //=375xmin556px Iphone 6/7/8 = 375x667   [- ~111px nav+add height=min556px]
         @media (width:375px) and (max-height:667px ) { @content};
     

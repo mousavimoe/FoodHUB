@@ -45,6 +45,10 @@ $padding-bottom-3:3rem;
         padding-top: $padding-top-1;   
         } 
 
+        @include respond (a7){
+            padding-top: $padding-top-1;   
+            } 
+
     @include respond (iphonex){
         padding-top: $padding-top-1;   
         } 
@@ -74,6 +78,13 @@ $padding-bottom-3:3rem;
         padding-top: 2rem;
         opacity: 1;
         }
+
+        @include respond (a7){
+            font-size: 3.1rem;    
+            padding-bottom: .5rem;
+            padding-top: 2rem;
+            opacity: 1;
+            }
 
     @include respond (iphonex){
         font-size: 3.1rem;    
@@ -108,6 +119,15 @@ $padding-bottom-3:3rem;
         margin-left: 1rem;
         opacity: 1;
     }
+
+    @include respond (a7){
+        font-size: 2.6rem;  
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+        margin-left: 1rem;
+        opacity: 1;
+    }
+
 
     @include respond (iphonex){
         font-size: 2.6rem;  

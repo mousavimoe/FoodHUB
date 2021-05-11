@@ -13,6 +13,11 @@ background-color: $gray-darkest;
         height: auto;
     }
 
+    @include respond (a7){
+        padding-top: 2rem;
+        height: auto;
+    }
+
     @include respond (iphonex){
         padding-top: 2rem;
         height: auto;

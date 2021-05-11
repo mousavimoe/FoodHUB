@@ -9,6 +9,10 @@ header{
         background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
     }
 
+    @include respond (a7){
+        background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
+    }
+
     @include respond (iphonex){
         background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url(../img/mainbg-L.jpg);
     }
@@ -23,6 +27,10 @@ header{
     top: 10rem;
 
     @include respond (myphone){
+        top: 19vh;
+    }
+
+    @include respond (a7){
         top: 19vh;
     }
 
@@ -51,6 +59,10 @@ animation-delay: 1.1s;
     font-size: 2.7rem;  
 }
 
+@include respond (a7){
+    font-size: 2.7rem;  
+}
+
 @include respond (iphonex){
     font-size: 2.4rem;  
 }
@@ -72,6 +84,11 @@ animation-delay: 1.1s;
 
 
     @include respond (myphone){
+        letter-spacing: 3.3rem;
+ 
+    }
+
+    @include respond (a7){
         letter-spacing: 3.3rem;
  
     }
@@ -102,6 +119,10 @@ animation-delay: 1.1s;
 
 
     @include respond (myphone){
+        font-size: 2.2rem;  
+    }
+
+    @include respond (a7){
         font-size: 2.2rem;  
     }
 
@@ -139,6 +160,10 @@ animation-delay: 1.1s;
             letter-spacing: 2.9rem;
         }
 
+        @include respond (a7){
+            letter-spacing: 2.9rem;
+        }
+
         @include respond (iphonex){
             letter-spacing: 2.5rem;
         }
@@ -160,6 +185,10 @@ animation-delay: 1.1s;
         --animate-duration: 1.8s;
 
         @include respond (myphone){
+            font-size: 1.7rem;  
+        }
+
+        @include respond (a7){
             font-size: 1.7rem;  
         }
 
@@ -205,6 +234,10 @@ animation-delay: 1.1s;
 
 
     @include respond (myphone){
+        padding-top: 27vh;
+    }
+
+    @include respond (a7){
         padding-top: 27vh;
     }
 

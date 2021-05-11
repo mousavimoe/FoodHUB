@@ -11,6 +11,12 @@
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
 
+
+           
+        @include respond (a7){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
         @include respond (iphonex){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
@@ -33,6 +39,12 @@
         flex-direction: column;  
         padding-top: 3rem;
         }
+
+        @include respond (a7){
+            display: flex;
+            flex-direction: column;  
+            padding-top: 3rem;
+            }
 
     @include respond (iphonex){
         display: flex;
@@ -60,6 +72,16 @@ opacity: 0;
 
 
 @include respond (myphone){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
+@include respond (a7){
     margin-bottom: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -113,6 +135,16 @@ opacity: 0;
 
        }
 
+       @include respond (a7){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
+
+       }
+
     @include respond (iphonex){
         margin-bottom: 4rem;
         margin-left: 5rem;
@@ -145,6 +177,15 @@ opacity: 0;
         transform: skewX(-165deg);
 
         @include respond (myphone){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
+
+           @include respond (a7){
             transform: skewY(0);
             padding-left: 2rem;
             padding-right: 2rem;
@@ -186,6 +227,10 @@ opacity: 0;
             font-size: 1.9rem;
         }
 
+        @include respond (a7){
+            font-size: 1.9rem;
+        }
+
         @include respond (iphonex){
             font-size: 1.9rem;
         }
@@ -212,6 +257,11 @@ margin-top: 4%;
     margin-bottom: 1vh;
 }
 
+@include respond (a7){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
 @include respond (iphone678){
     margin-top: 0;
     margin-bottom: 1vh;
@@ -230,6 +280,13 @@ margin-top: 4%;
             opacity: 1;
         }
 
+
+        @include respond (a7){
+            width: 9rem;
+            opacity: 1;
+        }
+
+        
         @include respond (iphonex){
             width: 9rem;
             opacity: 1;

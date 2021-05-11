@@ -4,6 +4,8 @@ height: auto;
 
 @include respond (myphone){
     height: auto;}
+    @include respond (a7){
+        height: auto;}
 @include respond (iphonex){
     height: auto;}
 @include respond (iphone678){
@@ -15,6 +17,11 @@ height: auto;
     @include respond (myphone){
         flex-direction: column;
      }
+
+     display: flex;
+     @include respond (a7){
+         flex-direction: column;
+      }
 
     display: flex;
     @include respond (iphonex){
@@ -32,6 +39,10 @@ height: auto;
         padding-left: 18%;
 
         @include respond (myphone){
+            padding-left: 2rem;
+         }
+
+         @include respond (a7){
             padding-left: 2rem;
          }
 
@@ -58,6 +69,11 @@ height: auto;
         @include respond (myphone){
             margin-top: 3rem;
          }
+
+         @include respond (a7){
+            margin-top: 3rem;
+         }
+
 
         @include respond (iphonex){
             margin-top: 3rem;
@@ -92,6 +108,10 @@ height: auto;
     @include respond (myphone){
         opacity: 1;
     }
+
+    @include respond (a7){
+        opacity: 1;
+    }
     @include respond (iphonex){
         opacity: 1;
     }
@@ -108,6 +128,11 @@ height: auto;
     height: 88%;
 
     @include respond (myphone){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (a7){
         height: 0.5rem;
         width: 88%;
     }
@@ -142,6 +167,11 @@ height: auto;
     @include respond (myphone){
         opacity: 1;
     }
+
+    @include respond (a7){
+        opacity: 1;
+    }
+
 
     @include respond (iphonex){
         opacity: 1;
@@ -182,6 +212,11 @@ height: auto;
         font-size: 1.9rem;
         }
 
+
+        @include respond (a7){
+            font-size: 1.9rem;
+            }
+
     @include respond (iphonex){
         font-size: 1.9rem;
         }
@@ -202,6 +237,11 @@ height: auto;
     @include respond (myphone){
         margin-top: 2rem;
         }
+
+
+        @include respond (a7){
+            margin-top: 2rem;
+            }
     @include respond (iphonex){
         margin-top: 2rem;
         }

@@ -22,6 +22,10 @@ html{
         font-size: 45%;
     }
 
+    @include respond (a7){
+        font-size: 45%;
+    }
+
     @include respond (iphonex){
         font-size: 45%;
     }
