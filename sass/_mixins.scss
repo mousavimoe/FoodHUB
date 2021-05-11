@@ -7,12 +7,12 @@
 
 
     @if $breakpoint == phone {
-        @media (min-width:425px) { @content};
+        @media (min-width:426px) { @content};
     }
 
 
     @if $breakpoint == myphone {       //=412x846px Samsung Galaxy J6+  & S8 
-        @media (max-width:861px ) { @content};
+        @media (max-width:425px ) { @content};
     }
 
     @if $breakpoint == a7 {       //=412x732px Samsung A7 vp = 412x652px
