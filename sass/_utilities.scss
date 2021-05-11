@@ -40,6 +40,15 @@ $padding-bottom-3:3rem;
 .normal__text{
     font-size: 1.6rem;
     padding-top: $padding-top-2;  
+
+    @include respond (myphone){
+        padding-top: $padding-top-1;   
+        } 
+
+    @include respond (iphonex){
+        padding-top: $padding-top-1;   
+        } 
+    
     @include respond (iphone678){
         padding-top: $padding-top-1;   
         } 
@@ -58,6 +67,20 @@ $padding-bottom-3:3rem;
     padding-bottom: $padding-bottom-3;
     text-align: center;
     opacity: 0;
+
+    @include respond (myphone){
+        font-size: 3.1rem;    
+        padding-bottom: .5rem;
+        padding-top: 2rem;
+        opacity: 1;
+        }
+
+    @include respond (iphonex){
+        font-size: 3.1rem;    
+        padding-bottom: .5rem;
+        padding-top: 2rem;
+        opacity: 1;
+        }
     @include respond (iphone678){
         font-size: 3.1rem;    
         padding-bottom: .5rem;
@@ -76,6 +99,23 @@ $padding-bottom-3:3rem;
     padding-top: $padding-top-2;
     font-family: 'Original Surfer', cursive;
     opacity: 0;
+
+
+    @include respond (myphone){
+        font-size: 2.6rem;  
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+        margin-left: 1rem;
+        opacity: 1;
+    }
+
+    @include respond (iphonex){
+        font-size: 2.6rem;  
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+        margin-left: 1rem;
+        opacity: 1;
+    }
 
     @include respond (iphone678){
         font-size: 2.6rem;  

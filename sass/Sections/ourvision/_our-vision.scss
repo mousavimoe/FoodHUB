@@ -5,6 +5,16 @@
         height: 100vh;
         position: relative;
         background-position: center;
+
+        @include respond (myphone){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
+
+        @include respond (iphonex){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
         @include respond (iphone678){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
@@ -17,6 +27,18 @@
 .maincont2{
 
     padding-top: 8rem;
+
+    @include respond (myphone){
+        display: flex;
+        flex-direction: column;  
+        padding-top: 3rem;
+        }
+
+    @include respond (iphonex){
+        display: flex;
+        flex-direction: column;  
+        padding-top: 3rem;
+        }
 
     @include respond (iphone678){
         display: flex;
@@ -35,6 +57,27 @@ margin-left: 45rem;
 margin-right: 45rem;
 transform: skewX(165deg);
 opacity: 0;
+
+
+@include respond (myphone){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
+@include respond (iphonex){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
 
 @include respond (iphone678){
     margin-bottom: 4rem;
@@ -58,6 +101,27 @@ opacity: 0;
     margin-right: 45rem;
     transform: skewX(165deg);
     opacity: 0;
+
+
+    @include respond (myphone){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
+
+       }
+
+    @include respond (iphonex){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
+
+       }
     @include respond (iphone678){
         margin-bottom: 4rem;
         margin-left: 5rem;
@@ -80,6 +144,25 @@ opacity: 0;
         text-align: center;
         transform: skewX(-165deg);
 
+        @include respond (myphone){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
+
+
+        @include respond (iphonex){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
+
         @include respond (iphone678){
             transform: skewY(0);
             padding-left: 2rem;
@@ -98,6 +181,15 @@ opacity: 0;
 
         color: $gray-darker;
 
+
+        @include respond (myphone){
+            font-size: 1.9rem;
+        }
+
+        @include respond (iphonex){
+            font-size: 1.9rem;
+        }
+
         @include respond (iphone678){
             font-size: 1.9rem;
         }
@@ -110,9 +202,19 @@ opacity: 0;
 text-align: center;
 margin-top: 4%;
 
+@include respond (myphone){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+@include respond (iphonex){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
 @include respond (iphone678){
     margin-top: 0;
-    margin-bottom: 1%;
+    margin-bottom: 1vh;
 }
 
 
@@ -122,6 +224,16 @@ margin-top: 4%;
         width: 12rem;
         z-index: 5;
         opacity: 0;
+
+        @include respond (myphone){
+            width: 9rem;
+            opacity: 1;
+        }
+
+        @include respond (iphonex){
+            width: 9rem;
+            opacity: 1;
+        }
 
         @include respond (iphone678){
             width: 7rem;

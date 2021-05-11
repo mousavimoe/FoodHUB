@@ -17,6 +17,14 @@ html{
 
     font-size: 62.5%; //1rem=10px
     scroll-behavior: smooth;
+
+    @include respond (myphone){
+        font-size: 45%;
+    }
+
+    @include respond (iphonex){
+        font-size: 45%;
+    }
     @include respond (iphone678){
         font-size: 42%;
     }

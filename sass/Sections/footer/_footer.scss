@@ -8,9 +8,17 @@ background-color: $gray-darkest;
     text-align: center;
     padding-top: 2%;
 
+    @include respond (myphone){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (iphonex){
+        padding-top: 2rem;
+        height: auto;
+    }
+
     @include respond (iphone678){
         padding-top: 2rem;
-        font-size: 2rem;
-
     }
 }
