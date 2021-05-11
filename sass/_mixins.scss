@@ -29,7 +29,7 @@
     }
 
     @if $breakpoint == sonya1ultra {       //=360x640px vp= 360x512
-        @media (width:366px) and (max-height:640px ) { @content};
+        @media (width:360px) and (max-height:640px ) { @content};
     
     }
 
