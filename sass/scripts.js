@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 
    
-   const mediaQuery = window.matchMedia('(min-width: 47.5em)')
+   const mediaQuery = window.matchMedia('(min-width: 1024px)')
    if (mediaQuery.matches){
 
       

@@ -5,10 +5,52 @@
     position: relative;
     background-position: center;
 
+    @include respond (tablet){
+      height: 55vh;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
+
+    @include respond (phablet){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
+
+
+    @include respond (myphone){
+        height: auto;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+     }
+
+
+     @include respond (a7){
+        height: auto;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+     }
+
+     @include respond (mobile){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
+
+    @include respond (iphonex){
+        height: auto;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+     }
+
     @include respond (iphone678){
         height: auto;
         background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
      }
+
+     @include respond (sonya1ultra){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
+
+   @include respond (mobile-s){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
     
 
 }
@@ -23,11 +65,56 @@
     margin-right: 2rem;
     font-size: 1.6rem;
 
+    @include respond (phablet){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
+
+    @include respond (myphone){
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+
+
+     
+    @include respond (a7){
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+
+     @include respond (mobile){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+    @include respond (iphonex){
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
+
     @include respond (iphone678){
         font-size: 1.9rem;
         margin-left: 1rem;
         margin-right: 1rem;
      }
+
+     @include respond (sonya1ultra){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
+   @include respond (mobile-s){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
 
        
 
@@ -42,12 +129,70 @@
     margin-right: 20%;
     height: 75%;
 
+
+    @include respond (tablet){
+      margin-left: 10vw;
+      margin-right: 10vw;
+   }
+
+    @include respond (phablet){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
+
+    @include respond (myphone){
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 85%;
+     }
+
+     @include respond (a7){
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 85%;
+     }
+
+     
+    @include respond (mobile){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
+
+
+
+    @include respond (iphonex){
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 85%;
+     }
+
     @include respond (iphone678){
         flex-direction: column;
         margin-left: 3rem;
         margin-right: 3rem;
         height: 85%;
      }
+
+     @include respond (sonya1ultra){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
+
+   @include respond (mobile-s){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
     
 
      
@@ -60,6 +205,57 @@
     flex: 0 0 25%;
     margin-right: 5%;
     opacity: 0;
+ 
+
+@include respond (tablet){
+   opacity: 1;
+}
+
+    @include respond (phablet){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (a7){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (mobile){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+
+    @include respond (iphonex){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
 
     @include respond (iphone678){
         border: none;
@@ -70,6 +266,23 @@
         opacity: 1;
      }
 
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
    
 
     
@@ -83,6 +296,59 @@
     margin-right: 5%;
     opacity: 0;
 
+   
+
+@include respond (tablet){
+   opacity: 1;
+}
+
+    @include respond (phablet){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (a7){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (mobile){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+    @include respond (iphonex){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+  
+
     @include respond (iphone678){
         border: none;
         margin-bottom: 1.1rem;
@@ -91,6 +357,24 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
   
 
 
@@ -105,6 +389,57 @@
     margin-right: 5%;
     opacity: 0;
 
+
+@include respond (tablet){
+   opacity: 1;
+}
+
+    @include respond (phablet){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (a7){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
+
+     @include respond (mobile){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+
+
+    @include respond (iphonex){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+     }
     @include respond (iphone678){
         border: none;
         margin-bottom: 1.1rem;
@@ -113,6 +448,25 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
 
 
 
@@ -127,6 +481,64 @@
     flex: 0 0 25%;
     opacity: 0;
 
+  
+
+@include respond (tablet){
+   opacity: 1;
+}
+
+    @include respond (phablet){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
+
+    @include respond (myphone){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+  
+     }
+
+     @include respond (a7){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+  
+     }
+
+     @include respond (mobile){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
+
+    @include respond (iphonex){
+        border: none;
+        margin-bottom: 1.1rem;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 auto;
+        opacity: 1;
+  
+     }
+
     @include respond (iphone678){
         border: none;
         margin-bottom: 1.1rem;
@@ -136,6 +548,28 @@
         opacity: 1;
   
      }
+
+     @include respond (sonya1ultra){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
+   @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
+
 
 
 

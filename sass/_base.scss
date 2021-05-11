@@ -17,8 +17,48 @@ html{
 
     font-size: 62.5%; //1rem=10px
     scroll-behavior: smooth;
+
+   
+
+    @include respond (tablet){
+        font-size: 42%;
+    }
+
+    @include respond (phablet){
+        font-size: 40%;
+    }
+
+    @include respond (laptop){
+        font-size: 45%;
+    }
+
+
+    @include respond (myphone){
+        font-size: 45%;
+    }
+
+    @include respond (a7){
+        font-size: 45%;
+    }
+
+    @include respond (mobile){
+        font-size: 45%;
+    }
+
+    @include respond (iphonex){
+        font-size: 45%;
+    }
     @include respond (iphone678){
         font-size: 42%;
+    }
+
+    @include respond (sonya1ultra){
+        font-size: 40%;
+    }
+
+    
+    @include respond (mobile-s){
+        font-size: 38%;
     }
 
 

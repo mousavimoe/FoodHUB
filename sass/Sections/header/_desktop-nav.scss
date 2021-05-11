@@ -9,7 +9,7 @@
     // *************************RESPONSIVE************************* //
 
     // ************************MOBILE************************ //
-    @media only screen and (min-width : $mobile-min) and (max-width: $mobile-max) {
+    @media (max-width: $mobile-max) {
     
         display: none;
 
@@ -24,6 +24,12 @@
 
         margin-right: auto;
         margin: 2rem 4rem;
+        
+        @include respond (tablet){
+            margin: 2.3rem 4rem;
+
+        }
+    
 
         &__logo{
             width: 10rem; 
@@ -51,6 +57,7 @@
             transition: all .4s;
             display: flex;
             margin-left: 2rem;
+            
 
         }
     
@@ -86,6 +93,15 @@
             text-transform: uppercase;
             display: block;
             padding: 0.5rem 2rem;
+            justify-content: center;
+            align-items: center;
+
+            
+        @include respond (tablet){
+            padding: 0.7rem 2.1rem;
+
+        }
+      
     
     
     
@@ -106,6 +122,12 @@
             text-transform: uppercase;
             display: block;
             padding: 0.5rem 2rem;  
+            justify-content: center;
+            align-items: center;
+            @include respond (tablet){
+                padding: 0.7rem 2.1rem;
+    
+            }
             
     
         }
