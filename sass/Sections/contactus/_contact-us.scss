@@ -7,8 +7,12 @@ height: auto;
 
     display: flex;
 
+    @include respond (phablet-l){
+        flex-direction: column;
+     }
 
-    @include respond (phablet){
+
+    @include respond (phablet-m){
         flex-direction: column;
      }
 
@@ -20,6 +24,12 @@ height: auto;
      @include respond (a7){
          flex-direction: column;
       }
+
+      display: flex;
+      @include respond (phablet-s){
+          flex-direction: column;
+       }
+
 
       display: flex;
       @include respond (mobile){
@@ -44,6 +54,11 @@ height: auto;
       @include respond (mobile-s){
           flex-direction: column;
        }
+
+       display: flex;
+       @include respond (mobile-xs){
+           flex-direction: column;
+        }
     
    
 
@@ -57,7 +72,12 @@ height: auto;
             padding-left: 3vw;
          }
 
-        @include respond (phablet){
+         @include respond (phablet-l){
+            padding-left: 2rem;
+         }
+
+
+        @include respond (phablet-m){
             padding-left: 2rem;
          }
 
@@ -69,6 +89,11 @@ height: auto;
          @include respond (a7){
             padding-left: 2rem;
          }
+
+         @include respond (phablet-s){
+            padding-left: 2rem;
+         }
+
 
          @include respond (mobile){
             padding-left: 2rem;
@@ -85,6 +110,10 @@ height: auto;
          }
 
          @include respond (mobile-s){
+            padding-left: 2rem;
+         }
+
+         @include respond (mobile-xs){
             padding-left: 2rem;
          }
       
@@ -113,6 +142,10 @@ height: auto;
             margin-top: 3rem;
          }
 
+         @include respond (phablet-s){
+            margin-top: 3rem;
+         }
+
          @include respond (mobile){
             margin-top: 3rem;
          }
@@ -130,6 +163,9 @@ height: auto;
          }
       
          @include respond (mobile-s){
+            margin-top: 3rem;
+         }
+         @include respond (mobile-xs){
             margin-top: 3rem;
          }
       
@@ -161,8 +197,12 @@ height: auto;
         opacity: 1;
     }
 
+    @include respond (phablet-l){
+        opacity: 1;
+    }
 
-    @include respond (phablet){
+
+    @include respond (phablet-m){
         opacity: 1;
     }
 
@@ -172,6 +212,10 @@ height: auto;
     }
 
     @include respond (a7){
+        opacity: 1;
+    }
+
+    @include respond (phablet-s){
         opacity: 1;
     }
 
@@ -191,6 +235,10 @@ height: auto;
     }
 
     @include respond (mobile-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile-xs){
         opacity: 1;
     }
     
@@ -202,7 +250,12 @@ height: auto;
     background-color: $red;
     height: 88%;
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (phablet-m){
         height: 0.5rem;
         width: 88%;
     }
@@ -213,6 +266,11 @@ height: auto;
     }
 
     @include respond (a7){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    @include respond (phablet-s){
         height: 0.5rem;
         width: 88%;
     }
@@ -238,6 +296,12 @@ height: auto;
     }
 
     @include respond (mobile-s){
+        height: 0.5rem;
+        width: 88%;
+    }
+
+    
+    @include respond (mobile-xs){
         height: 0.5rem;
         width: 88%;
     }
@@ -265,7 +329,12 @@ height: auto;
         opacity: 1;
     }
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        opacity: 1;
+    }
+
+
+    @include respond (phablet-m){
         opacity: 1;
     }
 
@@ -275,6 +344,10 @@ height: auto;
     }
 
     @include respond (a7){
+        opacity: 1;
+    }
+
+    @include respond (phablet-s){
         opacity: 1;
     }
 
@@ -293,6 +366,10 @@ height: auto;
     }
 
     @include respond (mobile-s){
+        opacity: 1;
+    }
+
+    @include respond (mobile-xs){
         opacity: 1;
     }
 
@@ -324,7 +401,11 @@ height: auto;
     margin-left: 1.2rem;
     margin-bottom: 1.2rem;
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        font-size: 2rem;
+        }
+
+    @include respond (phablet-m){
         font-size: 2rem;
         }
 
@@ -336,6 +417,10 @@ height: auto;
         @include respond (a7){
             font-size: 1.9rem;
             }
+
+            @include respond (phablet-s){
+                font-size: 1.9rem;
+                }
 
             @include respond (mobile){
                 font-size: 1.9rem;
@@ -356,6 +441,10 @@ height: auto;
             @include respond (mobile-s){
                 font-size: 1.9rem;
                 }
+
+                @include respond (mobile-xs){
+                    font-size: 1.9rem;
+                    }
     
 }
 
@@ -365,7 +454,11 @@ height: auto;
     font-size: 2rem;
     color: #1a1a1a;
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        margin-top: 2rem;
+        }
+
+    @include respond (phablet-m){
         margin-top: 2rem;
         }
 
@@ -379,6 +472,10 @@ height: auto;
         @include respond (a7){
             margin-top: 2rem;
             }
+
+            @include respond (phablet-s){
+                margin-top: 2rem;
+                }
 
             @include respond (mobile){
                 margin-top: 2rem;
@@ -399,6 +496,10 @@ height: auto;
             @include respond (mobile-s){
                 margin-top: 2rem;
                 }
+
+                @include respond (mobile-xs){
+                    margin-top: 2rem;
+                    }
     
 
 }

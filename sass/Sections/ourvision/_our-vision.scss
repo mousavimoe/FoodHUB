@@ -11,7 +11,12 @@
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
 
-        @include respond (phablet){
+           @include respond (phablet-l){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
+
+        @include respond (phablet-m){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
@@ -48,6 +53,12 @@
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
+
+           @include respond (mobile-xs){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
+    
     
           
 }
@@ -62,7 +73,13 @@
         padding-top: 3rem;
         }
 
-    @include respond (phablet){
+        @include respond (phablet-l){
+            display: flex;
+            flex-direction: column;  
+            padding-top: 3rem;
+            }
+
+    @include respond (phablet-m){
         display: flex;
         flex-direction: column;  
         padding-top: 3rem;
@@ -79,6 +96,12 @@
             flex-direction: column;  
             padding-top: 3rem;
             }
+
+            @include respond (phablet-s){
+                display: flex;
+                flex-direction: column;  
+                padding-top: 3rem;
+                }
 
             @include respond (mobile){
                 display: flex;
@@ -110,6 +133,13 @@
                 padding-top: 1.5rem;
                 }
 
+                @include respond (mobile-xs){
+                    display: flex;
+                    flex-direction: column;  
+                    padding-top: 1.5rem;
+                    }
+    
+
     
 
 }
@@ -130,7 +160,19 @@ opacity: 0;
 }
 
 
-@include respond (phablet){
+
+
+@include respond (phablet-l){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
+@include respond (phablet-m){
     margin-bottom: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -152,6 +194,16 @@ opacity: 0;
 }
 
 @include respond (a7){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
+@include respond (phablet-s){
     margin-bottom: 4rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -211,6 +263,16 @@ opacity: 0;
 
 }
 
+@include respond (mobile-xs){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
 
 }
 
@@ -233,7 +295,18 @@ opacity: 0;
 
 
 
-    @include respond (phablet){
+@include respond (phablet-l){
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    transform: skewY(0);
+    border-radius: 2px;
+    opacity: 1;
+
+   }
+
+
+    @include respond (phablet-m){
         margin-bottom: 4rem;
         margin-left: 5rem;
         margin-right: 5rem;
@@ -263,6 +336,16 @@ opacity: 0;
 
        }
 
+           
+    @include respond (phablet-s){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
+
+       }
        
     @include respond (mobile){
         margin-bottom: 4rem;
@@ -312,6 +395,16 @@ opacity: 0;
 
        }
 
+       @include respond (mobile-xs){
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        transform: skewY(0);
+        border-radius: 2px;
+        opacity: 1;
+
+       }
+
 
            
     }
@@ -324,7 +417,16 @@ opacity: 0;
         text-align: center;
         transform: skewX(-165deg);
 
-        @include respond (phablet){
+        @include respond (phablet-l){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
+
+        @include respond (phablet-m){
             transform: skewY(0);
             padding-left: 2rem;
             padding-right: 2rem;
@@ -350,6 +452,16 @@ opacity: 0;
             text-align: left;
 
            }
+
+           @include respond (phablet-s){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
+
 
            @include respond (mobile){
             transform: skewY(0);
@@ -397,6 +509,15 @@ opacity: 0;
             text-align: left;
 
            }
+
+           @include respond (mobile-xs){
+            transform: skewY(0);
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 3rem;
+            text-align: left;
+
+           }
       
 
           
@@ -407,7 +528,12 @@ opacity: 0;
 
         color: $gray-darker;
 
-        @include respond (phablet){
+        @include respond (phablet-l){
+            font-size: 1.9rem;
+        }
+
+
+        @include respond (phablet-m){
             font-size: 1.9rem;
         }
 
@@ -417,6 +543,10 @@ opacity: 0;
         }
 
         @include respond (a7){
+            font-size: 1.9rem;
+        }
+
+        @include respond (phablet-s){
             font-size: 1.9rem;
         }
 
@@ -440,6 +570,10 @@ opacity: 0;
             font-size: 1.9rem;
         }
 
+        @include respond (mobile-xs){
+            font-size: 1.9rem;
+        }
+
 
        
     }
@@ -448,12 +582,23 @@ opacity: 0;
 text-align: center;
 margin-top: 4%;
 
-@include respond (phablet){
+
+@include respond (phablet-l){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+@include respond (phablet-m){
     margin-top: 0;
     margin-bottom: 1vh;
 }
 
 @include respond (myphone){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+@include respond (phablet-s){
     margin-top: 0;
     margin-bottom: 1vh;
 }
@@ -488,6 +633,11 @@ margin-top: 4%;
     margin-bottom: 1vh;
 }
 
+@include respond (mobile-xs){
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
 
 
 }
@@ -501,7 +651,12 @@ margin-top: 4%;
     opacity: 1;
 }
 
-        @include respond (phablet){
+@include respond (phablet-l){
+    width: 9rem;
+    opacity: 1;
+}
+
+        @include respond (phablet-m){
             width: 9rem;
             opacity: 1;
         }
@@ -514,6 +669,11 @@ margin-top: 4%;
 
 
         @include respond (a7){
+            width: 9rem;
+            opacity: 1;
+        }
+
+        @include respond (phablet-s){
             width: 9rem;
             opacity: 1;
         }
@@ -540,6 +700,11 @@ margin-top: 4%;
             opacity: 1;
         }
         @include respond (mobile-s){
+            width: 7rem;
+            opacity: 1;
+        }
+
+        @include respond (mobile-xs){
             width: 7rem;
             opacity: 1;
         }

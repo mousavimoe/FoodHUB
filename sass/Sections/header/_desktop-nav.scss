@@ -29,11 +29,20 @@
             margin: 2.3rem 4rem;
 
         }
+
+        @include respond (phablet-l){
+            margin: 2.3rem 1rem;
+
+        }
     
 
         &__logo{
             width: 10rem; 
             object-fit: cover;
+            @include respond (phablet-l){
+                width: 9rem;
+    
+            }
         }
         
 
@@ -47,16 +56,24 @@
         list-style: none;
         flex-wrap: wrap;
         justify-content: space-between;
-    
-        
-    
-    
+
+        @include respond (phablet-l){
+            margin: 1rem 1rem;
+            flex-wrap: nowrap;
+        }
+
         &__items{
             border: 2px solid $red-dark;
             border-radius: 10rem;
             transition: all .4s;
             display: flex;
             margin-left: 2rem;
+
+            @include respond (phablet-l){
+                margin-left: 1rem;
+    
+            }
+        
             
 
         }
@@ -75,6 +92,11 @@
             background-color: $red-dark;
             display: flex;
             margin-left: 2rem;
+
+            @include respond (phablet-l){
+                margin-left: 1rem;
+    
+            }
  
     
         }
@@ -99,6 +121,13 @@
             
         @include respond (tablet){
             padding: 0.7rem 2.1rem;
+
+        }
+
+        @include respond (phablet-l){
+            font-size: 1.9rem;    
+            padding: 0.2rem 1rem;
+
 
         }
       
@@ -126,7 +155,11 @@
             align-items: center;
             @include respond (tablet){
                 padding: 0.7rem 2.1rem;
-    
+            }
+
+            @include respond (phablet-l){
+                font-size: 1.9rem;    
+            padding: 0.2rem 1rem;
             }
             
     
