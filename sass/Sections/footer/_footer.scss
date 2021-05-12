@@ -8,7 +8,12 @@ background-color: $gray-darkest;
     text-align: center;
     padding-top: 2%;
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        padding-top: 2rem;
+        height: auto;
+    }
+
+    @include respond (phablet-m){
         padding-top: 2rem;
         height: auto;
     }
@@ -42,6 +47,9 @@ background-color: $gray-darkest;
     }
 
     @include respond (mobile-s){
+        padding-top: 2rem;
+    }
+    @include respond (mobile-xs){
         padding-top: 2rem;
     }
 }

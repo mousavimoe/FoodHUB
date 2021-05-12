@@ -17,12 +17,28 @@
         display: none;
     }
 
+    @include respond (phablet-l){
+        display: none;
+    }
+
     &__logo{
 
         margin-top: 2.5rem;
         margin-left: 2rem;
         height: 10rem;
         width: auto;
+
+
+        @include respond (phablet-l){
+            height: 9rem;
+            width: auto;
+        }
+
+
+        @include respond (phablet-m){
+            height: 8.8rem;
+            width: auto;
+        }
 
         @include respond (myphone){
             height: 7.8rem;
@@ -34,6 +50,13 @@
             height: 7.8rem;
             width: auto;
         }
+
+
+        @include respond (phablet-s){
+            height: 7.6rem;
+            width: auto;
+        }
+
 
         @include respond (mobile){
             height: 7.4rem;
@@ -57,6 +80,11 @@
         }
 
         @include respond (mobile-s){
+            height: 7.4rem;
+            width: auto;
+        }
+
+        @include respond (mobile-xs){
             height: 7.4rem;
             width: auto;
         }
@@ -95,7 +123,21 @@
         background-color: $gray-light;
 
 
+        @include respond (phablet-s){
+            font-size: 2.7rem;
+        }
+
+
+        @include respond (mobile){
+            font-size: 2.6rem;
+        }
+
+
         @include respond (mobile-s){
+            font-size: 2.45rem;
+        }
+
+        @include respond (mobile-xs){
             font-size: 2.45rem;
         }
 
@@ -141,8 +183,15 @@
         align-items: center;
         z-index: 11;
 
-        @include respond (phablet){
-            top: 2.8rem;
+
+        @include respond (phablet-l){
+            top: 3rem;
+        }
+
+        @include respond (phablet-m){
+            top: 2.9rem;
+            left: 86vw;
+
         }
 
 
@@ -159,6 +208,14 @@
             left: 85vw;
             top: 2.8rem;
         }
+
+        @include respond (phablet-s){
+            height: 5.4rem;
+            width: 5.4rem;
+            left: 80vw;
+            top: 2.75rem;
+        }
+
 
         @include respond (mobile){
             height: 5.3rem;
@@ -190,6 +247,13 @@
         }
 
         @include respond (mobile-s){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
+        @include respond (mobile-xs){
             height: 5.3rem;
             width: 5.3rem;
             left: 82vw;
@@ -217,9 +281,15 @@
         align-items: center;
         z-index: 10;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
-        
-        @include respond (phablet){
+
+
+        @include respond (phablet-l){
             top: 2.8rem;
+        }
+        
+        @include respond (phablet-m){
+            top: 2.9rem;
+            left: 86vw;
         }
 
         @include respond (myphone){
@@ -234,6 +304,13 @@
             width: 5.5rem;
             left: 85vw;
             top: 2.8rem;
+        }
+
+        @include respond (phablet-s){
+            height: 5.4rem;
+            width: 5.4rem;
+            left: 80vw;
+            top: 2.75rem;
         }
 
         @include respond (mobile){
@@ -272,6 +349,13 @@
             top: 2.75rem;
         }
 
+        @include respond (mobile-xs){
+            height: 5.3rem;
+            width: 5.3rem;
+            left: 82vw;
+            top: 2.75rem;
+        }
+
     }
 
 
@@ -287,6 +371,15 @@
     fill: $gray-light;
 
 
+    @include respond (phablet-l){
+        height: 4rem;
+    }
+
+    @include respond (phablet-m){
+        height: 4rem;
+    }
+
+
     @include respond (myphone){
         height: 3.88rem;
     }
@@ -295,6 +388,11 @@
         height: 3.88rem;
     }
 
+
+    @include respond (phablet-s){
+        height: 3.9rem;
+    }
+    
     @include respond (mobile){
         height: 3.88rem;
     }
@@ -314,6 +412,10 @@
     }
 
     @include respond (mobile-s){
+        height: 3.88rem;
+    }
+
+    @include respond (mobile-xs){
         height: 3.88rem;
     }
 }

@@ -24,7 +24,11 @@ html{
         font-size: 42%;
     }
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+        font-size: 41%;
+    }
+
+    @include respond (phablet-m){
         font-size: 40%;
     }
 
@@ -39,6 +43,10 @@ html{
 
     @include respond (a7){
         font-size: 45%;
+    }
+
+    @include respond (phablet-s){
+        font-size: 47%;
     }
 
     @include respond (mobile){
@@ -60,6 +68,11 @@ html{
     @include respond (mobile-s){
         font-size: 38%;
     }
+
+    @include respond (mobile-xs){
+        font-size: 35%;
+    }
+
 
 
 

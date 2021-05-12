@@ -1,35 +1,56 @@
 .sec-our-activity{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;
     background-position: center;
+
+    @include respond (4k){
+      height: 55vh;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities.jpg);
+   }
+
+   
+   @include respond (laptop){
+      height: 55vh;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+   }
+
+
+   
 
     @include respond (tablet){
       height: 55vh;
       background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
    }
 
-    @include respond (phablet){
+   @include respond (phablet-l){
       height: auto;
-      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
+   }
+
+
+    @include respond (phablet-m){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
    }
 
 
     @include respond (myphone){
         height: auto;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
      }
 
 
      @include respond (a7){
         height: auto;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
      }
 
+  
      @include respond (mobile){
       height: auto;
-      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
    }
 
     @include respond (iphonex){
@@ -44,12 +65,17 @@
 
      @include respond (sonya1ultra){
       height: auto;
-      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
    }
 
    @include respond (mobile-s){
       height: auto;
-      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-S.jpg);
+   }
+
+   @include respond (mobile-xs){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-XS.jpg);
    }
     
 
@@ -65,7 +91,13 @@
     margin-right: 2rem;
     font-size: 1.6rem;
 
-    @include respond (phablet){
+    @include respond (phablet-l){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
+    @include respond (phablet-m){
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -86,6 +118,12 @@
         margin-right: 1rem;
      }
 
+     @include respond (phablet-s){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
      @include respond (mobile){
       font-size: 1.9rem;
       margin-left: 1rem;
@@ -110,6 +148,12 @@
    }
 
    @include respond (mobile-s){
+      font-size: 1.9rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
+   @include respond (mobile-xs){
       font-size: 1.9rem;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -135,7 +179,14 @@
       margin-right: 10vw;
    }
 
-    @include respond (phablet){
+   @include respond (phablet-l){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
+
+    @include respond (phablet-m){
       flex-direction: column;
       margin-left: 3rem;
       margin-right: 3rem;
@@ -155,6 +206,13 @@
         margin-right: 3rem;
         height: 85%;
      }
+
+     @include respond (phablet-s){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
 
      
     @include respond (mobile){
@@ -193,6 +251,14 @@
       margin-right: 3rem;
       height: 85%;
    }
+
+   @include respond (mobile-xs){
+      flex-direction: column;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      height: 85%;
+   }
+    
     
 
      
@@ -211,7 +277,16 @@
    opacity: 1;
 }
 
-    @include respond (phablet){
+@include respond (phablet-l){
+   border: none;
+   margin-bottom: 1.1rem;
+   margin-right: 0;
+   margin-left: 0;
+   flex: 0 0 auto;
+   opacity: 1;
+}
+
+    @include respond (phablet-m){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -237,6 +312,15 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (phablet-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
 
      @include respond (mobile){
       border: none;
@@ -276,6 +360,15 @@
    }
 
    @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   @include respond (mobile-xs){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -302,7 +395,16 @@
    opacity: 1;
 }
 
-    @include respond (phablet){
+@include respond (phablet-l){
+   border: none;
+   margin-bottom: 1.1rem;
+   margin-right: 0;
+   margin-left: 0;
+   flex: 0 0 auto;
+   opacity: 1;
+}
+
+    @include respond (phablet-m){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -329,6 +431,15 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (phablet-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
 
      @include respond (mobile){
       border: none;
@@ -368,6 +479,15 @@
    }
 
    @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   @include respond (mobile-xs){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -394,7 +514,16 @@
    opacity: 1;
 }
 
-    @include respond (phablet){
+@include respond (phablet-l){
+   border: none;
+   margin-bottom: 1.1rem;
+   margin-right: 0;
+   margin-left: 0;
+   flex: 0 0 auto;
+   opacity: 1;
+}
+
+    @include respond (phablet-m){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -420,6 +549,16 @@
         flex: 0 0 auto;
         opacity: 1;
      }
+
+     @include respond (phablet-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
 
      @include respond (mobile){
       border: none;
@@ -459,6 +598,16 @@
    }
 
    @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+   }
+
+   
+   @include respond (mobile-xs){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -487,7 +636,17 @@
    opacity: 1;
 }
 
-    @include respond (phablet){
+
+@include respond (phablet-l){
+   border: none;
+   margin-bottom: 1.1rem;
+   margin-right: 0;
+   margin-left: 0;
+   flex: 0 0 auto;
+   opacity: 1;
+
+}
+    @include respond (phablet-m){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
@@ -517,6 +676,16 @@
         opacity: 1;
   
      }
+
+     @include respond (phablet-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
 
      @include respond (mobile){
       border: none;
@@ -560,6 +729,16 @@
    }
 
    @include respond (mobile-s){
+      border: none;
+      margin-bottom: 1.1rem;
+      margin-right: 0;
+      margin-left: 0;
+      flex: 0 0 auto;
+      opacity: 1;
+
+   }
+
+   @include respond (mobile-xs){
       border: none;
       margin-bottom: 1.1rem;
       margin-right: 0;
