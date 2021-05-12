@@ -30,7 +30,7 @@ $mobile-max: 460px;
 
 
     @if $breakpoint == phablet-m {
-        @media (min-width:413px) and (max-width:460px) { @content};
+        @media (min-width:412px) and (max-width:460px) { @content};
     }
 
     @if $breakpoint == myphone {       //Samsung Galaxy J6+  & S8 

@@ -171,7 +171,8 @@ animation-delay: 1.1s;
     }
     @include respond (myphone){
         letter-spacing: 3.3rem;
- 
+        color: $red;
+
     }
 
     @include respond (a7){
