@@ -46,6 +46,11 @@
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
            }
 
+           @include respond (phablet-s){
+            height: auto;
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);
+           }
+
            @include respond (mobile){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-M.jpg);

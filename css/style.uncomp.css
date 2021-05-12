@@ -163,7 +163,7 @@
       opacity: 1; } }
   @media (min-width: 376px) and (max-width: 411px) {
     .heading-3 {
-      font-size: 2.6rem;
+      font-size: 2.5rem;
       padding-bottom: .5rem;
       padding-top: .5rem;
       margin-left: 1rem;
@@ -293,7 +293,7 @@ html {
       font-size: 45%; } }
   @media (min-width: 376px) and (max-width: 411px) {
     html {
-      font-size: 47%; } }
+      font-size: 45%; } }
   @media (min-width: 360px) and (max-width: 375px) {
     html {
       font-size: 45%; } }
@@ -734,6 +734,10 @@ body {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-M.jpg); } }
   @media (width: 412px) and (max-height: 732px) {
+    .sec-our-vision {
+      height: auto;
+      background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-M.jpg); } }
+  @media (min-width: 376px) and (max-width: 411px) {
     .sec-our-vision {
       height: auto;
       background-image: linear-gradient(rgba(32, 23, 19, 0.71), rgba(32, 23, 19, 0.71)), url(../img/our-vision-M.jpg); } }
