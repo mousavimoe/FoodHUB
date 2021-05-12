@@ -148,7 +148,7 @@ $padding-bottom-3:3rem;
             }
 
             @include respond (phablet-s){
-                font-size: 3.1rem;    
+                font-size: 3rem;    
                 padding-bottom: .5rem;
                 padding-top: 2rem;
                 opacity: 1;
@@ -244,7 +244,7 @@ $padding-bottom-3:3rem;
     }
 
     @include respond (phablet-s){
-        font-size: 2.5rem;  
+        font-size: 2.35rem;  
         padding-bottom: .5rem;
         padding-top: .5rem;
         margin-left: 1rem;
