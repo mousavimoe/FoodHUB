@@ -47,6 +47,11 @@
         background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
      }
 
+     @include respond (phablet-s){
+      height: auto;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-M.jpg);
+   }
+
   
      @include respond (mobile){
       height: auto;

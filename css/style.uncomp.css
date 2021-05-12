@@ -1278,6 +1278,10 @@ body {
     .sec-our-activity {
       height: auto;
       background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-M.jpg); } }
+  @media (min-width: 376px) and (max-width: 411px) {
+    .sec-our-activity {
+      height: auto;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(../img/our-activities-M.jpg); } }
   @media (min-width: 360px) and (max-width: 375px) {
     .sec-our-activity {
       height: auto;
