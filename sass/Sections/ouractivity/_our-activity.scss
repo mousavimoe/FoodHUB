@@ -92,6 +92,12 @@
     margin-right: 2rem;
     font-size: 1.6rem;
 
+    @include respond (tablet){
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+   }
+
     @include respond (phablet-l){
       font-size: 1.9rem;
       margin-left: 1rem;
@@ -184,7 +190,7 @@
     @include respond (tablet){
       margin-left: 10vw;
       margin-right: 10vw;
-      padding-bottom: 2vh;
+      padding-bottom: 7vh;
    }
 
    @include respond (phablet-l){

@@ -145,6 +145,10 @@ animation-delay: 1.1s;
     font-size: 3.5rem;  
 }
 
+@include respond (tablet){
+    font-size: 3.2rem;  
+}
+
 @include respond (phablet-l){
     font-size: 2.9rem;  
 }
@@ -198,6 +202,12 @@ animation-delay: 1.1s;
     font-weight: 400;
     letter-spacing: 5rem;
     text-align: center;
+
+    @include respond (tablet){
+        letter-spacing: 4.3rem;
+ 
+    }
+
 
     @include respond (phablet-l){
         letter-spacing: 3.6rem;
@@ -275,7 +285,7 @@ animation-delay: 1.1s;
     }
 
     @include respond (tablet){
-        font-size: 2.6rem;  
+        font-size: 2.4rem;  
     }
 
 
@@ -350,6 +360,11 @@ animation-delay: 1.1s;
         letter-spacing: 4.5rem;
         text-align: center;
 
+
+        @include respond (tablet){
+            letter-spacing: 3.9rem;
+        }
+
         @include respond (phablet-l){
             letter-spacing: 3.1rem;
         }
@@ -410,6 +425,10 @@ animation-delay: 1.1s;
         font-size: 2rem; 
         animation-delay: 1.7s;
         --animate-duration: 1.8s;
+
+        @include respond (tablet){
+            font-size: 1.85rem;  
+        }
 
         @include respond (phablet-l){
             font-size: 1.7rem;  
@@ -496,7 +515,7 @@ animation-delay: 1.1s;
 
 
     @include respond (tablet){
-        padding-top: 22vh;
+        padding-top: 21vh;
     }
 
 
