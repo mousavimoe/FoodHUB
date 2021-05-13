@@ -4,12 +4,10 @@
         background-size: cover;
         position: relative;
         background-position: center;
-        
-            @include respond (tablet){
-            height: 100vh;           
-        }
 
-     
+        @include respond (tablet){
+            height: auto;           
+        }
 
         @include respond (phablet-l){
             height: auto;           

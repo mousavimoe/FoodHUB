@@ -15,11 +15,8 @@
    }
 
 
-   
-
     @include respond (tablet){
-            height: 100vh;
-
+      height: auto;
       background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
    }
 
@@ -178,9 +175,16 @@
     height: 75%;
 
 
+    @include respond (laptop){
+      margin-left: 13vw;
+      margin-right: 13vw;
+   }
+
+
     @include respond (tablet){
       margin-left: 10vw;
       margin-right: 10vw;
+      padding-bottom: 2vh;
    }
 
    @include respond (phablet-l){

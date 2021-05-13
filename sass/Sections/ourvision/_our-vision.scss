@@ -8,7 +8,6 @@
 
 
         @include respond (4k){
-            height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision.jpg);
            }
 
@@ -16,7 +15,6 @@
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
            }
-
 
 
            @include respond (tablet){

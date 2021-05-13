@@ -19,20 +19,20 @@ html{
     scroll-behavior: smooth;
 
    
+    @include respond (laptop){
+        font-size: 51%;
+    }
 
     @include respond (tablet){
-        font-size: 42%;
+        font-size: 49%;
     }
 
     @include respond (phablet-l){
-        font-size: 41%;
+        font-size: 47%;
     }
+
 
     @include respond (phablet-m){
-        font-size: 40%;
-    }
-
-    @include respond (laptop){
         font-size: 45%;
     }
 
@@ -50,7 +50,7 @@ html{
     }
 
     @include respond (mobile){
-        font-size: 45%;
+        font-size: 44%;
     }
 
     @include respond (iphonex){
@@ -61,7 +61,7 @@ html{
     }
 
     @include respond (sonya1ultra){
-        font-size: 40%;
+        font-size: 41%;
     }
 
     
