@@ -18,6 +18,8 @@
    
 
     @include respond (tablet){
+            height: 100vh;
+
       background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)) ,url(../img/our-activities-L.jpg);
    }
 
