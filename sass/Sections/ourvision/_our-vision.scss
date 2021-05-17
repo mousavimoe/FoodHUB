@@ -11,6 +11,13 @@
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision.jpg);
            }
 
+
+           @include respond (desktop-s){
+            background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
+           }
+
+
+
            @include respond (laptop){
             height: auto;
             background-image:linear-gradient(rgba($brown-dark, 0.71),rgba($brown-dark, 0.71)) ,url(../img/our-vision-L.jpg);
@@ -165,10 +172,12 @@
 
 background-color: rgba(255, 255, 255, 0.85);
 margin-bottom: 4rem;
-margin-left: 45rem;
-margin-right: 45rem;
+margin-left: 20vw;
+margin-right: 20vw;
 transform: skewX(165deg);
 opacity: 0;
+
+
 
 
 @include respond (tablet){
@@ -299,10 +308,12 @@ opacity: 0;
 .box2{
 
     background-color: rgba(255, 255, 255, 0.85);
-    margin-left: 45rem;
-    margin-right: 45rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
     transform: skewX(165deg);
     opacity: 0;
+
+
   
 
 @include respond (tablet){
@@ -601,6 +612,9 @@ text-align: center;
 margin-top: 4%;
 
 
+
+
+
 @include respond (phablet-l){
     margin-top: 0;
     margin-bottom: 1vh;
@@ -664,6 +678,9 @@ margin-top: 4%;
         width: 12rem;
         z-index: 5;
         opacity: 0;
+
+
+        
         
 @include respond (tablet){
     opacity: 1;

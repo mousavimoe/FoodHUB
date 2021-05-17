@@ -11,10 +11,15 @@ $mobile-max: 460px;
     }
 
     // ###########BASE###############
-     @if $breakpoint == desktop {
-        @media (min-width:1441px) and (max-width:2560px) { @content};
+
+    @if $breakpoint == desktop {
+        @media (min-width:1751px) and (max-width:2560px) { @content};
     }
 
+
+     @if $breakpoint == desktop-s {
+        @media (min-width:1441px) and (max-width:1750px) { @content};
+    }
 
     @if $breakpoint == laptop {
         @media (min-width:1024px) and (max-width:1440px) { @content};

@@ -9,6 +9,10 @@
         display: none;
     }
 
+    @include respond (desktop-s){
+        display: none;
+    }
+
     @include respond (laptop){
         display: none;
     }

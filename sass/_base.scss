@@ -19,6 +19,11 @@ html{
     scroll-behavior: smooth;
 
    
+
+    @include respond (desktop-s){
+        font-size: 55%;
+    }
+
     @include respond (laptop){
         font-size: 51%;
     }
