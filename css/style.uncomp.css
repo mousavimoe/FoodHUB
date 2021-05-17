@@ -1408,8 +1408,8 @@ body {
 .maincont1 {
   display: flex;
   justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
   height: 75%; }
   @media (min-width: 1441px) and (max-width: 1750px) {
     .maincont1 {
