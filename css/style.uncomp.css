@@ -1341,6 +1341,9 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 1.6rem; }
+  @media (min-width: 1441px) and (max-width: 1750px) {
+    .txt-our-activity {
+      font-size: 1.8rem; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .txt-our-activity {
       margin-left: 1rem;
@@ -1410,8 +1413,8 @@ body {
   height: 75%; }
   @media (min-width: 1441px) and (max-width: 1750px) {
     .maincont1 {
-      margin-left: 15vw;
-      margin-right: 15vw; } }
+      margin-left: 20vw;
+      margin-right: 20vw; } }
   @media (min-width: 1024px) and (max-width: 1440px) {
     .maincont1 {
       margin-left: 11.2vw;

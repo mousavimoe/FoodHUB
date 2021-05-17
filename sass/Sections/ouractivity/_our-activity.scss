@@ -93,6 +93,12 @@
     font-size: 1.6rem;
 
 
+    @include respond (desktop-s){
+      font-size: 1.8rem;
+
+
+   }
+
 
 
     @include respond (tablet){
@@ -185,8 +191,8 @@
 
 
     @include respond (desktop-s){
-      margin-left: 15vw;
-      margin-right: 15vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
 
    }
 
