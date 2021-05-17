@@ -93,6 +93,12 @@
 
     padding-top: 8rem;
 
+
+    @include respond (desktop-s){
+  
+        padding-top: 4rem;
+        }
+
     @include respond (tablet){
   
         padding-top: 3rem;

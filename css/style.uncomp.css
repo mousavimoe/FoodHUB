@@ -790,6 +790,9 @@ body {
 
 .maincont2 {
   padding-top: 8rem; }
+  @media (min-width: 1441px) and (max-width: 1750px) {
+    .maincont2 {
+      padding-top: 4rem; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .maincont2 {
       padding-top: 3rem; } }
@@ -1405,10 +1408,14 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   height: 75%; }
+  @media (min-width: 1441px) and (max-width: 1750px) {
+    .maincont1 {
+      margin-left: 12vw;
+      margin-right: 12vw; } }
   @media (min-width: 1024px) and (max-width: 1440px) {
     .maincont1 {
-      margin-left: 13vw;
-      margin-right: 13vw; } }
+      margin-left: 8.2vw;
+      margin-right: 8.2vw; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     .maincont1 {
       margin-left: 10vw;

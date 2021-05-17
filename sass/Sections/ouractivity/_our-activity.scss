@@ -181,9 +181,16 @@
     height: 75%;
 
 
+    @include respond (desktop-s){
+      margin-left: 12vw;
+      margin-right: 12vw;
+
+   }
+
+
     @include respond (laptop){
-      margin-left: 13vw;
-      margin-right: 13vw;
+      margin-left: 8.2vw;
+      margin-right: 8.2vw;
    }
 
 
