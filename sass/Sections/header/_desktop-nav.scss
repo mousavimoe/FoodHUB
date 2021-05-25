@@ -120,6 +120,7 @@
 
             
         @include respond (tablet){
+            font-size: 1.85rem;    
 
         }
 
@@ -153,7 +154,7 @@
             justify-content: center;
             align-items: center;
             @include respond (tablet){
-                padding: 0.7rem 2.1rem;
+                font-size: 1.85rem;    
             }
 
             @include respond (phablet-l){
